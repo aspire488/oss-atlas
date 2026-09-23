@@ -21,24 +21,27 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 |---|---|
 | [Contributions Index](contributions/INDEX.md) | Curated map of OSS work |
 | [Complete OSS PR History](contributions/ALL_PR_HISTORY.md) | External OSS PR archive |
+| [Machine-readable index](data/contributions.json) | Canonical contribution metadata |
+| [Evidence-derived skills](data/skills.json) | Skills mapped to contribution evidence |
 | [Case Studies](case-studies/README.md) | Deep evidence-backed analysis |
 | [Research](research/README.md) | Reviews, investigations, discussions |
 | [Learnings](learnings/README.md) | Reusable engineering lessons |
 | [2026-09-23 Snapshot](stats/2026-09-23.md) | Dated contribution-state snapshot |
 | [Operating Model](docs/OPERATING_MODEL.md) | Evidence and maintenance rules |
-| [Roadmap](docs/ROADMAP.md) | Atlas implementation plan |
 | [Automation](docs/AUTOMATION.md) | GitHub Actions and drift-audit contract |
+| [Roadmap](docs/ROADMAP.md) | Atlas implementation plan |
 
 ## 📊 External OSS snapshot
 
 | State | Count |
 |---|---:|
 | Merged upstream | **3** |
-| Open | **24** |
+| Open upstream | **19** |
+| Open fork-side | **4** |
 | Closed without merge | **5** |
-| **External OSS PRs** | **32** |
+| **External OSS PRs** | **31** |
 
-**Important:** 24 open = 20 upstream + 4 fork-side. The archive separates them explicitly.
+Snapshot date: **September 23, 2026**.
 
 ## 🏆 Recent upstream merges
 
@@ -83,9 +86,7 @@ Durable OSS engineering rules backed by primary evidence.
 
 ## ⚙️ Automated verification
 
-GitHub Actions validates the Atlas on pushes and pull requests, and a scheduled audit checks the external OSS ledger for GitHub-state drift. Workflows use read-only repository permissions and pinned standard Actions dependencies.
-
-See [Automation](docs/AUTOMATION.md) for the contract and [Roadmap](docs/ROADMAP.md) for the next automation phases.
+GitHub Actions validates the Atlas on pushes and pull requests, while a scheduled audit checks the external OSS ledger against current GitHub state. The workflows use read-only repository permissions and pinned standard Actions dependencies. citeturn0search0turn0search1
 
 ## 🧱 Repository architecture
 
@@ -97,6 +98,9 @@ oss-atlas/
 │   ├── merged/
 │   ├── open/
 │   └── closed/
+├── data/
+│   ├── contributions.json
+│   └── skills.json
 ├── case-studies/
 ├── research/
 ├── experiments/
@@ -105,8 +109,11 @@ oss-atlas/
 ├── templates/
 ├── docs/
 │   ├── OPERATING_MODEL.md
+│   ├── AUTOMATION.md
 │   └── ROADMAP.md
-└── README.md
+└── .github/workflows/
+    ├── ci.yml
+    └── atlas-audit.yml
 ```
 
 ## 📐 Evidence standard
@@ -123,17 +130,20 @@ An open PR is never called merged. A targeted test run is never called a full-su
 
 ## 🔭 Direction
 
-OSS Atlas is evolving from a contribution list into a durable OSS engineering knowledge base.
+OSS Atlas is evolving from a contribution list into a version-controlled OSS engineering knowledge base.
 
-Next priorities:
+The current implementation already has:
 
-- canonical contribution metadata
-- status and maintainer-feedback history
-- machine-readable records
-- automated freshness and broken-link checks
-- dated snapshots
-- contribution/review dashboards
+- canonical machine-readable contribution metadata
 - evidence-derived skill mapping
+- deterministic structure/link validation
+- GitHub-state drift auditing
+- daily scheduled auditing
+- dated historical snapshots
+- deep contribution case studies
+- explicit upstream/fork provenance
+
+Next layers are review timelines, stale-record detection, generated snapshots, evidence bundles, and analytics.
 
 **Evidence density over activity-count inflation.**
 
