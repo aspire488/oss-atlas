@@ -15,16 +15,19 @@
 - [x] Separate merged/open/closed lifecycle
 - [x] Explicit upstream vs fork-side labeling
 - [x] Maintainer-verification notes for major work
-- [ ] One canonical metadata record per significant contribution
-- [ ] Review timeline per significant PR
-- [ ] Automatic upstream-state reconciliation
+- [x] Canonical machine-readable contribution records
+- [x] Evidence-derived skill map
+- [x] Selected formal review timeline metadata
+- [x] Automatic upstream-state reconciliation
+- [ ] Full review-thread history per significant PR
+- [ ] Commit/change fingerprints per contribution
 
 ## Phase 3 — Engineering knowledge
 - [x] PyRIT case study
 - [x] aios streaming case study
 - [x] Profile Analyzer case study
-- [ ] TopoCore case study
-- [ ] OpenHands case study
+- [x] TopoCore case study
+- [x] OpenHands case study
 - [ ] Additional systems/infrastructure case studies
 - [ ] Research note index
 - [ ] Learning-to-source backlinks
@@ -33,11 +36,12 @@
 - [x] PR/push CI validation
 - [x] Internal Markdown-link validation
 - [x] External OSS archive audit
+- [x] Per-contribution status drift detection
 - [x] Daily scheduled drift detection
 - [x] Manual audit dispatch
 - [x] Least-privilege workflow permissions
 - [x] Pinned GitHub Actions dependencies
-- [ ] Machine-readable contribution metadata
+- [x] Machine-readable metadata validation
 - [ ] Automatic dated snapshot generation
 - [ ] Broken external-link checker
 - [ ] Stale-record detector
@@ -46,18 +50,19 @@
 ## Phase 5 — Analytics
 - [ ] Contribution dashboard
 - [ ] Repository/project index
-- [ ] Review/maintainer-response timeline
-- [ ] Evidence-derived skill map
+- [x] Evidence-derived skill map foundation
+- [x] Review metadata foundation
 - [ ] Historical trend views
 - [ ] Contribution-to-learning graph
 
 ## Phase 6 — OSS Atlas intelligence
-- [ ] Canonical contribution IDs
+- [x] Canonical contribution IDs
+- [x] Evidence graph schema
 - [ ] Evidence bundles per contribution
 - [ ] Cross-project engineering pattern extraction
 - [ ] Maintainer feedback timeline
-- [ ] Contribution freshness score based on evidence age, not quality
-- [ ] Searchable machine-readable index
+- [ ] Contribution freshness model based on evidence age
+- [x] Searchable machine-readable index foundation
 - [ ] Static generated Atlas report
 
 ## Design constraints
@@ -67,11 +72,12 @@
 - Never silently rewrite historical records.
 - Keep external OSS work distinct from self-owned project work.
 - Automation should detect drift first and mutate the ledger only through reviewable changes.
+- Every derived claim should remain traceable to a primary source.
 
 ## Target end state
 
 OSS Atlas should function as a **version-controlled OSS engineering knowledge base**:
 
-**GitHub evidence → contribution record → verification → case study → reusable learning → historical snapshot**
+**GitHub evidence → contribution record → review/evidence → case study → reusable learning → historical snapshot → analytics**
 
-The repository should remain useful even if every decorative portfolio element is removed.
+The repository is now past the portfolio-list stage. The remaining work is primarily deeper evidence capture, automation, and generated views.
