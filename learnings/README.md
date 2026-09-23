@@ -1,5 +1,15 @@
-# Learnings
+# OSS Learnings
 
-Short, durable lessons from contributing to real codebases.
+Durable engineering lessons extracted from actual OSS work.
 
-Focus on transferable engineering knowledge: debugging, architecture, testing, API design, review feedback, release practices, and collaboration.
+## Current themes
+
+- Preserve semantic signals across streaming boundaries.
+- Treat NULL, empty, and sentinel values as explicit domain identities.
+- Protect aggregate queries from join multiplication.
+- Prefer evidence-backed metrics over activity proxies.
+- Separate upstream acceptance from fork-side implementation.
+- Treat maintainer feedback as engineering input.
+- Record verification scope precisely.
+
+Every learning should link to the upstream artifact or case study that supports it.
