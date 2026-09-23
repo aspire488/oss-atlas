@@ -1,3 +1,82 @@
+<div align="center">
+
+# 🗺️ OSS Atlas
+
+### An evidence-first map of open-source engineering work
+
+[![GitHub](https://img.shields.io/badge/GitHub-aspire488-181717?style=for-the-badge&logo=github)](https://github.com/aspire488)
+[![OSS PRs](https://img.shields.io/github/issues-pr/aspire488/oss-atlas?style=for-the-badge&label=Atlas%20Issues%2FPRs)](https://github.com/aspire488/oss-atlas/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/aspire488/oss-atlas?style=for-the-badge)](https://github.com/aspire488/oss-atlas/commits/main)
+[![Stars](https://img.shields.io/github/stars/aspire488/oss-atlas?style=for-the-badge)](https://github.com/aspire488/oss-atlas/stargazers)
+
+**Discover → Contribute → Verify → Document → Learn**
+
+</div>
+
+---
+
+## ⚡ Live Engineering Dashboard
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+### 🟢 Repository activity
+
+<a href="https://github.com/aspire488/oss-atlas/commits/main">
+<img src="https://img.shields.io/github/commit-activity/y/aspire488/oss-atlas?style=for-the-badge&label=Commits%20this%20year"/>
+</a>
+
+<a href="https://github.com/aspire488/oss-atlas/pulse">
+<img src="https://img.shields.io/badge/Live-Repository%20Pulse-2ea44f?style=for-the-badge"/>
+</a>
+
+</td>
+<td width="50%" align="center">
+
+### 🔀 Contribution activity
+
+<a href="https://github.com/pulls?q=is%3Apr+author%3Aaspire488">
+<img src="https://img.shields.io/badge/Live-GitHub%20PR%20Activity-70a5fd?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://github.com/aspire488?tab=overview">
+<img src="https://img.shields.io/badge/Live-Contribution%20Graph-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</td>
+</tr>
+</table>
+
+### 🧊 Contribution map
+
+<div align="center">
+
+<a href="https://github.com/aspire488?tab=overview">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=aspire488&theme=github-compact&hide_border=true&area=true" width="100%" alt="GitHub contribution activity graph"/>
+</a>
+
+</div>
+
+> **Live links are intentionally external to the evidence ledger.** The Atlas stores durable records; GitHub provides the current state.
+
+---
+
+## 🧭 Navigate the Atlas
+
+| Area | What lives here |
+|---|---|
+| 🟢 **Merged** | Accepted upstream engineering work |
+| 🔄 **Open** | Active upstream and explicitly labelled fork-side work |
+| 🔬 **Research** | Architecture investigations and technical analysis |
+| 🧪 **Experiments** | Bounded technical experiments |
+| 📚 **Case Studies** | Deep dives into difficult contributions |
+| 🧠 **Learnings** | Durable engineering lessons extracted from real work |
+| 📊 **Stats** | Sourced historical snapshots |
+| 🧩 **Spatial / 3D** | Spatial execution, visualization, and future 3D systems |
+
+---
+
 # OSS Atlas 🗺️
 
 > **A living map of open-source engineering work.**
@@ -141,7 +220,7 @@ I’m actively contributing to **[Microsoft PyRIT](https://github.com/microsoft/
 
 - [TopoCore — Spatial execution cycle detection](https://github.com/KARAN-D05/TopoCore/pull/1) — adds deterministic repeated-state detection to the 2D spatial execution simulator.
 
-**25 open upstream/fork PRs currently tracked**, spanning AI infrastructure, developer tooling, databases/query optimizers, observability, security tooling, and systems software. This list is intentionally curated around substantive engineering work rather than contribution-count inflation.
+**Open PRs are tracked with upstream/fork status explicitly labelled**, spanning AI infrastructure, developer tooling, databases/query optimizers, observability, security tooling, and systems software. This list is intentionally curated around substantive engineering work rather than contribution-count inflation.
 
 - [KiroCrew #12861 — Restore PDF search behind bounded extraction](https://github.com/kirodotdev/KiroCrew/pull/12861) — bounded PDF extraction with isolated child processing, Windows-safe execution, truncation handling, and regression coverage.
 - [PyRIT #2762 — Add dataset summary API](https://github.com/microsoft/PyRIT/pull/2762) — memory-backed dataset summaries covering grouped examples, seed pieces, objectives, modalities, and harm metadata.
