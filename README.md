@@ -9,128 +9,93 @@
 
 # OSS Atlas
 
-**OSS Atlas** is my dedicated open-source engineering ledger.
+**OSS Atlas** is the dedicated open-source engineering ledger for my public OSS work.
 
-It records what I contribute, what maintainers verify, what gets merged, what remains open, and what I learn from working in unfamiliar codebases.
+It is deliberately separate from personal products and systems. The repository records contributions, upstream outcomes, maintainer feedback, technical investigations, discussions, case studies, and durable engineering lessons.
 
 > **Observed → Implemented → Verified → Documented**
 
-This repository is intentionally **OSS-only**. Personal projects, product prototypes, KIO, AURA, UEA, portfolio material, and unrelated engineering work belong in their own repositories.
+## 🧭 Start here
 
----
-
-## 🗺️ Live OSS Dashboard
-
-| Track | Purpose |
+| Surface | Purpose |
 |---|---|
-| **Merged** | Accepted upstream contributions |
-| **Open** | Active upstream and fork-side work |
-| **Research** | Architecture reviews and technical investigations |
-| **Discussions** | Engineering discussions with maintainers/communities |
-| **Case Studies** | Deeper write-ups of significant contributions |
-| **Learnings** | Durable lessons extracted from OSS work |
-| **Stats** | Historical contribution evidence |
+| [Contributions Index](contributions/INDEX.md) | Curated map of active and merged OSS work |
+| [Complete PR History](contributions/ALL_PR_HISTORY.md) | Exhaustive authored-PR archive |
+| [Case Studies](case-studies/README.md) | Deep evidence-backed contribution analysis |
+| [Research](research/README.md) | Architecture reviews and technical investigations |
+| [Learnings](learnings/README.md) | Reusable engineering lessons |
+| [2026-09-23 Snapshot](stats/2026-09-23.md) | Dated contribution-state snapshot |
+| [Operating Model](docs/OPERATING_MODEL.md) | Evidence and maintenance rules |
+| [Roadmap](docs/ROADMAP.md) | Planned Atlas capabilities |
 
----
+## 📊 Current snapshot
 
-## ✅ Merged Upstream Contributions
+| State | Count |
+|---|---:|
+| Merged authored PRs | **21** |
+| Open authored PRs | **29** |
+| Closed without merge | **7** |
+| Total authored PRs | **57** |
 
-### aios
+The counts are a dated GitHub snapshot from **September 23, 2026**, not a live claim. See the snapshot for scope and methodology.
 
-- **[PR #2457 — Preserve `length` finish reason across streaming trailers](https://github.com/eumemic/aios/pull/2457)**  
-  Preserves provider-reported `finish_reason="length"` through streaming assembly and adds regression coverage.
+## 🏆 Recent upstream merges
 
-- **[PR #2460 — Preserve LiteLLM parameter translation](https://github.com/eumemic/aios/pull/2460)**  
-  Preserves provider-specific parameter translation while retaining explicit `allowed_openai_params` overrides, with regression coverage.
+- [aios #2457](https://github.com/eumemic/aios/pull/2457) — preserved streaming length termination semantics
+- [aios #2460](https://github.com/eumemic/aios/pull/2460) — preserved LiteLLM parameter translation
+- [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — refined evidence-weighted impact scoring
+- [gh-ops #1](https://github.com/aspire488/gh-ops/pull/1) — added GitHub Actions CI validation
 
-### GitHub Profile Analyzer
-
-- **[PR #30 — Evidence-weighted impact scoring](https://github.com/0xarchit/github-profile-analyzer/pull/30)**  
-  Refined impact scoring with repository-quality evidence and improved viewport-aware factor handling. **Merged upstream on September 23, 2026.**
-
-> These merged records are intentionally kept here even when the profile README only highlights a subset.
-
----
-
-## 🔥 Active OSS Work
+## 🔥 Active OSS work
 
 ### Microsoft PyRIT
+- [#2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — open upstream; extensive maintainer verification recorded in the [case study](case-studies/PYRIT-DATASET-SUMMARY.md).
+- [fork #1 — canonical technique names](https://github.com/aspire488/PyRIT/pull/1) — open fork-side work.
 
-- **[PR #2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762)** — **Open upstream**  
-  Adds memory-backed dataset summaries. Substantive maintainer concerns were iterated through and verified against real stored data, including:
-  - aggregation and logical-example counting
-  - SQLite collation behavior
-  - unnamed/whitespace dataset identity
-  - selection-key isolation
-  - metadata query-size behavior
-  - `loaded_only` semantics
+### AI / security / agent systems
+- [TopoCore #1](https://github.com/KARAN-D05/TopoCore/pull/1)
+- [garak #1](https://github.com/aspire488/garak/pull/1)
+- [Inspect AI #1](https://github.com/aspire488/inspect_ai/pull/1)
+- [RAMPART #1](https://github.com/aspire488/RAMPART/pull/1)
 
-  A follow-up test-cleanup commit was subsequently pushed to the branch. The PR remains open pending final upstream disposition.
+### Systems / infrastructure
+- [aios #2458](https://github.com/eumemic/aios/pull/2458)
+- [aios #2459](https://github.com/eumemic/aios/pull/2459)
+- [llama_index #23201](https://github.com/run-llama/llama_index/pull/23201)
+- [quiche #2756](https://github.com/cloudflare/quiche/pull/2756)
+- [quiche #2758](https://github.com/cloudflare/quiche/pull/2758)
+- [quiche #2759](https://github.com/cloudflare/quiche/pull/2759)
+- [OpenHands #17579](https://github.com/OpenHands/OpenHands/pull/17579)
+- [opentelemetry-erlang-contrib #822](https://github.com/open-telemetry/opentelemetry-erlang-contrib/pull/822)
+- [RisingWave #27181](https://github.com/risingwavelabs/risingwave/pull/27181)
+- [Coder #29668](https://github.com/coder/coder/pull/29668)
 
-- **[#2782 — Canonical technique names in scenario summaries](https://github.com/aspire488/PyRIT/tree/fix/promptinject-technique-summary)** — **Fork-side**  
-  Uses the persisted canonical `technique_name` rather than a potentially goal/objective-bearing display group, with regression coverage.
+## 🧠 Engineering knowledge
 
-### NVIDIA garak
+### Case studies
+- [PyRIT Dataset Summary API](case-studies/PYRIT-DATASET-SUMMARY.md)
+- [aios Streaming Termination Semantics](case-studies/AIOS-STREAMING-SEMANTICS.md)
+- [GitHub Profile Analyzer Impact Scoring](case-studies/PROFILE-ANALYZER-IMPACT-SCORING.md)
 
-- **[PR #1 — Handle unset soft prompt cap in IterativeProbe](https://github.com/aspire488/garak/pull/1)** — **Open fork PR**  
-  Treats `soft_probe_prompt_cap=None` as uncapped while preserving existing capped behavior.
+### Research
+The Atlas research layer captures architecture reviews, issue investigations, maintainer reasoning, and technical discussions that are useful beyond one PR.
 
-### UK AI Security Institute Inspect AI
+### Learnings
+The learning layer turns repeated OSS patterns into reusable engineering rules while preserving links to the underlying evidence.
 
-- **[PR #1 — Base64 encode Google inline image bytes](https://github.com/aspire488/inspect_ai/pull/1)** — **Open fork PR**  
-  Encodes raw `Blob.data` bytes before constructing the Google inline-image data URI, with binary-image regression coverage.
-
-### TopoCore
-
-- **[PR #1 — Detect repeated spatial execution states](https://github.com/KARAN-D05/TopoCore/pull/1)** — **Open upstream**  
-  Adds deterministic cycle detection using the complete `(X, Y, Direction)` execution state.
-
----
-
-## 🔎 Upstream Review & Architecture Work
-
-OSS Atlas also records contributions that are not conventional code PRs.
-
-- **[Agent Substrate #1104](https://github.com/agent-substrate/substrate/pull/1104)** — reviewed a dual-stack egress regression test and identified the need to exercise the actual broken-IPv6 → IPv4 fallback condition.
-- **[Agent Sandbox #1615](https://github.com/kubernetes-sigs/agent-sandbox/issues/1615)** — discussed responsibility boundaries for routing requests across multiple claimed Sandboxes.
-
----
-
-## 💬 Technical Discussions
-
-Selected engineering discussions are kept here when they contain reusable implementation reasoning:
-
-- **[Lexical #8771](https://github.com/facebook/lexical/discussions/8771)** — named slots and paginated editor architecture.
-- **[MCP Registry #921](https://github.com/modelcontextprotocol/registry/discussions/921)** — published Docker image and PostgreSQL-backed deployment.
-- **[VS Code Discussions #3109](https://github.com/microsoft/vscode-discussions/discussions/3109)** — diagnosing Electron main-process hangs.
-- **[MVT discussions](https://github.com/mvt-project/mvt/discussions)** — STIX indicator parsing and edge cases.
-- **[OpenAI Codex #46658](https://github.com/openai/codex/discussions/46658)** — adaptive allocation, verification, reassessment, and agent feedback loops.
-
----
-
-## 🧪 Research & Experiments
-
-This repository may contain bounded OSS experiments and investigations when they produce reusable engineering evidence.
-
-The rule is simple:
-
-> An experiment belongs here only when it teaches something about open-source engineering, an upstream codebase, a maintainer workflow, or a reusable technical pattern.
-
-Product prototypes and personal system development are deliberately excluded.
-
----
-
-## 📁 Repository Structure
+## 🧱 Repository architecture
 
 ```text
 oss-atlas/
 ├── contributions/
-│   ├── open/
+│   ├── INDEX.md
+│   ├── ALL_PR_HISTORY.md
 │   ├── merged/
+│   ├── open/
 │   └── closed/
+├── case-studies/
 ├── research/
 ├── experiments/
-├── case-studies/
 ├── learnings/
 ├── stats/
 ├── templates/
@@ -140,56 +105,39 @@ oss-atlas/
 └── README.md
 ```
 
----
+## 📐 Evidence standard
 
-## 📐 Evidence Standard
+Every record separates:
 
-Every record should distinguish:
+**Observed** — GitHub state, issue/PR text, CI, tests, reviews, or maintainer statements.
 
-**Observed** — what GitHub, tests, CI, issues, reviews, or maintainers actually show.
+**Implemented** — code or documentation actually present in a contribution branch/commit.
 
-**Implemented** — what exists in a contribution branch or commit.
+**Verified** — validation actually run or explicitly confirmed by an upstream maintainer.
 
-**Verified** — what was actually tested or explicitly verified.
+**Interpretation** — engineering lessons inferred from the evidence.
 
-**Interpretation** — what was learned from the work.
-
-No contribution is described as merged unless GitHub shows it as merged upstream.
-
-Fork-side work is explicitly labelled as fork-side.
-
----
-
-## 🔗 Complete Contribution Archive
-
-The full historical PR archive contains **57 authored PRs** across merged, open, and closed states.
-
-**[View the complete OSS PR history](contributions/ALL_PR_HISTORY.md)**
-
-The archive is intentionally exhaustive; this README remains curated around the most important OSS work and current activity.
+An open PR is never called merged. A targeted test run is never called a full-suite pass. Fork-side work is never presented as upstream acceptance.
 
 ## 🔭 Direction
 
-OSS Atlas is intended to become a machine-readable and human-readable OSS engineering ledger.
+OSS Atlas is evolving from a portfolio list into a durable OSS engineering knowledge base.
 
-Planned capabilities:
+Next priorities:
 
-- upstream status tracking
-- contribution metadata
-- historical snapshots
-- broken-link checks
-- contribution dashboards
-- review/maintainer-response tracking
-- skill mapping derived from actual engineering evidence
-- automated freshness checks
+- canonical records for significant contributions
+- status and maintainer-feedback history
+- machine-readable metadata
+- automated freshness and broken-link checks
+- dated contribution snapshots
+- contribution/review dashboards
+- skill mapping derived from evidence rather than self-claims
 
-The goal is **evidence density, not activity-count inflation**.
+**Evidence density over activity-count inflation.**
 
 ---
 
-## 🔗 Links
-
-- **Profile:** https://github.com/aspire488
-- **OSS automation:** https://github.com/aspire488/gh-ops
+**Profile:** https://github.com/aspire488  
+**OSS automation:** https://github.com/aspire488/gh-ops
 
 <sub>Built in the open. Recorded with evidence. Updated as the work evolves.</sub>
