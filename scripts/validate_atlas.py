@@ -34,6 +34,7 @@ required = [
     "templates/CONTRIBUTION_RECORD.md",
     "data/contributions.json",
     "data/skills.json",
+    "data/reviews.json",
 ]
 
 missing = [path for path in required if not (ROOT / path).is_file()]
@@ -71,6 +72,14 @@ if index.get("counts") != expected_counts:
 
 if not isinstance(skills.get("skills"), list) or not skills["skills"]:
     fail("skill map must contain at least one skill")
+
+try:
+    reviews = json.loads((ROOT / "data/reviews.json").read_text(encoding="utf-8"))
+except json.JSONDecodeError as exc:
+    fail(f"invalid review metadata: {exc}")
+for record in reviews.get("reviews", []):
+    if not record.get("pr") or not record.get("url"):
+        fail("review records require pr and url")
 
 indexed_urls = set(urls)
 for skill in skills["skills"]:
