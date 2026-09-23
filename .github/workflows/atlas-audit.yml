@@ -1,0 +1,37 @@
+name: OSS Atlas Audit
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: atlas-audit
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    name: Audit external OSS ledger
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate Atlas structure
+        run: python scripts/validate_atlas.py
+
+      - name: Compare archive with GitHub
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/audit_archive.py
