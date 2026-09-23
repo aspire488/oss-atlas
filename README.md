@@ -130,7 +130,7 @@ I’m actively contributing to **[Microsoft PyRIT](https://github.com/microsoft/
 - **gh-ops** — completed the cross-run OSS opportunity deduplication and run-summary batch; latest local validation is **1,084 passed, 1 skipped**.
 - **aios #2459** — preserved the timeout bound (`deadline` vs `spend`) in child outcomes and the caller-visible `AgentError` contract, with regression coverage.
 - **aios #2458** — carried streaming `finish_reason="length"` into truncation telemetry, including loop-level SSE subscriber coverage.
-- **GitHub Profile Analyzer #30** — refined evidence-weighted impact scoring, added repository-quality evidence handling, and fixed the factor tooltip so long evidence breakdowns stay within the viewport. The PR has received maintainer approval and is awaiting merge.
+- **GitHub Profile Analyzer #30** — refined evidence-weighted impact scoring, added repository-quality evidence handling, and fixed the factor tooltip so long evidence breakdowns stay within the viewport. The PR was approved by the maintainer and merged upstream.
 - **OpenAI Codex #46658** — contributed to an architecture discussion around adaptive allocation, independent verification, reassessment, and feedback loops around agents.
 
 - [NVIDIA garak #1 — Handle unset soft prompt cap in IterativeProbe](https://github.com/aspire488/garak/pull/1) — fixes the uncapped `soft_probe_prompt_cap=None` path so iterative probes retain an infinite termination bound, with regression coverage for `follow_prompt_cap=True`.
