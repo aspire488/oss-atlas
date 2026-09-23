@@ -4,35 +4,33 @@
 
 ## Contribution lifecycle
 
-| Layer | Meaning | Canonical location |
+| Layer | Meaning | Location |
 |---|---|---|
 | **Merged upstream** | Accepted by an upstream repository | `contributions/merged/` |
 | **Active upstream** | Open PRs against upstream projects | `contributions/open/` |
 | **Fork-side active** | Open work in personal forks | `contributions/open/` |
 | **Closed / historical** | Closed without merge | `contributions/closed/` |
 | **Review / architecture** | Reviews, issue analysis, design feedback | `research/` |
-| **Discussion** | Technical community discussions | `research/` |
-| **Case study** | Deep evidence-backed contribution narrative | `case-studies/` |
-| **Learning** | Reusable engineering lesson | `learnings/` |
+| **Discussions** | Technical community discussions | `research/` |
+| **Case studies** | Deep evidence-backed narratives | `case-studies/` |
+| **Learnings** | Reusable engineering lessons | `learnings/` |
 
 ## Featured merged work
 
-1. [eumemic/aios #2457](https://github.com/eumemic/aios/pull/2457) — streaming `finish_reason="length"` preservation
-2. [eumemic/aios #2460](https://github.com/eumemic/aios/pull/2460) — LiteLLM parameter translation preservation
-3. [0xarchit/github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — evidence-weighted impact scoring
-4. [aspire488/gh-ops #1](https://github.com/aspire488/gh-ops/pull/1) — GitHub Actions CI validation
+- [aios #2457](https://github.com/eumemic/aios/pull/2457) — preserve streaming `finish_reason="length"`
+- [aios #2460](https://github.com/eumemic/aios/pull/2460) — preserve LiteLLM parameter translation
+- [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — evidence-weighted impact scoring
+- [gh-ops #1](https://github.com/aspire488/gh-ops/pull/1) — GitHub Actions CI validation
 
 ## Featured active work
 
-### Microsoft PyRIT
-- [#2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — upstream, open
-- [fork #1 — canonical technique names](https://github.com/aspire488/PyRIT/pull/1) — fork-side, open
-
 ### AI / security / agent tooling
+- [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — upstream, open
 - [TopoCore #1](https://github.com/KARAN-D05/TopoCore/pull/1) — upstream, open
 - [garak #1](https://github.com/aspire488/garak/pull/1) — fork-side, open
 - [Inspect AI #1](https://github.com/aspire488/inspect_ai/pull/1) — fork-side, open
 - [RAMPART #1](https://github.com/aspire488/RAMPART/pull/1) — fork-side, open
+- [PyRIT fork #1](https://github.com/aspire488/PyRIT/pull/1) — fork-side, open
 
 ### Systems / infrastructure / developer tooling
 - [aios #2458](https://github.com/eumemic/aios/pull/2458)
@@ -48,8 +46,8 @@
 
 ## Full history
 
-See [ALL_PR_HISTORY.md](ALL_PR_HISTORY.md) for the complete authored-PR archive.
+[ALL_PR_HISTORY.md](ALL_PR_HISTORY.md) is the exhaustive authored-PR archive.
 
-## Record rule
+## Rule
 
-A contribution can be highlighted here because it is recent, upstream-facing, technically substantive, or useful as evidence. Highlighting is navigation, **not a quality ranking**.
+Highlighting is navigation, **not a quality ranking**. No open PR is described as successful until upstream evidence shows it.
