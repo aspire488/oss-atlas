@@ -26,7 +26,8 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | [Learnings](learnings/README.md) | Reusable engineering lessons |
 | [2026-09-23 Snapshot](stats/2026-09-23.md) | Dated contribution-state snapshot |
 | [Operating Model](docs/OPERATING_MODEL.md) | Evidence and maintenance rules |
-| [Roadmap](docs/ROADMAP.md) | Planned Atlas capabilities |
+| [Roadmap](docs/ROADMAP.md) | Atlas implementation plan |
+| [Automation](docs/AUTOMATION.md) | GitHub Actions and drift-audit contract |
 
 ## 📊 External OSS snapshot
 
@@ -79,6 +80,12 @@ Architecture reviews, issue investigations, maintainer reasoning, and technical 
 
 ### Learnings
 Durable OSS engineering rules backed by primary evidence.
+
+## ⚙️ Automated verification
+
+GitHub Actions validates the Atlas on pushes and pull requests, and a scheduled audit checks the external OSS ledger for GitHub-state drift. Workflows use read-only repository permissions and pinned standard Actions dependencies.
+
+See [Automation](docs/AUTOMATION.md) for the contract and [Roadmap](docs/ROADMAP.md) for the next automation phases.
 
 ## 🧱 Repository architecture
 
