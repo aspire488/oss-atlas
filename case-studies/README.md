@@ -7,6 +7,8 @@ Deep dives are reserved for contributions that expose meaningful engineering rea
 - [PyRIT — Dataset Summary API](PYRIT-DATASET-SUMMARY.md)
 - [aios — Streaming Termination Semantics](AIOS-STREAMING-SEMANTICS.md)
 - [GitHub Profile Analyzer — Impact Scoring](PROFILE-ANALYZER-IMPACT-SCORING.md)
+- [TopoCore — Deterministic Cycle Detection](TOPOCORE-CYCLE-DETECTION.md)
+- [OpenHands — Settings Contract Alignment](OPENHANDS-SETTINGS-CONTRACT.md)
 
 ## Standard
 
