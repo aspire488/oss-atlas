@@ -90,10 +90,20 @@ if archive != indexed:
 
 current, states = github_links()
 
+expected_status = {item["url"]: item["status"] for item in json.loads(INDEX.read_text(encoding="utf-8"))["contributions"]}
+actual_status = {url: ("merged" if state == "merged" else "open_upstream" if state == "open" and "/aspire488/" not in url else "open_fork" if state == "open" else "closed") for url, state in states.items()}
+
 if current != archive:
     print("OSS contribution drift detected.")
     print("New/missing GitHub PRs:", sorted(current ^ archive))
     print("Refresh the archive and machine index intentionally.")
+    raise SystemExit(1)
+
+if actual_status != expected_status:
+    print("Per-contribution status drift detected.")
+    for url in sorted(set(actual_status) | set(expected_status)):
+        if actual_status.get(url) != expected_status.get(url):
+            print(f"  {url}: GitHub={actual_status.get(url)} index={expected_status.get(url)}")
     raise SystemExit(1)
 
 counts = {
