@@ -5,7 +5,7 @@
 - [x] OSS-only scope
 - [x] Contribution taxonomy
 - [x] Evidence standard
-- [x] Complete authored-PR archive
+- [x] Complete external OSS PR archive
 - [x] Curated contribution index
 - [x] Dated snapshot
 - [x] Case-study layer
@@ -30,20 +30,48 @@
 - [ ] Learning-to-source backlinks
 
 ## Phase 4 — Automation
+- [x] PR/push CI validation
+- [x] Internal Markdown-link validation
+- [x] External OSS archive audit
+- [x] Daily scheduled drift detection
+- [x] Manual audit dispatch
+- [x] Least-privilege workflow permissions
+- [x] Pinned GitHub Actions dependencies
 - [ ] Machine-readable contribution metadata
-- [ ] Scheduled status refresh
-- [ ] Broken-link checker
+- [ ] Automatic dated snapshot generation
+- [ ] Broken external-link checker
 - [ ] Stale-record detector
-- [ ] Snapshot generator
-- [ ] CI validation for Atlas structure
+- [ ] Reviewed status-refresh PR generation
 
 ## Phase 5 — Analytics
 - [ ] Contribution dashboard
-- [ ] Project/repository index
+- [ ] Repository/project index
 - [ ] Review/maintainer-response timeline
 - [ ] Evidence-derived skill map
 - [ ] Historical trend views
+- [ ] Contribution-to-learning graph
 
-## Design constraint
+## Phase 6 — OSS Atlas intelligence
+- [ ] Canonical contribution IDs
+- [ ] Evidence bundles per contribution
+- [ ] Cross-project engineering pattern extraction
+- [ ] Maintainer feedback timeline
+- [ ] Contribution freshness score based on evidence age, not quality
+- [ ] Searchable machine-readable index
+- [ ] Static generated Atlas report
 
-Automation should preserve factual status and provenance. It must not manufacture scores, rankings, or implied outcomes from incomplete evidence.
+## Design constraints
+
+- Never fabricate or infer merge outcomes.
+- Never rank contributions by subjective quality.
+- Never silently rewrite historical records.
+- Keep external OSS work distinct from self-owned project work.
+- Automation should detect drift first and mutate the ledger only through reviewable changes.
+
+## Target end state
+
+OSS Atlas should function as a **version-controlled OSS engineering knowledge base**:
+
+**GitHub evidence → contribution record → verification → case study → reusable learning → historical snapshot**
+
+The repository should remain useful even if every decorative portfolio element is removed.
