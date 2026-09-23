@@ -1,26 +1,74 @@
 # OSS Atlas Operating Model
 
-OSS Atlas is maintained as a factual, continuously updated record of open-source engineering work.
+OSS Atlas is a factual, continuously maintained record of open-source engineering work.
 
-## Source hierarchy
+## 1. Source hierarchy
 
-1. Upstream repository and PR/issue
+Use evidence in this order:
+
+1. Upstream GitHub repository, PR, issue, commit, release, or discussion
 2. Maintainer/reviewer feedback
-3. Verified local test or build output
-4. Personal notes and interpretation
+3. Verified local test/build output
+4. Author notes and interpretation
 
-## Status discipline
+Primary evidence wins when sources disagree.
 
-Never call a contribution merged until the upstream repository shows it as merged. Never call a test passing without evidence that the test was actually run.
+## 2. Status discipline
 
-## Update loop
+- **Merged** only when GitHub reports a merge.
+- **Open** only when GitHub reports the PR open.
+- **Closed without merge** when GitHub reports closed with no merge timestamp.
+- **Fork-side** must be explicitly labelled.
+- Do not infer acceptance from silence, comments, CI, or review activity.
 
-When an upstream contribution changes state:
-1. Update the contribution record.
-2. Update the status index.
-3. Add or update the case study when the work is significant.
-4. Update dated statistics when appropriate.
+## 3. Verification discipline
 
-## Portfolio principle
+Record the exact scope of validation:
 
-Optimize for evidence and technical substance, not raw contribution counts.
+- command or test suite
+- environment when material
+- result
+- known gaps
+
+Never turn a targeted run into a full-suite claim.
+
+## 4. Record hierarchy
+
+Use the repository layers consistently:
+
+`contributions/` → contribution lifecycle  
+`research/` → investigations, reviews, discussions  
+`case-studies/` → deep narratives  
+`learnings/` → reusable lessons  
+`stats/` → dated snapshots  
+`templates/` → repeatable record format
+
+## 5. Highlighting rule
+
+Featured items are selected for recency, upstream relevance, technical substance, review depth, or reusable lessons.
+
+They are **not rankings** and do not receive quality scores.
+
+## 6. Update loop
+
+When an upstream artifact changes state:
+
+1. Refresh the contribution record/index.
+2. Refresh the current status snapshot when the change is material.
+3. Update the case study if the contribution is significant.
+4. Add a learning when the work exposes a durable pattern.
+5. Keep the exhaustive archive intact.
+
+## 7. Historical integrity
+
+Do not rewrite history to make outcomes look cleaner.
+
+Closed, superseded, rejected, and fork-side work can remain valuable evidence of iteration and learning.
+
+## 8. Scope boundary
+
+OSS Atlas contains OSS engineering work only. Personal product development, KIO, AURA, UEA, portfolio design, and unrelated system work belong elsewhere unless they are directly relevant to an OSS contribution being documented.
+
+## 9. Core principle
+
+> **Evidence density over activity-count inflation.**
