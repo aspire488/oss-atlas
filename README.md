@@ -160,6 +160,14 @@ Fork-side work is explicitly labelled as fork-side.
 
 ---
 
+## 🔗 Complete Contribution Archive
+
+The full historical PR archive contains **57 authored PRs** across merged, open, and closed states.
+
+**[View the complete OSS PR history](contributions/ALL_PR_HISTORY.md)**
+
+The archive is intentionally exhaustive; this README remains curated around the most important OSS work and current activity.
+
 ## 🔭 Direction
 
 OSS Atlas is intended to become a machine-readable and human-readable OSS engineering ledger.
