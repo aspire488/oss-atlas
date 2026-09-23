@@ -9,9 +9,10 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 | Status | Count |
 |---|---:|
 | Merged upstream | 3 |
-| Open | 20 |
+| Open upstream | 19 |
+| Open fork-side | 4 |
 | Closed without merge | 5 |
-| **External OSS PRs** | **28** |
+| **External OSS PRs** | **31** |
 
 ## Merged upstream
 
@@ -59,11 +60,7 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 ## Status rules
 
 - **Merged upstream** means GitHub reports a non-null merge timestamp.
-- **Open** means GitHub currently reports the PR open.
+- **Open upstream** means the PR is open and the destination repository is not `aspire488/*`.
+- **Open fork-side** means the PR is open in an `aspire488/*` repository.
 - **Closed without merge** means GitHub reports closed with no merge timestamp.
-- Fork-side PRs are retained because they represent OSS implementation work, but are never represented as upstream acceptance.
 - This archive is historical and does not rank contribution quality.
-
-## Scope
-
-This file covers external OSS pull requests. Reviews, issues, architecture analysis, and technical discussions are indexed separately under [research](../research/README.md).
