@@ -95,7 +95,7 @@ The latest OSS pass moved several tracked contributions from review-response wor
 |---|---|
 | **RisingWave #27181** | Regression expanded through the `LogicalApply → ApplyEliminateRule → to_batch()` boundary with a multi-row `LogicalValues` case; test compile issue fixed with `ctx.clone()`. |
 | **KiroCrew #12861** | PDF extraction hardened for Windows process limits and Python import isolation; child-protocol regression added. |
-| **aios #2458** | Remaining CI newline issues fixed. |
+| **aios #2458** | Final Ruff 0.15.10 formatting blocker fixed in commit `3215a565`; maintainer re-review is GREEN/CLEAN and the PR remains open pending CI/maintainer completion. |
 | **aios #2459** | **Merged upstream** — timeout-bound provenance (`deadline` vs `spend`) preserved with regression coverage. |
 | **Microsoft PyRIT #2762** | **Merged upstream** — final test cleanup was merged after maintainer review. |
 | **OpenHands #17579** | Implementation fixes are pushed; upstream PR automation still has a HUMAN-section gate. |
