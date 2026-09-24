@@ -43,6 +43,34 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 
 Snapshot date: **September 24, 2026**.
 
+## 📈 OSS Atlas Dashboard
+
+The Atlas now has a **first-party GitHub Actions dashboard**. These cards are generated from the canonical OSS ledger and refreshed automatically on pushes and on a daily schedule.
+
+<p align="center">
+<a href="https://github.com/aspire488/oss-atlas/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/aspire488/oss-atlas/ci.yml?branch=main&style=for-the-badge&label=Atlas%20CI"/></a>
+<a href="https://github.com/aspire488/oss-atlas/actions/workflows/atlas-audit.yml"><img src="https://img.shields.io/github/actions/workflow/status/aspire488/oss-atlas/atlas-audit.yml?branch=main&style=for-the-badge&label=Ledger%20Audit"/></a>
+<a href="https://github.com/aspire488/oss-atlas/actions/workflows/dashboard.yml"><img src="https://img.shields.io/github/actions/workflow/status/aspire488/oss-atlas/dashboard.yml?branch=main&style=for-the-badge&label=Dashboard"/></a>
+</p>
+
+<p align="center">
+<img src="assets/dashboard/overview.svg" alt="OSS Atlas engineering overview" width="100%"/>
+</p>
+
+<p align="center">
+<img src="assets/dashboard/status.svg" alt="OSS Atlas contribution state" width="92%"/>
+</p>
+
+<p align="center">
+<img src="assets/dashboard/repositories.svg" alt="OSS Atlas repository concentration" width="92%"/>
+</p>
+
+<p align="center">
+<img src="assets/dashboard/actions.svg" alt="OSS Atlas GitHub Actions health" width="92%"/>
+</p>
+
+**Dashboard pipeline:** data/contributions.json → scripts/generate_dashboard.py → SVG cards → Git commit via GitHub Actions.
+
 ## 🏆 Recent upstream merges
 
 - [aios #2457](https://github.com/eumemic/aios/pull/2457) — preserved streaming length termination semantics
@@ -111,7 +139,7 @@ Durable OSS engineering rules backed by primary evidence.
 
 ## ⚙️ Automated verification
 
-GitHub Actions validates the Atlas on pushes and pull requests, while a scheduled audit checks the external OSS ledger against current GitHub state. The workflows use read-only repository permissions and pinned standard Actions dependencies. citeturn0search0turn0search1
+GitHub Actions validates the Atlas on pushes and pull requests, audits the external OSS ledger daily, and refreshes the dashboard cards automatically. Standard Actions are pinned to immutable commit SHAs.
 
 ## 🧱 Repository architecture
 
@@ -130,7 +158,7 @@ oss-atlas/
 ├── research/
 ├── experiments/
 ├── learnings/
-├── stats/
+├── assets/\n│   └── dashboard/\n│       ├── overview.svg\n│       ├── status.svg\n│       ├── repositories.svg\n│       └── actions.svg\n├── stats/
 ├── templates/
 ├── docs/
 │   ├── OPERATING_MODEL.md
