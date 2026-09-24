@@ -351,17 +351,6 @@
       "status": "closed",
       "summary": "",
       "source": "github"
-    },
-    {
-      "id": "aspire488/typesafe-sdk-js#8",
-      "title": "aspire488/typesafe-sdk-js #8 — reject timeout values above the Node timer maximum",
-      "url": "https://github.com/aspire488/typesafe-sdk-js/tree/fix/timeout-32bit-overflow",
-      "owner": "aspire488",
-      "repository": "typesafe-sdk-js",
-      "pr": 8,
-      "status": "open_fork",
-      "summary": "fork-side implementation; upstream PR creation restricted",
-      "source": "github"
     }
   ]
 }
