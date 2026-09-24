@@ -35,7 +35,7 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 
 | State | Count |
 |---|---:|
-| Merged upstream | **5** |
+| Merged upstream | **6** |
 | Open upstream | **18** |
 | Open fork-side | **3** |
 | Closed without merge | **5** |
