@@ -18,7 +18,7 @@
 ## Featured merged work
 
 - [aios #2457](https://github.com/eumemic/aios/pull/2457) — preserve streaming `finish_reason="length"`
-- [aios #2458](https://github.com/eumemic/aios/pull/2458) — preserve timeout bound provenance
+- [aios #2458](https://github.com/eumemic/aios/pull/2458) — record streaming length as truncated output
 - [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — Dataset Summary API
 - [aios #2460](https://github.com/eumemic/aios/pull/2460) — preserve LiteLLM parameter translation
 - [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — evidence-weighted impact scoring
@@ -35,7 +35,7 @@
 - [PyRIT fork #1](https://github.com/aspire488/PyRIT/pull/1) — fork-side, open
 
 ### Systems / infrastructure / developer tooling
-- [aios #2458](https://github.com/eumemic/aios/pull/2458)
+- [aios #2458](https://github.com/eumemic/aios/pull/2458) — merged upstream
 - [aios #2459](https://github.com/eumemic/aios/pull/2459)
 - [llama_index #23201](https://github.com/run-llama/llama_index/pull/23201)
 - [quiche #2756](https://github.com/cloudflare/quiche/pull/2756)
