@@ -5,8 +5,8 @@
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
     "total": 31,
-    "merged": 5,
-    "open_upstream": 17,
+    "merged": 6,
+    "open_upstream": 16,
     "open_fork": 4,
     "closed": 5
   },
@@ -73,9 +73,10 @@
       "owner": "eumemic",
       "repository": "aios",
       "pr": 2458,
-      "status": "open_upstream",
-      "summary": "",
-      "source": "github"
+      "status": "merged",
+      "summary": "merged 2026-09-24",
+      "source": "github",
+      "merge_commit": "fe051b2c36e40e0fdf30686f5c65e604f3b56706"
     },
     {
       "id": "run-llama/llama_index#23201",
