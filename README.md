@@ -48,6 +48,7 @@ Snapshot date: **September 23, 2026**.
 - [aios #2457](https://github.com/eumemic/aios/pull/2457) — preserved streaming length termination semantics
 - [aios #2460](https://github.com/eumemic/aios/pull/2460) — preserved LiteLLM parameter translation
 - [aios #2459](https://github.com/eumemic/aios/pull/2459) — preserved the timeout bound (`deadline` vs `spend`) in child outcomes while keeping `kind="timeout"` compatible
+- [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — **maintainer-approved** by Roman Lutz after multiple substantive review rounds; final cleanup is lint-only and the PR remains open pending merge
 - [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — refined evidence-weighted impact scoring
 
 ## 📌 September 24, 2026 update
@@ -68,6 +69,7 @@ The latest OSS pass moved several tracked contributions from review-response wor
 | **KiroCrew #12861** | PDF extraction hardened for Windows process limits and Python import isolation; child-protocol regression added. |
 | **aios #2458** | Remaining CI newline issues fixed. |
 | **aios #2459** | **Merged upstream** — timeout-bound provenance (`deadline` vs `spend`) preserved with regression coverage. |
+| **Microsoft PyRIT #2762** | **Maintainer-approved, open upstream** — final test cleanup pushed by Roman Lutz; awaiting merge. |
 | **OpenHands #17579** | Implementation fixes are pushed; upstream PR automation still has a HUMAN-section gate. |
 | **OpenTelemetry Erlang #822** | Maintainer-requested rebase remains pending. |
 
@@ -76,7 +78,7 @@ This snapshot intentionally records **engineering state**, not just PR count. A 
 ## 🔥 Active OSS work
 
 ### Microsoft PyRIT
-- [#2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — open upstream; extensive maintainer verification is recorded in the [case study](case-studies/PYRIT-DATASET-SUMMARY.md).
+- [#2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — **maintainer-approved, open upstream**; extensive maintainer verification is recorded in the [case study](case-studies/PYRIT-DATASET-SUMMARY.md).
 - [fork #1 — canonical technique names](https://github.com/aspire488/PyRIT/pull/1) — fork-side OSS work.
 
 ### AI / security / agent systems
