@@ -35,8 +35,8 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 
 | State | Count |
 |---|---:|
-| Merged upstream | **3** |
-| Open upstream | **19** |
+| Merged upstream | **4** |
+| Open upstream | **18** |
 | Open fork-side | **4** |
 | Closed without merge | **5** |
 | **External OSS PRs** | **31** |
@@ -47,6 +47,7 @@ Snapshot date: **September 23, 2026**.
 
 - [aios #2457](https://github.com/eumemic/aios/pull/2457) — preserved streaming length termination semantics
 - [aios #2460](https://github.com/eumemic/aios/pull/2460) — preserved LiteLLM parameter translation
+- [aios #2459](https://github.com/eumemic/aios/pull/2459) — preserved the timeout bound (`deadline` vs `spend`) in child outcomes while keeping `kind="timeout"` compatible
 - [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — refined evidence-weighted impact scoring
 
 ## 📌 September 24, 2026 update
@@ -66,7 +67,7 @@ The latest OSS pass moved several tracked contributions from review-response wor
 | **RisingWave #27181** | Regression expanded through the `LogicalApply → ApplyEliminateRule → to_batch()` boundary with a multi-row `LogicalValues` case. |
 | **KiroCrew #12861** | PDF extraction hardened for Windows process limits and Python import isolation; child-protocol regression added. |
 | **aios #2458** | Remaining CI newline issues fixed. |
-| **aios #2459** | Remaining Ruff formatting issue fixed. |
+| **aios #2459** | **Merged upstream** — timeout-bound provenance (`deadline` vs `spend`) preserved with regression coverage. |
 | **OpenHands #17579** | Implementation fixes are pushed; upstream PR automation still has a HUMAN-section gate. |
 | **OpenTelemetry Erlang #822** | Maintainer-requested rebase remains pending. |
 
@@ -86,7 +87,6 @@ This snapshot intentionally records **engineering state**, not just PR count. A 
 
 ### Systems / infrastructure
 - [aios #2458](https://github.com/eumemic/aios/pull/2458)
-- [aios #2459](https://github.com/eumemic/aios/pull/2459)
 - [llama_index #23201](https://github.com/run-llama/llama_index/pull/23201)
 - [quiche #2756 / #2758 / #2759](https://github.com/cloudflare/quiche)
 - [OpenHands #17579](https://github.com/OpenHands/OpenHands/pull/17579)
