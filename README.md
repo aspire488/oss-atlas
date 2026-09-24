@@ -36,8 +36,8 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | State | Count |
 |---|---:|
 | Merged upstream | **5** |
-| Open upstream | **17** |
-| Open fork-side | **4** |
+| Open upstream | **18** |
+| Open fork-side | **3** |
 | Closed without merge | **5** |
 | **External OSS PRs** | **31** |
 
@@ -95,18 +95,20 @@ The latest OSS pass moved several tracked contributions from review-response wor
 |---|---|
 | **RisingWave #27181** | Regression expanded through the `LogicalApply → ApplyEliminateRule → to_batch()` boundary with a multi-row `LogicalValues` case; test compile issue fixed with `ctx.clone()`. |
 | **KiroCrew #12861** | PDF extraction hardened for Windows process limits and Python import isolation; child-protocol regression added. |
-| **aios #2458** | Final Ruff 0.15.10 formatting blocker fixed in commit `3215a565`; maintainer re-review is GREEN/CLEAN and the PR remains open pending CI/maintainer completion. |
+| **aios #2458** | Maintainer restored the reviewed tree as `58739aef` after a CI-format mismatch; reviewed code is unchanged and the PR remains open pending CI/maintainer completion. |
 | **aios #2459** | **Merged upstream** — timeout-bound provenance (`deadline` vs `spend`) preserved with regression coverage. |
 | **Microsoft PyRIT #2762** | **Merged upstream** — final test cleanup was merged after maintainer review. |
+| **Microsoft PyRIT #2823** | **Open upstream** — HarmBench loader now preserves contextual behavior prompts with focused regression coverage. |
 | **OpenHands #17579** | Implementation fixes are pushed; upstream PR automation still has a HUMAN-section gate. |
 | **OpenTelemetry Erlang #822** | Maintainer-requested rebase remains pending. |
 
-This snapshot intentionally records **engineering state**, not just PR count. A pushed fix is not treated as merged until upstream state confirms acceptance. Current external ledger: **5 merged upstream, 17 open upstream, 4 open fork-side, 5 closed without merge = 31 tracked external PRs**.
+This snapshot intentionally records **engineering state**, not just PR count. A pushed fix is not treated as merged until upstream state confirms acceptance. Current external ledger: **5 merged upstream, 18 open upstream, 3 open fork-side, 5 closed without merge = 31 tracked external PRs**.
 
 ## 🔥 Active OSS work
 
 ### Microsoft PyRIT
 - [#2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — **merged upstream**; extensive maintainer verification is recorded in the [case study](case-studies/PYRIT-DATASET-SUMMARY.md).
+- [#2823 — Preserve HarmBench contextual behavior prompts](https://github.com/microsoft/PyRIT/pull/2823) — **open upstream**; preserves non-empty HarmBench `ContextString` in the constructed objective value and adds focused regression coverage.
 - [fork #1 — canonical technique names](https://github.com/aspire488/PyRIT/pull/1) — fork-side OSS work.
 
 ### AI / security / agent systems
