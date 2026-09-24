@@ -1,3 +1,15 @@
+# 🏆 Featured Upstream Contribution — Microsoft PyRIT #2762
+
+> ## **Dataset Summary API — MERGED UPSTREAM**
+>
+> **September 24, 2026 · Microsoft PyRIT · Merge commit `47c6151a`**
+>
+> A maintainer-reviewed contribution that added memory-backed dataset summaries and survived multiple refinement rounds around aggregation correctness, dataset identity, SQLite collation behavior, selection-key isolation, metadata query controls, `loaded_only`, and regression coverage.
+>
+> **This is the flagship merged contribution in the current OSS track.**
+
+---
+
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:70a5fd&height=210&section=header&text=OSS%20Atlas&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Open-source%20engineering%20ledger&descAlignY=58&descSize=16" width="100%"/>
 </p>
