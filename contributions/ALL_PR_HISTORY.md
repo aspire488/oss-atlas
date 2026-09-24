@@ -8,11 +8,11 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 | Status | Count |
 |---|---:|
-| Merged upstream | 5 |
-| Open upstream | 17 |
-| Open fork-side | 5 |
+| Merged upstream | 6 |
+| Open upstream | 16 |
+| Open fork-side | 4 |
 | Closed without merge | 5 |
-| **External OSS PRs** | **32** |
+| **External OSS PRs** | **31** |
 
 ## Merged upstream
 
@@ -21,11 +21,11 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [eumemic/aios #2457 — preserve length finish reason across streaming trailers](https://github.com/eumemic/aios/pull/2457) — merged 2026-09-23
 - [eumemic/aios #2459 — preserve timeout bound in child outcome](https://github.com/eumemic/aios/pull/2459) — merged 2026-09-24
 - [microsoft/PyRIT #2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — merged 2026-09-24
+- [eumemic/aios #2458 — record streaming length as truncated output](https://github.com/eumemic/aios/pull/2458) — merged 2026-09-24 (merge commit `fe051b2c`)
 
 ## Open upstream
 
 - [KARAN-D05/TopoCore #1 — detect repeated spatial execution states](https://github.com/KARAN-D05/TopoCore/pull/1)
-- [eumemic/aios #2458 — record streaming length as truncated output](https://github.com/eumemic/aios/pull/2458)
 - [run-llama/llama_index #23201 — preserve retrieved scores during prev-next expansion](https://github.com/run-llama/llama_index/pull/23201)
 - [kirodotdev/KiroCrew #12861 — restore PDF search behind bounded extraction](https://github.com/kirodotdev/KiroCrew/pull/12861)
 - [cloudflare/quiche #2759 — ignore ACKs for non-in-flight packets](https://github.com/cloudflare/quiche/pull/2759)
@@ -48,7 +48,6 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [aspire488/garak #1 — handle unset soft prompt cap](https://github.com/aspire488/garak/pull/1)
 - [aspire488/RAMPART #1 — adaptive multi-turn XPIA execution](https://github.com/aspire488/RAMPART/pull/1)
 - [aspire488/PyRIT #1 — canonical technique names in scenario summaries](https://github.com/aspire488/PyRIT/pull/1)
-- [aspire488/typesafe-sdk-js #8 — reject timeout values above the Node timer maximum](https://github.com/aspire488/typesafe-sdk-js/tree/fix/timeout-32bit-overflow) — fork-side implementation; upstream PR creation restricted
 
 ## Closed without merge
 
