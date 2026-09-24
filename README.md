@@ -80,51 +80,33 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — refined evidence-weighted impact scoring
 
 ## 📌 September 24, 2026 update
-### 🔥 SiYuan MCP session recovery
 
-- **[SiYuan #19815](https://github.com/siyuan-note/siyuan/issues/19815)** — implemented missing-session recovery on [`aspire488/siyuan#1`](https://github.com/aspire488/siyuan/pull/1).
-- Distinguishes **`mcp.ErrSessionMissing`** from ambiguous transport failures, reconnects synchronously, and replays the affected tool call **once** after the session is recreated.
-- Connection resets, EOFs, timeouts, and similar ambiguous failures retain **execution-unknown / no automatic replay** behavior.
-- Added regression coverage for both safe one-time replay and ambiguous-disconnect no-replay behavior.
-- The fork PR is open; upstream PR creation is currently blocked by GitHub integration permissions, so this is recorded as **fork-side work, not upstream acceptance**.
+### 🔥 Current OSS state
 
+- **Microsoft PyRIT #2762** — **merged upstream**; dataset summary API accepted after multiple substantive review rounds. Merge commit: `47c6151a`.
+- **Microsoft PyRIT #2823** — **open upstream**; preserves non-empty HarmBench contextual behavior prompts with regression coverage.
+- **aios #2458** — **open upstream**; maintainer restored the independently reviewed tree as `58739aef` after a CI-format mismatch. The reviewed code is unchanged.
+- **RisingWave #27181** — **open upstream**; correlated-reference regression now exercises the real `LogicalApply → ApplyEliminateRule → to_batch()` boundary, including a non-first-row `LogicalValues` reference.
+- **KiroCrew #12861** — **open upstream**; bounded PDF extraction and child-process protocol handling hardened.
+- **TopoCore #1** — **open upstream**; deterministic cycle detection added for repeated spatial execution states.
+- **LlamaIndex #23201** — **open upstream**; retrieved scores preserved during prev-next expansion.
+- **OpenHands #17579** — **open upstream**; condenser metadata aligned with the agent-server minimum.
+- **OpenTelemetry Erlang #822** — **open upstream**; retry/redirect span isolation fix.
+- **Coder #29668** — **open upstream**; unknown AI Gateway client deduplication.
+- **Cloudflare quiche #2758 / #2759** — **open upstream**; custom-CA peer verification and Reno non-in-flight ACK handling.
+- **IntelliJ PowerShell #506** — **open upstream**; PowerShell executable reparse-point resolution.
+- **N3MO #39** — **open upstream**; Ruby/Kotlin routing regression coverage.
 
-The latest OSS pass moved several tracked contributions from review-response work into concrete branch updates:
+### 🧪 Fork-side / prepared work
 
-| Project | Current engineering state |
-|---|---|
-| **RisingWave #27181** | Regression expanded through the `LogicalApply → ApplyEliminateRule → to_batch()` boundary with a multi-row `LogicalValues` case; test compile issue fixed with `ctx.clone()`. |
-| **KiroCrew #12861** | PDF extraction hardened for Windows process limits and Python import isolation; child-protocol regression added. |
-| **aios #2458** | Maintainer restored the reviewed tree as `58739aef` after a CI-format mismatch; reviewed code is unchanged and the PR remains open pending CI/maintainer completion. |
-| **aios #2459** | **Merged upstream** — timeout-bound provenance (`deadline` vs `spend`) preserved with regression coverage. |
-| **Microsoft PyRIT #2762** | **Merged upstream** — final test cleanup was merged after maintainer review. |
-| **Microsoft PyRIT #2823** | **Open upstream** — HarmBench loader now preserves contextual behavior prompts with focused regression coverage. |
-| **OpenHands #17579** | Implementation fixes are pushed; upstream PR automation still has a HUMAN-section gate. |
-| **OpenTelemetry Erlang #822** | Maintainer-requested rebase remains pending. |
+- **SiYuan #1** — expired Streamable HTTP MCP session recovery with exactly one safe replay for `mcp.ErrSessionMissing`.
+- **garak #1** — unset `soft_probe_prompt_cap=None` handling in `IterativeProbe`.
+- **Inspect AI #1** — base64 encoding for Google inline-image bytes.
+- **RAMPART #1** — adaptive multi-turn XPIA execution.
+- **PyRIT fork #1** — canonical technique names in scenario run summaries.
 
-This snapshot intentionally records **engineering state**, not just PR count. A pushed fix is not treated as merged until upstream state confirms acceptance. Current external ledger: **5 merged upstream, 18 open upstream, 3 open fork-side, 5 closed without merge = 31 tracked external PRs**.
+> **Evidence rule:** merged means upstream accepted it; open means the PR is still under review/CI; fork-side means the work exists on a fork and is not represented as upstream acceptance.
 
-## 🔥 Active OSS work
-
-### Microsoft PyRIT
-- [#2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — **merged upstream**; extensive maintainer verification is recorded in the [case study](case-studies/PYRIT-DATASET-SUMMARY.md).
-- [#2823 — Preserve HarmBench contextual behavior prompts](https://github.com/microsoft/PyRIT/pull/2823) — **open upstream**; preserves non-empty HarmBench `ContextString` in the constructed objective value and adds focused regression coverage.
-- [fork #1 — canonical technique names](https://github.com/aspire488/PyRIT/pull/1) — fork-side OSS work.
-
-### AI / security / agent systems
-- [TopoCore #1](https://github.com/KARAN-D05/TopoCore/pull/1)
-- [garak #1](https://github.com/aspire488/garak/pull/1)
-- [Inspect AI #1](https://github.com/aspire488/inspect_ai/pull/1)
-- [RAMPART #1](https://github.com/aspire488/RAMPART/pull/1)
-
-### Systems / infrastructure
-- [aios #2458](https://github.com/eumemic/aios/pull/2458)
-- [llama_index #23201](https://github.com/run-llama/llama_index/pull/23201)
-- [quiche #2756 / #2758 / #2759](https://github.com/cloudflare/quiche)
-- [OpenHands #17579](https://github.com/OpenHands/OpenHands/pull/17579)
-- [RisingWave #27181](https://github.com/risingwavelabs/risingwave/pull/27181)
-- [opentelemetry-erlang-contrib #822](https://github.com/open-telemetry/opentelemetry-erlang-contrib/pull/822)
-- [Coder #29668](https://github.com/coder/coder/pull/29668)
 
 ## 🧠 Engineering knowledge
 
