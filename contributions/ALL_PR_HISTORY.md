@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on September 23, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on September 24, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -8,8 +8,8 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 | Status | Count |
 |---|---:|
-| Merged upstream | 3 |
-| Open upstream | 19 |
+| Merged upstream | 5 |
+| Open upstream | 17 |
 | Open fork-side | 4 |
 | Closed without merge | 5 |
 | **External OSS PRs** | **31** |
@@ -19,11 +19,13 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [0xarchit/github-profile-analyzer #30 — Fix/impact score evidence](https://github.com/0xarchit/github-profile-analyzer/pull/30) — merged 2026-09-23
 - [eumemic/aios #2460 — preserve LiteLLM parameter translation](https://github.com/eumemic/aios/pull/2460) — merged 2026-09-23
 - [eumemic/aios #2457 — preserve length finish reason across streaming trailers](https://github.com/eumemic/aios/pull/2457) — merged 2026-09-23
+- [eumemic/aios #2459 — preserve timeout bound in child outcome](https://github.com/eumemic/aios/pull/2459) — merged 2026-09-24
+- [microsoft/PyRIT #2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — merged 2026-09-24
 
 ## Open upstream
 
 - [KARAN-D05/TopoCore #1 — detect repeated spatial execution states](https://github.com/KARAN-D05/TopoCore/pull/1)
-- [eumemic/aios #2459 — preserve timeout bound in child outcome](https://github.com/eumemic/aios/pull/2459)
+- [eumemic/aios #2458 — record streaming length as truncated output](https://github.com/eumemic/aios/pull/2458)
 - [eumemic/aios #2458 — record streaming length as truncated output](https://github.com/eumemic/aios/pull/2458)
 - [run-llama/llama_index #23201 — preserve retrieved scores during prev-next expansion](https://github.com/run-llama/llama_index/pull/23201)
 - [kirodotdev/KiroCrew #12861 — restore PDF search behind bounded extraction](https://github.com/kirodotdev/KiroCrew/pull/12861)
@@ -31,7 +33,6 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [cloudflare/quiche #2758 — verify peers with a custom CA](https://github.com/cloudflare/quiche/pull/2758)
 - [cloudflare/quiche #2756 — unify PTO-based timer duration](https://github.com/cloudflare/quiche/pull/2756)
 - [intellij-powershell/intellij-powershell #506 — resolve pwsh reparse point](https://github.com/intellij-powershell/intellij-powershell/pull/506)
-- [microsoft/PyRIT #2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762)
 - [open-telemetry/opentelemetry-erlang-contrib #822 — isolate spans across retries and redirects](https://github.com/open-telemetry/opentelemetry-erlang-contrib/pull/822)
 - [risingwavelabs/risingwave #27181 — inspect correlated refs in LogicalValues](https://github.com/risingwavelabs/risingwave/pull/27181)
 - [mvt-project/mvt #939 — STIX indicator equals](https://github.com/mvt-project/mvt/pull/939)
