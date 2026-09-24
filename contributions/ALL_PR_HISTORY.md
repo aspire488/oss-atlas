@@ -10,9 +10,9 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 |---|---:|
 | Merged upstream | 5 |
 | Open upstream | 17 |
-| Open fork-side | 4 |
+| Open fork-side | 5 |
 | Closed without merge | 5 |
-| **External OSS PRs** | **31** |
+| **External OSS PRs** | **32** |
 
 ## Merged upstream
 
@@ -48,6 +48,7 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [aspire488/garak #1 — handle unset soft prompt cap](https://github.com/aspire488/garak/pull/1)
 - [aspire488/RAMPART #1 — adaptive multi-turn XPIA execution](https://github.com/aspire488/RAMPART/pull/1)
 - [aspire488/PyRIT #1 — canonical technique names in scenario summaries](https://github.com/aspire488/PyRIT/pull/1)
+- [aspire488/typesafe-sdk-js #8 — reject timeout values above the Node timer maximum](https://github.com/aspire488/typesafe-sdk-js/tree/fix/timeout-32bit-overflow) — fork-side implementation; upstream PR creation restricted
 
 ## Closed without merge
 
