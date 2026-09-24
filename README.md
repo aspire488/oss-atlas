@@ -50,6 +50,14 @@ Snapshot date: **September 23, 2026**.
 - [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — refined evidence-weighted impact scoring
 
 ## 📌 September 24, 2026 update
+### 🔥 SiYuan MCP session recovery
+
+- **[SiYuan #19815](https://github.com/siyuan-note/siyuan/issues/19815)** — implemented missing-session recovery on [`aspire488/siyuan#1`](https://github.com/aspire488/siyuan/pull/1).
+- Distinguishes **`mcp.ErrSessionMissing`** from ambiguous transport failures, reconnects synchronously, and replays the affected tool call **once** after the session is recreated.
+- Connection resets, EOFs, timeouts, and similar ambiguous failures retain **execution-unknown / no automatic replay** behavior.
+- Added regression coverage for both safe one-time replay and ambiguous-disconnect no-replay behavior.
+- The fork PR is open; upstream PR creation is currently blocked by GitHub integration permissions, so this is recorded as **fork-side work, not upstream acceptance**.
+
 
 The latest OSS pass moved several tracked contributions from review-response work into concrete branch updates:
 
