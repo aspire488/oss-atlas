@@ -49,6 +49,21 @@ Snapshot date: **September 23, 2026**.
 - [aios #2460](https://github.com/eumemic/aios/pull/2460) — preserved LiteLLM parameter translation
 - [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — refined evidence-weighted impact scoring
 
+## 📌 September 24, 2026 update
+
+The latest OSS pass moved several tracked contributions from review-response work into concrete branch updates:
+
+| Project | Current engineering state |
+|---|---|
+| **RisingWave #27181** | Regression expanded through the `LogicalApply → ApplyEliminateRule → to_batch()` boundary with a multi-row `LogicalValues` case. |
+| **KiroCrew #12861** | PDF extraction hardened for Windows process limits and Python import isolation; child-protocol regression added. |
+| **aios #2458** | Remaining CI newline issues fixed. |
+| **aios #2459** | Remaining Ruff formatting issue fixed. |
+| **OpenHands #17579** | Implementation fixes are pushed; upstream PR automation still has a HUMAN-section gate. |
+| **OpenTelemetry Erlang #822** | Maintainer-requested rebase remains pending. |
+
+This snapshot intentionally records **engineering state**, not just PR count. A pushed fix is not treated as merged until upstream state confirms acceptance.
+
 ## 🔥 Active OSS work
 
 ### Microsoft PyRIT
