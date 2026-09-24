@@ -26,7 +26,7 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | [Case Studies](case-studies/README.md) | Deep evidence-backed analysis |
 | [Research](research/README.md) | Reviews, investigations, discussions |
 | [Learnings](learnings/README.md) | Reusable engineering lessons |
-| [2026-09-23 Snapshot](stats/2026-09-23.md) | Dated contribution-state snapshot |
+| [2026-09-24 Snapshot](stats/2026-09-24.md) | Dated contribution-state snapshot |
 | [Operating Model](docs/OPERATING_MODEL.md) | Evidence and maintenance rules |
 | [Automation](docs/AUTOMATION.md) | GitHub Actions and drift-audit contract |
 | [Roadmap](docs/ROADMAP.md) | Atlas implementation plan |
@@ -39,9 +39,9 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | Open upstream | **17** |
 | Open fork-side | **4** |
 | Closed without merge | **5** |
-| **External OSS PRs** | **32** |
+| **External OSS PRs** | **31** |
 
-Snapshot date: **September 23, 2026**.
+Snapshot date: **September 24, 2026**.
 
 ## 🏆 Recent upstream merges
 
@@ -65,7 +65,7 @@ The latest OSS pass moved several tracked contributions from review-response wor
 
 | Project | Current engineering state |
 |---|---|
-| **RisingWave #27181** | Regression expanded through the `LogicalApply → ApplyEliminateRule → to_batch()` boundary with a multi-row `LogicalValues` case. |
+| **RisingWave #27181** | Regression expanded through the `LogicalApply → ApplyEliminateRule → to_batch()` boundary with a multi-row `LogicalValues` case; test compile issue fixed with `ctx.clone()`. |
 | **KiroCrew #12861** | PDF extraction hardened for Windows process limits and Python import isolation; child-protocol regression added. |
 | **aios #2458** | Remaining CI newline issues fixed. |
 | **aios #2459** | **Merged upstream** — timeout-bound provenance (`deadline` vs `spend`) preserved with regression coverage. |
@@ -73,7 +73,7 @@ The latest OSS pass moved several tracked contributions from review-response wor
 | **OpenHands #17579** | Implementation fixes are pushed; upstream PR automation still has a HUMAN-section gate. |
 | **OpenTelemetry Erlang #822** | Maintainer-requested rebase remains pending. |
 
-This snapshot intentionally records **engineering state**, not just PR count. A pushed fix is not treated as merged until upstream state confirms acceptance.
+This snapshot intentionally records **engineering state**, not just PR count. A pushed fix is not treated as merged until upstream state confirms acceptance. Current external ledger: **5 merged upstream, 17 open upstream, 4 open fork-side, 5 closed without merge = 31 tracked external PRs**.
 
 ## 🔥 Active OSS work
 
