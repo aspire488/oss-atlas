@@ -26,7 +26,6 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 - [KARAN-D05/TopoCore #1 — detect repeated spatial execution states](https://github.com/KARAN-D05/TopoCore/pull/1)
 - [eumemic/aios #2458 — record streaming length as truncated output](https://github.com/eumemic/aios/pull/2458)
-- [eumemic/aios #2458 — record streaming length as truncated output](https://github.com/eumemic/aios/pull/2458)
 - [run-llama/llama_index #23201 — preserve retrieved scores during prev-next expansion](https://github.com/run-llama/llama_index/pull/23201)
 - [kirodotdev/KiroCrew #12861 — restore PDF search behind bounded extraction](https://github.com/kirodotdev/KiroCrew/pull/12861)
 - [cloudflare/quiche #2759 — ignore ACKs for non-in-flight packets](https://github.com/cloudflare/quiche/pull/2759)
