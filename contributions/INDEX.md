@@ -18,6 +18,8 @@
 ## Featured merged work
 
 - [aios #2457](https://github.com/eumemic/aios/pull/2457) — preserve streaming `finish_reason="length"`
+- [aios #2458](https://github.com/eumemic/aios/pull/2458) — preserve timeout bound provenance
+- [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — Dataset Summary API
 - [aios #2460](https://github.com/eumemic/aios/pull/2460) — preserve LiteLLM parameter translation
 - [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — evidence-weighted impact scoring
 - [gh-ops #1](https://github.com/aspire488/gh-ops/pull/1) — GitHub Actions CI validation
@@ -25,7 +27,7 @@
 ## Featured active work
 
 ### AI / security / agent tooling
-- [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — upstream, open
+- [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — merged upstream
 - [TopoCore #1](https://github.com/KARAN-D05/TopoCore/pull/1) — upstream, open
 - [garak #1](https://github.com/aspire488/garak/pull/1) — fork-side, open
 - [Inspect AI #1](https://github.com/aspire488/inspect_ai/pull/1) — fork-side, open
