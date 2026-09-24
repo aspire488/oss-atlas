@@ -36,10 +36,10 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | State | Count |
 |---|---:|
 | Merged upstream | **6** |
-| Open upstream | **18** |
+| Open upstream | **19** |
 | Open fork-side | **3** |
 | Closed without merge | **5** |
-| **External OSS PRs** | **31** |
+| **External OSS PRs** | **32** |
 
 Snapshot date: **September 24, 2026**.
 
@@ -78,6 +78,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - [aios #2459](https://github.com/eumemic/aios/pull/2459) — preserved the timeout bound (`deadline` vs `spend`) in child outcomes while keeping `kind="timeout"` compatible
 - [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — **merged upstream** after multiple substantive review rounds; final cleanup was lint-only before merge (merge commit `47c6151a`)
 - [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — refined evidence-weighted impact scoring
+- [NousResearch Hermes Agent #121771](https://github.com/NousResearch/hermes-agent/pull/121771) — desktop gateway stale-ref recovery with focused regression coverage
 
 ## 📌 September 24, 2026 update
 
@@ -85,6 +86,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 
 - **Microsoft PyRIT #2762** — **merged upstream**; dataset summary API accepted after multiple substantive review rounds. Merge commit: `47c6151a`.
 - **Microsoft PyRIT #2823** — **open upstream**; preserves non-empty HarmBench contextual behavior prompts with regression coverage.
+- **NousResearch Hermes Agent #121771** — **open upstream**; desktop gateway request recovery falls back to the active registry gateway when the hook ref is stale, with focused regression coverage.
 - **aios #2458** — **open upstream**; maintainer restored the independently reviewed tree as `58739aef` after a CI-format mismatch. The reviewed code is unchanged.
 - **RisingWave #27181** — **open upstream**; correlated-reference regression now exercises the real `LogicalApply → ApplyEliminateRule → to_batch()` boundary, including a non-first-row `LogicalValues` reference.
 - **KiroCrew #12861** — **open upstream**; bounded PDF extraction and child-process protocol handling hardened.
