@@ -47,10 +47,10 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | State | Count |
 |---|---:|
 | Merged upstream | **8** |
-| Open upstream | **18** |
+| Open upstream | **19** |
 | Open fork-side | **6** |
 | Closed without merge | **6** |
-| **External OSS PRs** | **38** |
+| **External OSS PRs** | **39** |
 
 Snapshot date: **September 25, 2026**.
 
@@ -102,10 +102,12 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 
 ### 🔥 Current OSS state
 
+- **NVIDIA garak #2234** — **open upstream**; fixes paraphrase compatibility with newer Transformers by removing the deprecated custom-generation dependency and `trust_remote_code`, with focused regression coverage.
 - **Microsoft PyRIT #2762** — **merged upstream**; dataset summary API accepted after multiple substantive review rounds. Merge commit: `47c6151a`.
 - **Microsoft PyRIT #2823** — **merged upstream**; preserves non-empty HarmBench contextual behavior prompts with regression coverage. Merge commit: `940a8efabb404d80f6a716c5e641d81809d8972a`.
 - **NousResearch Hermes Agent #121771** — **open upstream**; desktop gateway request recovery falls back to the active registry gateway when the hook ref is stale, with focused regression coverage.
 - **collective/icalendar #1835** — **open upstream**; resolves inconsistent `DTEND` + `DURATION` handling with focused regression coverage.
+- **NVIDIA garak #2234** — **open upstream**; removes the deprecated `transformers-community/group-beam-search` custom-generation path and `trust_remote_code` requirement from the `Fast` paraphrase buff, retaining native group-beam-search parameters with regression coverage.
 - **aios #2458** — **merged upstream** on September 24, 2026; records provider `finish_reason="length"` as `output_truncated=true` with streaming regression coverage. Merge commit: `fe051b2c`.
 - **RisingWave #27181** — **open upstream**; correlated-reference regression now exercises the real `LogicalApply → ApplyEliminateRule → to_batch()` boundary, including a non-first-row `LogicalValues` reference.
 - **KiroCrew #12861** — **open upstream**; bounded PDF extraction and child-process protocol handling hardened.
