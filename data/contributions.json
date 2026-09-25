@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-09-24",
+  "observed_at": "2026-09-25",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
-    "total": 31,
-    "merged": 6,
-    "open_upstream": 16,
-    "open_fork": 4,
-    "closed": 5
+    "total": 36,
+    "merged": 7,
+    "open_upstream": 17,
+    "open_fork": 6,
+    "closed": 6
   },
   "contributions": [
     {
@@ -96,8 +96,8 @@
       "owner": "kirodotdev",
       "repository": "KiroCrew",
       "pr": 12861,
-      "status": "open_upstream",
-      "summary": "",
+      "status": "closed",
+      "summary": "closed 2026-09-25; superseded by #12925",
       "source": "github"
     },
     {
@@ -350,6 +350,62 @@
       "repository": "clicky",
       "pr": 72,
       "status": "closed",
+      "summary": "",
+      "source": "github"
+    },
+    {
+      "id": "microsoft/PyRIT#2823",
+      "title": "microsoft/PyRIT #2823 — preserve HarmBench context string",
+      "url": "https://github.com/microsoft/PyRIT/pull/2823",
+      "owner": "microsoft",
+      "repository": "PyRIT",
+      "pr": 2823,
+      "status": "merged",
+      "summary": "merged 2026-09-25",
+      "source": "github",
+      "merge_commit": "940a8efabb404d80f6a716c5e641d81809d8972a"
+    },
+    {
+      "id": "NousResearch/hermes-agent#121771",
+      "title": "NousResearch/hermes-agent #121771 — desktop gateway stale-ref recovery",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/121771",
+      "owner": "NousResearch",
+      "repository": "hermes-agent",
+      "pr": 121771,
+      "status": "open_upstream",
+      "summary": "",
+      "source": "github"
+    },
+    {
+      "id": "aspire488/siyuan#1",
+      "title": "aspire488/siyuan #1 — recover expired MCP sessions without unsafe replay",
+      "url": "https://github.com/aspire488/siyuan/pull/1",
+      "owner": "aspire488",
+      "repository": "siyuan",
+      "pr": 1,
+      "status": "open_fork",
+      "summary": "",
+      "source": "github"
+    },
+    {
+      "id": "aspire488/linguist#1",
+      "title": "aspire488/linguist #1 — trim .example suffix before language detection",
+      "url": "https://github.com/aspire488/linguist/pull/1",
+      "owner": "aspire488",
+      "repository": "linguist",
+      "pr": 1,
+      "status": "open_fork",
+      "summary": "",
+      "source": "github"
+    },
+    {
+      "id": "Agent-Field/agentfield#1073",
+      "title": "Agent-Field/agentfield #1073 — Go harness factory tests",
+      "url": "https://github.com/Agent-Field/agentfield/pull/1073",
+      "owner": "Agent-Field",
+      "repository": "agentfield",
+      "pr": 1073,
+      "status": "open_upstream",
       "summary": "",
       "source": "github"
     }
