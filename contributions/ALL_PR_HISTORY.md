@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on September 24, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on September 25, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -8,11 +8,11 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 | Status | Count |
 |---|---:|
-| Merged upstream | 6 |
-| Open upstream | 16 |
-| Open fork-side | 4 |
-| Closed without merge | 5 |
-| **External OSS PRs** | **31** |
+| Merged upstream | 7 |
+| Open upstream | 17 |
+| Open fork-side | 6 |
+| Closed without merge | 6 |
+| **External OSS PRs** | **36** |
 
 ## Merged upstream
 
@@ -22,12 +22,14 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [eumemic/aios #2459 — preserve timeout bound in child outcome](https://github.com/eumemic/aios/pull/2459) — merged 2026-09-24
 - [microsoft/PyRIT #2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — merged 2026-09-24
 - [eumemic/aios #2458 — record streaming length as truncated output](https://github.com/eumemic/aios/pull/2458) — merged 2026-09-24 (merge commit `fe051b2c`)
+- [microsoft/PyRIT #2823 — preserve HarmBench context string](https://github.com/microsoft/PyRIT/pull/2823) — merged 2026-09-25 (merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`)
 
 ## Open upstream
 
 - [KARAN-D05/TopoCore #1 — detect repeated spatial execution states](https://github.com/KARAN-D05/TopoCore/pull/1)
 - [run-llama/llama_index #23201 — preserve retrieved scores during prev-next expansion](https://github.com/run-llama/llama_index/pull/23201)
-- [kirodotdev/KiroCrew #12861 — restore PDF search behind bounded extraction](https://github.com/kirodotdev/KiroCrew/pull/12861)
+- [NousResearch/hermes-agent #121771 — desktop gateway stale-ref recovery](https://github.com/NousResearch/hermes-agent/pull/121771)
+- [Agent-Field/agentfield #1073 — Go harness factory tests](https://github.com/Agent-Field/agentfield/pull/1073)
 - [cloudflare/quiche #2759 — ignore ACKs for non-in-flight packets](https://github.com/cloudflare/quiche/pull/2759)
 - [cloudflare/quiche #2758 — verify peers with a custom CA](https://github.com/cloudflare/quiche/pull/2758)
 - [cloudflare/quiche #2756 — unify PTO-based timer duration](https://github.com/cloudflare/quiche/pull/2756)
@@ -44,12 +46,17 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 ## Open fork-side OSS work
 
+- [aspire488/siyuan #1 — recover expired MCP sessions without unsafe replay](https://github.com/aspire488/siyuan/pull/1)
+- [aspire488/linguist #1 — trim .example suffix before language detection](https://github.com/aspire488/linguist/pull/1)
+
 - [aspire488/inspect_ai #1 — base64 encode Google inline image bytes](https://github.com/aspire488/inspect_ai/pull/1)
 - [aspire488/garak #1 — handle unset soft prompt cap](https://github.com/aspire488/garak/pull/1)
 - [aspire488/RAMPART #1 — adaptive multi-turn XPIA execution](https://github.com/aspire488/RAMPART/pull/1)
 - [aspire488/PyRIT #1 — canonical technique names in scenario summaries](https://github.com/aspire488/PyRIT/pull/1)
 
 ## Closed without merge
+
+- [kirodotdev/KiroCrew #12861 — restore PDF search behind bounded extraction](https://github.com/kirodotdev/KiroCrew/pull/12861) — closed 2026-09-25; superseded by #12925
 
 - [uutils/coreutils #14812 — preserve canonical quoting style in dired metadata](https://github.com/uutils/coreutils/pull/14812)
 - [microsoft/PyRIT #2743 — garak exploitation scenario](https://github.com/microsoft/PyRIT/pull/2743)
