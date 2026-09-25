@@ -1,12 +1,12 @@
-# 🏆 Featured Upstream Contribution — Microsoft PyRIT #2762
+# 🏆 Featured Upstream Contributions — Microsoft PyRIT
 
-> ## **Dataset Summary API — MERGED UPSTREAM**
+> ## **Two PRs — Both MERGED UPSTREAM**
 >
-> **September 24, 2026 · Microsoft PyRIT · Merge commit `47c6151a`**
+> **#2762 — Dataset Summary API** · September 24, 2026 · merge commit `47c6151a`
 >
-> A maintainer-reviewed contribution that added memory-backed dataset summaries and survived multiple refinement rounds around aggregation correctness, dataset identity, SQLite collation behavior, selection-key isolation, metadata query controls, `loaded_only`, and regression coverage.
+> **#2823 — HarmBench context preservation** · September 25, 2026 · merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`
 >
-> **This is the flagship merged contribution in the current OSS track.**
+> Together, these are two separate accepted upstream contributions to Microsoft's open-source AI red-teaming framework, spanning backend feature work and regression-focused behavior preservation.
 
 ---
 
@@ -85,12 +85,17 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 
 ## 🏆 Recent upstream merges
 
+### 🔥 Microsoft PyRIT — two merged upstream contributions
+
+- [PyRIT #2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — **MERGED UPSTREAM · September 24, 2026**; memory-backed dataset summaries with multiple substantive review rounds covering aggregation, dataset identity, SQLite behavior, selection-key isolation, metadata query controls, `loaded_only`, and regression coverage. Merge commit `47c6151a`.
+- [PyRIT #2823 — HarmBench context preservation](https://github.com/microsoft/PyRIT/pull/2823) — **MERGED UPSTREAM · September 25, 2026**; preserves non-empty HarmBench `ContextString` in behavior prompts, retains context metadata, and adds regression coverage. Merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`.
+
+**PyRIT track record:** 2 separate upstream PRs merged into Microsoft's AI red-teaming framework.
+
 - [aios #2457](https://github.com/eumemic/aios/pull/2457) — preserved streaming length termination semantics
 - [aios #2460](https://github.com/eumemic/aios/pull/2460) — preserved LiteLLM parameter translation
 - [aios #2459](https://github.com/eumemic/aios/pull/2459) — preserved the timeout bound (`deadline` vs `spend`) in child outcomes while keeping `kind="timeout"` compatible
-- [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — **merged upstream** after multiple substantive review rounds; final cleanup was lint-only before merge (merge commit `47c6151a`)
 - [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — refined evidence-weighted impact scoring
-- [Microsoft PyRIT #2823](https://github.com/microsoft/PyRIT/pull/2823) — **merged upstream**; preserves non-empty HarmBench ContextString in behavior prompts with regression coverage (merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`)
 - [NousResearch Hermes Agent #121771](https://github.com/NousResearch/hermes-agent/pull/121771) — desktop gateway stale-ref recovery with focused regression coverage
 
 ## 📌 September 24, 2026 update
