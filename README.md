@@ -89,6 +89,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 
 - [PyRIT #2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — **MERGED UPSTREAM · September 24, 2026**; memory-backed dataset summaries with multiple substantive review rounds covering aggregation, dataset identity, SQLite behavior, selection-key isolation, metadata query controls, `loaded_only`, and regression coverage. Merge commit `47c6151a`.
 - [PyRIT #2823 — HarmBench context preservation](https://github.com/microsoft/PyRIT/pull/2823) — **MERGED UPSTREAM · September 25, 2026**; preserves non-empty HarmBench `ContextString` in behavior prompts, retains context metadata, and adds regression coverage. Merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`.
+- [Microsoft RAMPART #2 — Generic PyRIT converter bridge](https://github.com/aspire488/RAMPART/pull/2) — **open upstream fork-side proposal · September 25, 2026**; implements the documented PyRIT PromptConverter → RAMPART PayloadConverter bridge for text-to-text converters, preserving payload identity/metadata with focused regression coverage.
 
 **PyRIT track record:** 2 separate upstream PRs merged into Microsoft's AI red-teaming framework.
 
@@ -123,6 +124,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - **garak #1** — unset `soft_probe_prompt_cap=None` handling in `IterativeProbe`.
 - **Inspect AI #1** — base64 encoding for Google inline-image bytes.
 - **RAMPART #1** — adaptive multi-turn XPIA execution.
+- **RAMPART #2** — generic PyRIT converter bridge; text-to-text adapter with focused regression coverage.
 - **PyRIT fork #1** — canonical technique names in scenario run summaries.
 
 > **Evidence rule:** merged means upstream accepted it; open means the PR is still under review/CI; fork-side means the work exists on a fork and is not represented as upstream acceptance.
