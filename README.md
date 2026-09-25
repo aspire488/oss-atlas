@@ -122,6 +122,23 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 > **Evidence rule:** merged means upstream accepted it; open means the PR is still under review/CI; fork-side means the work exists on a fork and is not represented as upstream acceptance.
 
 
+## 📅 September 25, 2026 — Ledger refresh
+
+The Atlas has been reconciled against the current PR state.
+
+- **PyRIT #2823** — implementation and regression coverage are complete; the current head is maintainer-approved. The remaining visible blocker is GitHub Actions approval for the fork workflow, not an identified code defect.
+- **Hermes Agent #121771** — hardened stale gateway recovery so an open state is trusted only when the registered gateway socket is actually open; added a reconnect-and-retry regression test. Bot Mode's separate requestOnPrimaryGateway path remains outside this focused fix.
+- **RisingWave #27181** — latest requested regression and ctx.clone() compile issue were addressed; no new actionable review work is visible.
+- **SiYuan #1, TopoCore #1, Inspect AI #1, MVT #939, quiche #2756/#2758/#2759, Linguist #1, AI Platform AWS #4, Agent-Bench #8, GoalAI #1** — no new code changes required from the latest review/status pass; these remain maintainer/deployment waiting states.
+
+### Evidence boundary
+
+- **Merged upstream** is reserved for upstream-accepted work.
+- **Open upstream** means the contribution remains under review or CI.
+- **Fork-side** means the work exists on a fork without an upstream acceptance claim.
+- **Waiting** is not presented as a technical failure.
+
+The ledger is intentionally evidence-first: no activity is manufactured just to make the contribution count look larger.
 ## 🧠 Engineering knowledge
 
 ### Case studies
