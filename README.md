@@ -85,6 +85,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 ## 🏆 Recent upstream merges
 
 ### 🔥 Microsoft PyRIT — two merged upstream contributions
+- **New open proposal:** [PyRIT #3](https://github.com/aspire488/PyRIT/pull/3) — targets upstream issue [#2835](https://github.com/microsoft/PyRIT/issues/2835), fixing ObjectiveScorerEvaluator so `[user, assistant]` conversations retain all turns in memory but score only the assistant response, with regression coverage.
 
 - [PyRIT #2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — **MERGED UPSTREAM · September 24, 2026**; memory-backed dataset summaries with multiple substantive review rounds covering aggregation, dataset identity, SQLite behavior, selection-key isolation, metadata query controls, `loaded_only`, and regression coverage. Merge commit `47c6151a`.
 - [PyRIT #2823 — HarmBench context preservation](https://github.com/microsoft/PyRIT/pull/2823) — **MERGED UPSTREAM · September 25, 2026**; preserves non-empty HarmBench `ContextString` in behavior prompts, retains context metadata, and adds regression coverage. Merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`.
