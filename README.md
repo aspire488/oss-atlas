@@ -1,13 +1,12 @@
 # 🏆 Featured Upstream Contributions — Microsoft PyRIT
 
-> ## **Three PRs — All MERGED UPSTREAM**
+> ## **Two PRs — Both MERGED UPSTREAM**
 >
 > **#2762 — Dataset Summary API** · September 24, 2026 · merge commit `47c6151a`
 >
 > **#2823 — HarmBench context preservation** · September 25, 2026 · merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`
 >
-> Together, these are three separate accepted upstream contributions to Microsoft's open-source AI red-teaming framework, spanning backend feature work and regression-focused behavior preservation.
-
+> Together, these are two separate accepted upstream contributions to Microsoft's open-source AI red-teaming framework, spanning backend feature work and regression-focused behavior preservation.
 ---
 
 <p align="center">
@@ -51,7 +50,7 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | Open upstream | **17** |
 | Open fork-side | **6** |
 | Closed without merge | **6** |
-| **External OSS PRs** | **36** |
+| **External OSS PRs** | **37** |
 
 Snapshot date: **September 25, 2026**.
 
