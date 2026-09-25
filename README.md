@@ -47,13 +47,13 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 
 | State | Count |
 |---|---:|
-| Merged upstream | **6** |
-| Open upstream | **19** |
+| Merged upstream | **7** |
+| Open upstream | **18** |
 | Open fork-side | **3** |
 | Closed without merge | **5** |
 | **External OSS PRs** | **32** |
 
-Snapshot date: **September 24, 2026**.
+Snapshot date: **September 25, 2026**.
 
 ## 📈 OSS Atlas Dashboard
 
@@ -90,6 +90,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - [aios #2459](https://github.com/eumemic/aios/pull/2459) — preserved the timeout bound (`deadline` vs `spend`) in child outcomes while keeping `kind="timeout"` compatible
 - [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — **merged upstream** after multiple substantive review rounds; final cleanup was lint-only before merge (merge commit `47c6151a`)
 - [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — refined evidence-weighted impact scoring
+- [Microsoft PyRIT #2823](https://github.com/microsoft/PyRIT/pull/2823) — **merged upstream**; preserves non-empty HarmBench ContextString in behavior prompts with regression coverage (merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`)
 - [NousResearch Hermes Agent #121771](https://github.com/NousResearch/hermes-agent/pull/121771) — desktop gateway stale-ref recovery with focused regression coverage
 
 ## 📌 September 24, 2026 update
@@ -126,7 +127,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 
 The Atlas has been reconciled against the current PR state.
 
-- **PyRIT #2823** — implementation and regression coverage are complete; the current head is maintainer-approved. The remaining visible blocker is GitHub Actions approval for the fork workflow, not an identified code defect.
+- **PyRIT #2823** — **merged upstream** on September 25, 2026. Merge commit: `940a8efabb404d80f6a716c5e641d81809d8972a`. Preserves non-empty HarmBench ContextString in behavior prompts, retains context metadata, and adds regression coverage.
 - **Hermes Agent #121771** — hardened stale gateway recovery so an open state is trusted only when the registered gateway socket is actually open; added a reconnect-and-retry regression test. Bot Mode's separate requestOnPrimaryGateway path remains outside this focused fix.
 - **RisingWave #27181** — latest requested regression and ctx.clone() compile issue were addressed; no new actionable review work is visible.
 - **SiYuan #1, TopoCore #1, Inspect AI #1, MVT #939, quiche #2756/#2758/#2759, Linguist #1, AI Platform AWS #4, Agent-Bench #8, GoalAI #1** — no new code changes required from the latest review/status pass; these remain maintainer/deployment waiting states.
