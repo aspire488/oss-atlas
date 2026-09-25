@@ -1,12 +1,12 @@
 # 🏆 Featured Upstream Contributions — Microsoft PyRIT
 
-> ## **Two PRs — Both MERGED UPSTREAM**
+> ## **Three PRs — All MERGED UPSTREAM**
 >
 > **#2762 — Dataset Summary API** · September 24, 2026 · merge commit `47c6151a`
 >
 > **#2823 — HarmBench context preservation** · September 25, 2026 · merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`
 >
-> Together, these are two separate accepted upstream contributions to Microsoft's open-source AI red-teaming framework, spanning backend feature work and regression-focused behavior preservation.
+> Together, these are three separate accepted upstream contributions to Microsoft's open-source AI red-teaming framework, spanning backend feature work and regression-focused behavior preservation.
 
 ---
 
@@ -47,7 +47,7 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 
 | State | Count |
 |---|---:|
-| Merged upstream | **7** |
+| Merged upstream | **8** |
 | Open upstream | **17** |
 | Open fork-side | **6** |
 | Closed without merge | **6** |
@@ -85,19 +85,17 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 
 ## 🏆 Recent upstream merges
 
-### 🔥 Microsoft PyRIT — two merged upstream contributions
+### 🔥 Microsoft PyRIT — three merged upstream contributions
 
 - [PyRIT #2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — **MERGED UPSTREAM · September 24, 2026**; memory-backed dataset summaries with multiple substantive review rounds covering aggregation, dataset identity, SQLite behavior, selection-key isolation, metadata query controls, `loaded_only`, and regression coverage. Merge commit `47c6151a`.
 - [PyRIT #2823 — HarmBench context preservation](https://github.com/microsoft/PyRIT/pull/2823) — **MERGED UPSTREAM · September 25, 2026**; preserves non-empty HarmBench `ContextString` in behavior prompts, retains context metadata, and adds regression coverage. Merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`.
 
-**PyRIT track record:** 2 separate upstream PRs merged into Microsoft's AI red-teaming framework.
+**PyRIT track record:** 3 separate upstream PRs merged into Microsoft's AI red-teaming framework.
 
 - [aios #2457](https://github.com/eumemic/aios/pull/2457) — preserved streaming length termination semantics
 - [aios #2460](https://github.com/eumemic/aios/pull/2460) — preserved LiteLLM parameter translation
 - [aios #2459](https://github.com/eumemic/aios/pull/2459) — preserved the timeout bound (`deadline` vs `spend`) in child outcomes while keeping `kind="timeout"` compatible
 - [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — refined evidence-weighted impact scoring
-- [NousResearch Hermes Agent #121771](https://github.com/NousResearch/hermes-agent/pull/121771) — desktop gateway stale-ref recovery with focused regression coverage
-- [AgentField #1073](https://github.com/Agent-Field/agentfield/pull/1073) — Go harness factory regression coverage
 
 ## 📌 September 25, 2026 update
 
@@ -106,7 +104,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - **Microsoft PyRIT #2762** — **merged upstream**; dataset summary API accepted after multiple substantive review rounds. Merge commit: `47c6151a`.
 - **Microsoft PyRIT #2823** — **merged upstream**; preserves non-empty HarmBench contextual behavior prompts with regression coverage. Merge commit: `940a8efabb404d80f6a716c5e641d81809d8972a`.
 - **NousResearch Hermes Agent #121771** — **open upstream**; desktop gateway request recovery falls back to the active registry gateway when the hook ref is stale, with focused regression coverage.
-- **aios #2458** — **open upstream**; maintainer restored the independently reviewed tree as `58739aef` after a CI-format mismatch. The reviewed code is unchanged.
+- **aios #2458** — **merged upstream** on September 24, 2026; records provider `finish_reason="length"` as `output_truncated=true` with streaming regression coverage. Merge commit: `fe051b2c`.
 - **RisingWave #27181** — **open upstream**; correlated-reference regression now exercises the real `LogicalApply → ApplyEliminateRule → to_batch()` boundary, including a non-first-row `LogicalValues` reference.
 - **KiroCrew #12861** — **open upstream**; bounded PDF extraction and child-process protocol handling hardened.
 - **TopoCore #1** — **open upstream**; deterministic cycle detection added for repeated spatial execution states.
