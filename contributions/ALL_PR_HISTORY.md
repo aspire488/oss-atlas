@@ -9,10 +9,10 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 | Status | Count |
 |---|---:|
 | Merged upstream | 9 |
-| Open upstream | 15 |
+| Open upstream | 22 |
 | Open fork-side | 6 |
-| Closed without merge | 6 |
-| **External OSS PRs** | **36** |
+| Closed without merge | 7 |
+| **External OSS PRs** | **38** |
 
 ## Merged upstream
 
@@ -27,6 +27,13 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [Agent-Field/agentfield #1073 — Go harness factory tests](https://github.com/Agent-Field/agentfield/pull/1073) — merged 2026-09-26 (merge commit `13b44603e2fb09a5d1817e8d2d0f64f3a40041fa`)
 
 ## Open upstream
+- [NVIDIA/garak #2234 — Fix/paraphrase transformers compat](https://github.com/NVIDIA/garak/pull/2234)
+- [NousResearch/hermes-agent #123846 — fix(batch): accept Fire tuple args and numeric run names](https://github.com/NousResearch/hermes-agent/pull/123846)
+- [NousResearch/hermes-agent #123850 — fix(batch): keep tool-search bridge trajectories](https://github.com/NousResearch/hermes-agent/pull/123850)
+- [Younesfdj/gitfut #125 — Fix/active years from contributions](https://github.com/Younesfdj/gitfut/pull/125)
+- [collective/icalendar #1835 — Fix/start end duration mismatch](https://github.com/collective/icalendar/pull/1835)
+- [microsoft/PyRIT #2882 — Fix/exact text matching empty target](https://github.com/microsoft/PyRIT/pull/2882)
+- [run-llama/llama_index #23260 — fix(postprocessor): preserve retrieved scores during prev/next expansion](https://github.com/run-llama/llama_index/pull/23260)
 
 - [KARAN-D05/TopoCore #1 — detect repeated spatial execution states](https://github.com/KARAN-D05/TopoCore/pull/1)
 - [run-llama/llama_index #23201 — preserve retrieved scores during prev-next expansion](https://github.com/run-llama/llama_index/pull/23201)
@@ -55,6 +62,8 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [aspire488/PyRIT #1 — canonical technique names in scenario summaries](https://github.com/aspire488/PyRIT/pull/1)
 
 ## Closed without merge
+
+- [pydantic/pydantic-ai #8823 — perf: avoid redundant RunContext copy when validation context is unset](https://github.com/pydantic/pydantic-ai/pull/8823)
 
 - [kirodotdev/KiroCrew #12861 — restore PDF search behind bounded extraction](https://github.com/kirodotdev/KiroCrew/pull/12861) — closed 2026-09-25; superseded by #12925
 
