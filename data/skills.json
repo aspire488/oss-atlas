@@ -5,42 +5,78 @@
     {
       "id": "python-backend",
       "label": "Python backend engineering",
-      "evidence": ["microsoft/PyRIT#2762", "eumemic/aios#2457", "eumemic/aios#2458", "eumemic/aios#2459", "OpenHands/OpenHands#17579"]
+      "evidence": [
+        "microsoft/PyRIT#2762",
+        "eumemic/aios#2457",
+        "eumemic/aios#2458",
+        "eumemic/aios#2459",
+        "OpenHands/OpenHands#17579"
+      ]
     },
     {
       "id": "data-and-database-correctness",
       "label": "Relational aggregation and data correctness",
-      "evidence": ["microsoft/PyRIT#2762"]
+      "evidence": [
+        "microsoft/PyRIT#2762"
+      ]
     },
     {
       "id": "streaming-and-runtime-semantics",
       "label": "Streaming and runtime semantics",
-      "evidence": ["eumemic/aios#2457", "eumemic/aios#2458", "eumemic/aios#2459"]
+      "evidence": [
+        "eumemic/aios#2457",
+        "eumemic/aios#2458",
+        "eumemic/aios#2459"
+      ]
     },
     {
       "id": "ai-security",
       "label": "AI security and evaluation systems",
-      "evidence": ["microsoft/PyRIT#2762", "aspire488/PyRIT#1", "aspire488/garak#1", "aspire488/RAMPART#1", "aspire488/inspect_ai#1"]
+      "evidence": [
+        "microsoft/PyRIT#2762"
+      ]
     },
     {
       "id": "systems-infrastructure",
       "label": "Systems and infrastructure engineering",
-      "evidence": ["cloudflare/quiche#2756", "cloudflare/quiche#2758", "cloudflare/quiche#2759", "risingwavelabs/risingwave#27181", "open-telemetry/opentelemetry-erlang-contrib#822"]
+      "evidence": [
+        "cloudflare/quiche#2756",
+        "cloudflare/quiche#2758",
+        "cloudflare/quiche#2759",
+        "risingwavelabs/risingwave#27181",
+        "open-telemetry/opentelemetry-erlang-contrib#822"
+      ]
     },
     {
       "id": "developer-tooling",
       "label": "Developer tooling and engineering UX",
-      "evidence": ["run-llama/llama_index#23201", "kirodotdev/KiroCrew#12861", "OpenHands/OpenHands#17579", "PicadoLabs/agent-bench#8", "coder/coder#29668"]
+      "evidence": [
+        "run-llama/llama_index#23201",
+        "kirodotdev/KiroCrew#12861",
+        "OpenHands/OpenHands#17579",
+        "PicadoLabs/agent-bench#8",
+        "coder/coder#29668"
+      ]
     },
     {
       "id": "testing-and-regression-design",
       "label": "Regression testing and verification",
-      "evidence": ["microsoft/PyRIT#2762", "RajX-dev/N3MO#39", "eumemic/aios#2457", "eumemic/aios#2458", "eumemic/aios#2459"]
+      "evidence": [
+        "microsoft/PyRIT#2762",
+        "RajX-dev/N3MO#39",
+        "eumemic/aios#2457",
+        "eumemic/aios#2458",
+        "eumemic/aios#2459"
+      ]
     },
     {
       "id": "oss-review-and-maintainer-collaboration",
       "label": "OSS review-driven engineering",
-      "evidence": ["microsoft/PyRIT#2762", "eumemic/aios#2457", "eumemic/aios#2460"]
+      "evidence": [
+        "microsoft/PyRIT#2762",
+        "eumemic/aios#2457",
+        "eumemic/aios#2460"
+      ]
     }
   ]
 }
