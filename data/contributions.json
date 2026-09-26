@@ -5,8 +5,8 @@
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
     "total": 36,
-    "merged": 8,
-    "open_upstream": 16,
+    "merged": 9,
+    "open_upstream": 15,
     "open_fork": 6,
     "closed": 6
   },
@@ -406,9 +406,10 @@
       "owner": "Agent-Field",
       "repository": "agentfield",
       "pr": 1073,
-      "status": "open_upstream",
-      "summary": "",
-      "source": "github"
+      "status": "merged",
+      "summary": "merged 2026-09-26",
+      "source": "github",
+      "merge_commit": "13b44603e2fb09a5d1817e8d2d0f64f3a40041fa"
     }
   ]
 }
