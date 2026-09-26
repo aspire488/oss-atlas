@@ -37,7 +37,7 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | [Case Studies](case-studies/README.md) | Deep evidence-backed analysis |
 | [Research](research/README.md) | Reviews, investigations, discussions |
 | [Learnings](learnings/README.md) | Reusable engineering lessons |
-| [2026-09-25 Ledger](contributions/ALL_PR_HISTORY.md) | Dated contribution-state snapshot |
+| [2026-09-26 Ledger](contributions/ALL_PR_HISTORY.md) | Dated contribution-state snapshot |
 | [Operating Model](docs/OPERATING_MODEL.md) | Evidence and maintenance rules |
 | [Automation](docs/AUTOMATION.md) | GitHub Actions and drift-audit contract |
 | [Roadmap](docs/ROADMAP.md) | Atlas implementation plan |
@@ -46,11 +46,11 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 
 | State | Count |
 |---|---:|
-| Merged upstream | **9** |
+| Merged upstream | **8** |
 | Open upstream | **19** |
 | Open fork-side | **7** |
 | Closed without merge | **6** |
-| **External OSS PRs** | **41** |
+| **External OSS PRs** | **40** |
 
 Snapshot date: **September 26, 2026**.
 
