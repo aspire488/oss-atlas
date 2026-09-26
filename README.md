@@ -47,10 +47,10 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | State | Count |
 |---|---:|
 | Merged upstream | **9** |
-| Open upstream | **18** |
+| Open upstream | **19** |
 | Open fork-side | **7** |
 | Closed without merge | **6** |
-| **External OSS PRs** | **40** |
+| **External OSS PRs** | **41** |
 
 Snapshot date: **September 26, 2026**.
 
@@ -100,6 +100,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - [aios #2460](https://github.com/eumemic/aios/pull/2460) — preserved LiteLLM parameter translation
 - [aios #2459](https://github.com/eumemic/aios/pull/2459) — preserved the timeout bound (`deadline` vs `spend`) in child outcomes while keeping `kind="timeout"` compatible
 - [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — refined evidence-weighted impact scoring
+- [GitFut #125](https://github.com/Younesfdj/gitfut/pull/125) — open upstream; derives active years from annual GitHub contribution windows instead of owned-repository timestamps, with focused regression coverage.
 
 ## 📌 September 25, 2026 update
 
@@ -137,6 +138,11 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 
 
 ## 📅 September 26, 2026 — Ledger refresh
+
+### GitFut #125 opened upstream
+
+- **Younesfdj/gitfut #125** — **open upstream on September 26, 2026**; derives `active_years` from annual GitHub contribution windows rather than owned-repository timestamps, covering organization-only activity and unavailable annual windows with focused tests.
+
 
 ### Agent-Bench #8 merged upstream
 
