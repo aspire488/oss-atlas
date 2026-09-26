@@ -46,13 +46,13 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 
 | State | Count |
 |---|---:|
-| Merged upstream | **8** |
-| Open upstream | **19** |
+| Merged upstream | **9** |
+| Open upstream | **18** |
 | Open fork-side | **7** |
 | Closed without merge | **6** |
 | **External OSS PRs** | **40** |
 
-Snapshot date: **September 25, 2026**.
+Snapshot date: **September 26, 2026**.
 
 ## 📈 OSS Atlas Dashboard
 
@@ -88,6 +88,8 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - **Prepared fork-side fix:** [PyRIT #2839](https://github.com/microsoft/PyRIT/issues/2839) — fixes `TemplateSegmentConverter` sampling when a prompt has fewer words than template parameters, with focused regression coverage. Branch: [aspire488/PyRIT `fix/template-segment-short-prompts`](https://github.com/aspire488/PyRIT/tree/fix/template-segment-short-prompts). Upstream PR creation is currently blocked by the GitHub integration permission boundary, so this remains fork-side prepared work.
 - **New open proposal:** [PyRIT #3](https://github.com/aspire488/PyRIT/pull/3) — targets upstream issue [#2835](https://github.com/microsoft/PyRIT/issues/2835), fixing ObjectiveScorerEvaluator so `[user, assistant]` conversations retain all turns in memory but score only the assistant response, with regression coverage.
 
+- [PicadoLabs Agent-Bench #8 — Global command palette](https://github.com/PicadoLabs/agent-bench/pull/8)  
+  **Merged upstream on September 26, 2026** after maintainer review. The command palette implementation was approved with the build passing; the maintainer also pushed a small refactor switching the trigger from `useEffect` to `onClick`.
 - [PyRIT #2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — **MERGED UPSTREAM · September 24, 2026**; memory-backed dataset summaries with multiple substantive review rounds covering aggregation, dataset identity, SQLite behavior, selection-key isolation, metadata query controls, `loaded_only`, and regression coverage. Merge commit `47c6151a`.
 - [PyRIT #2823 — HarmBench context preservation](https://github.com/microsoft/PyRIT/pull/2823) — **MERGED UPSTREAM · September 25, 2026**; preserves non-empty HarmBench `ContextString` in behavior prompts, retains context metadata, and adds regression coverage. Merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`.
 - [Microsoft RAMPART #2 — Generic PyRIT converter bridge](https://github.com/aspire488/RAMPART/pull/2) — **open upstream fork-side proposal · September 25, 2026**; implements the documented PyRIT PromptConverter → RAMPART PayloadConverter bridge for text-to-text converters, preserving payload identity/metadata with focused regression coverage.
@@ -136,6 +138,10 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 
 ## 📅 September 26, 2026 — Ledger refresh
 
+### Agent-Bench #8 merged upstream
+
+- **PicadoLabs/agent-bench #8** — **merged upstream on September 26, 2026** after approval. The reviewer confirmed the command palette implementation looked good and the build passed; a small `useEffect` → `onClick` trigger refactor was pushed before merge.
+
 ### New prepared PyRIT work
 
 - **PyRIT #2839** — prepared fork-side fix for `TemplateSegmentConverter` when the prompt has fewer words than template parameters. The production change is one line; regression coverage was added for the two-word/three-parameter case. It is not labeled as upstream acceptance because the PR could not be created through the current integration.
@@ -149,7 +155,7 @@ The Atlas has been reconciled against the current PR state.
 - **PyRIT #2823** — **merged upstream** on September 25, 2026. Merge commit: `940a8efabb404d80f6a716c5e641d81809d8972a`. Preserves non-empty HarmBench ContextString in behavior prompts, retains context metadata, and adds regression coverage.
 - **Hermes Agent #121771** — hardened stale gateway recovery so an open state is trusted only when the registered gateway socket is actually open; added a reconnect-and-retry regression test. Bot Mode's separate requestOnPrimaryGateway path remains outside this focused fix.
 - **RisingWave #27181** — latest requested regression and ctx.clone() compile issue were addressed; no new actionable review work is visible.
-- **SiYuan #1, TopoCore #1, Inspect AI #1, MVT #939, quiche #2756/#2758/#2759, Linguist #1, AI Platform AWS #4, Agent-Bench #8, GoalAI #1** — no new code changes required from the latest review/status pass; these remain maintainer/deployment waiting states.
+- **SiYuan #1, TopoCore #1, Inspect AI #1, MVT #939, quiche #2756/#2758/#2759, Linguist #1, AI Platform AWS #4, GoalAI #1** — no new code changes required from the latest review/status pass; these remain maintainer/deployment waiting states.
 
 ### Evidence boundary
 
