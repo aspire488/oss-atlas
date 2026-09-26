@@ -27,7 +27,9 @@
 ## Featured active work
 
 ### AI / security / agent tooling
+- [GitFut #125](https://github.com/Younesfdj/gitfut/pull/125) — upstream, open
 - [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — merged upstream
+- [PicadoLabs Agent-Bench #8](https://github.com/PicadoLabs/agent-bench/pull/8) — merged upstream
 - [TopoCore #1](https://github.com/KARAN-D05/TopoCore/pull/1) — upstream, open
 - [garak #1](https://github.com/aspire488/garak/pull/1) — fork-side, open
 - [Inspect AI #1](https://github.com/aspire488/inspect_ai/pull/1) — fork-side, open
