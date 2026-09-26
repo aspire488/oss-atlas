@@ -4,11 +4,11 @@
   "observed_at": "2026-09-26",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
-    "total": 30,
+    "total": 38,
     "merged": 9,
-    "open_upstream": 15,
+    "open_upstream": 22,
     "open_fork": 0,
-    "closed": 6
+    "closed": 7
   },
   "contributions": [
     {
@@ -344,6 +344,94 @@
       "summary": "merged 2026-09-26",
       "source": "github",
       "merge_commit": "13b44603e2fb09a5d1817e8d2d0f64f3a40041fa"
+    },
+    {
+      "id": "NVIDIA/garak#2234",
+      "title": "NVIDIA/garak #2234 — Fix/paraphrase transformers compat",
+      "url": "https://github.com/NVIDIA/garak/pull/2234",
+      "owner": "NVIDIA",
+      "repository": "garak",
+      "pr": 2234,
+      "status": "open_upstream",
+      "summary": "",
+      "source": "github"
+    },
+    {
+      "id": "NousResearch/hermes-agent#123846",
+      "title": "NousResearch/hermes-agent #123846 — fix(batch): accept Fire tuple args and numeric run names",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/123846",
+      "owner": "NousResearch",
+      "repository": "hermes-agent",
+      "pr": 123846,
+      "status": "open_upstream",
+      "summary": "",
+      "source": "github"
+    },
+    {
+      "id": "NousResearch/hermes-agent#123850",
+      "title": "NousResearch/hermes-agent #123850 — fix(batch): keep tool-search bridge trajectories",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/123850",
+      "owner": "NousResearch",
+      "repository": "hermes-agent",
+      "pr": 123850,
+      "status": "open_upstream",
+      "summary": "",
+      "source": "github"
+    },
+    {
+      "id": "Younesfdj/gitfut#125",
+      "title": "Younesfdj/gitfut #125 — Fix/active years from contributions",
+      "url": "https://github.com/Younesfdj/gitfut/pull/125",
+      "owner": "Younesfdj",
+      "repository": "gitfut",
+      "pr": 125,
+      "status": "open_upstream",
+      "summary": "",
+      "source": "github"
+    },
+    {
+      "id": "collective/icalendar#1835",
+      "title": "collective/icalendar #1835 — Fix/start end duration mismatch",
+      "url": "https://github.com/collective/icalendar/pull/1835",
+      "owner": "collective",
+      "repository": "icalendar",
+      "pr": 1835,
+      "status": "open_upstream",
+      "summary": "",
+      "source": "github"
+    },
+    {
+      "id": "microsoft/PyRIT#2882",
+      "title": "microsoft/PyRIT #2882 — Fix/exact text matching empty target",
+      "url": "https://github.com/microsoft/PyRIT/pull/2882",
+      "owner": "microsoft",
+      "repository": "PyRIT",
+      "pr": 2882,
+      "status": "open_upstream",
+      "summary": "",
+      "source": "github"
+    },
+    {
+      "id": "pydantic/pydantic-ai#8823",
+      "title": "pydantic/pydantic-ai #8823 — perf: avoid redundant RunContext copy when validation context is unset",
+      "url": "https://github.com/pydantic/pydantic-ai/pull/8823",
+      "owner": "pydantic",
+      "repository": "pydantic-ai",
+      "pr": 8823,
+      "status": "closed",
+      "summary": "",
+      "source": "github"
+    },
+    {
+      "id": "run-llama/llama_index#23260",
+      "title": "run-llama/llama_index #23260 — fix(postprocessor): preserve retrieved scores during prev/next expansion",
+      "url": "https://github.com/run-llama/llama_index/pull/23260",
+      "owner": "run-llama",
+      "repository": "llama_index",
+      "pr": 23260,
+      "status": "open_upstream",
+      "summary": "",
+      "source": "github"
     }
   ]
 }
