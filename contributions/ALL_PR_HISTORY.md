@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on September 25, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on September 26, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -8,8 +8,8 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 | Status | Count |
 |---|---:|
-| Merged upstream | 7 |
-| Open upstream | 17 |
+| Merged upstream | 8 |
+| Open upstream | 16 |
 | Open fork-side | 6 |
 | Closed without merge | 6 |
 | **External OSS PRs** | **36** |
@@ -23,6 +23,7 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [microsoft/PyRIT #2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — merged 2026-09-24
 - [eumemic/aios #2458 — record streaming length as truncated output](https://github.com/eumemic/aios/pull/2458) — merged 2026-09-24 (merge commit `fe051b2c`)
 - [microsoft/PyRIT #2823 — preserve HarmBench context string](https://github.com/microsoft/PyRIT/pull/2823) — merged 2026-09-25 (merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`)
+- [PicadoLabs/agent-bench #8 — global command palette](https://github.com/PicadoLabs/agent-bench/pull/8) — merged 2026-09-26 (merge commit `2d95c522d95705d332f2e6ddc5929c281e2886b3`)
 
 ## Open upstream
 
@@ -40,7 +41,6 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [coder/coder #29668 — deduplicate Unknown AI Gateway clients](https://github.com/coder/coder/pull/29668)
 - [tysoncung/ai-platform-aws #4 — provider routing specificity](https://github.com/tysoncung/ai-platform-aws/pull/4)
 - [OpenHands/OpenHands #17579 — align condenser max size with agent-server minimum](https://github.com/OpenHands/OpenHands/pull/17579)
-- [PicadoLabs/agent-bench #8 — global command palette](https://github.com/PicadoLabs/agent-bench/pull/8)
 - [adityamallia7/GoalAI-Score-predictor-26 #1 — reproducible Monte Carlo prediction analysis](https://github.com/adityamallia7/GoalAI-Score-predictor-26/pull/1)
 - [RajX-dev/N3MO #39 — Ruby/Kotlin language routing regression coverage](https://github.com/RajX-dev/N3MO/pull/39)
 
