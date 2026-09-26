@@ -48,9 +48,9 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 |---|---:|
 | Merged upstream | **8** |
 | Open upstream | **19** |
-| Open fork-side | **6** |
+| Open fork-side | **7** |
 | Closed without merge | **6** |
-| **External OSS PRs** | **39** |
+| **External OSS PRs** | **40** |
 
 Snapshot date: **September 25, 2026**.
 
@@ -85,6 +85,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 ## 🏆 Recent upstream merges
 
 ### 🔥 Microsoft PyRIT — two merged upstream contributions
+- **Prepared fork-side fix:** [PyRIT #2839](https://github.com/microsoft/PyRIT/issues/2839) — fixes `TemplateSegmentConverter` sampling when a prompt has fewer words than template parameters, with focused regression coverage. Branch: [aspire488/PyRIT `fix/template-segment-short-prompts`](https://github.com/aspire488/PyRIT/tree/fix/template-segment-short-prompts). Upstream PR creation is currently blocked by the GitHub integration permission boundary, so this remains fork-side prepared work.
 - **New open proposal:** [PyRIT #3](https://github.com/aspire488/PyRIT/pull/3) — targets upstream issue [#2835](https://github.com/microsoft/PyRIT/issues/2835), fixing ObjectiveScorerEvaluator so `[user, assistant]` conversations retain all turns in memory but score only the assistant response, with regression coverage.
 
 - [PyRIT #2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — **MERGED UPSTREAM · September 24, 2026**; memory-backed dataset summaries with multiple substantive review rounds covering aggregation, dataset identity, SQLite behavior, selection-key isolation, metadata query controls, `loaded_only`, and regression coverage. Merge commit `47c6151a`.
@@ -128,9 +129,16 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - **RAMPART #1** — adaptive multi-turn XPIA execution.
 - **RAMPART #2** — generic PyRIT converter bridge; text-to-text adapter with focused regression coverage.
 - **PyRIT fork #1** — canonical technique names in scenario run summaries.
+- **PyRIT fork — #2839 fix** — short-prompt handling in `TemplateSegmentConverter`, prepared on September 26, 2026.
 
 > **Evidence rule:** merged means upstream accepted it; open means the PR is still under review/CI; fork-side means the work exists on a fork and is not represented as upstream acceptance.
 
+
+## 📅 September 26, 2026 — Ledger refresh
+
+### New prepared PyRIT work
+
+- **PyRIT #2839** — prepared fork-side fix for `TemplateSegmentConverter` when the prompt has fewer words than template parameters. The production change is one line; regression coverage was added for the two-word/three-parameter case. It is not labeled as upstream acceptance because the PR could not be created through the current integration.
 
 ## 📅 September 25, 2026 — Ledger refresh
 
