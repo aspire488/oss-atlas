@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-09-25",
+  "observed_at": "2026-09-26",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
     "total": 36,
-    "merged": 7,
-    "open_upstream": 17,
+    "merged": 8,
+    "open_upstream": 16,
     "open_fork": 6,
     "closed": 6
   },
@@ -228,9 +228,10 @@
       "owner": "PicadoLabs",
       "repository": "agent-bench",
       "pr": 8,
-      "status": "open_upstream",
-      "summary": "",
-      "source": "github"
+      "status": "merged",
+      "summary": "merged 2026-09-26",
+      "source": "github",
+      "merge_commit": "2d95c522d95705d332f2e6ddc5929c281e2886b3"
     },
     {
       "id": "adityamallia7/GoalAI-Score-predictor-26#1",
