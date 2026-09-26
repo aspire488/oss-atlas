@@ -47,10 +47,10 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | State | Count |
 |---|---:|
 | Merged upstream | **9** |
-| Open upstream | **19** |
+| Open upstream | **22** |
 | Open fork-side | **7** |
 | Closed without merge | **6** |
-| **External OSS PRs** | **41** |
+| **External OSS PRs** | **38** |
 
 Snapshot date: **September 26, 2026**.
 
