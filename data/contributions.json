@@ -1,27 +1,16 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-09-26",
+  "observed_at": "2026-09-25",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
-    "total": 40,
-    "merged": 8,
-    "open_upstream": 19,
-    "open_fork": 7,
+    "total": 36,
+    "merged": 7,
+    "open_upstream": 17,
+    "open_fork": 6,
     "closed": 6
   },
   "contributions": [
-    {
-      "id": "Younesfdj/gitfut#125",
-      "title": "Younesfdj/gitfut #125 — derive active years from contribution history",
-      "url": "https://github.com/Younesfdj/gitfut/pull/125",
-      "owner": "Younesfdj",
-      "repository": "gitfut",
-      "pr": 125,
-      "status": "open_upstream",
-      "summary": "opened 2026-09-26",
-      "source": "github"
-    },
     {
       "id": "0xarchit/github-profile-analyzer#30",
       "title": "0xarchit/github-profile-analyzer #30 — Fix/impact score evidence",
@@ -239,7 +228,7 @@
       "owner": "PicadoLabs",
       "repository": "agent-bench",
       "pr": 8,
-      "status": "merged",
+      "status": "open_upstream",
       "summary": "",
       "source": "github"
     },
