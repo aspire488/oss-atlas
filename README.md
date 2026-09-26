@@ -37,7 +37,7 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | [Case Studies](case-studies/README.md) | Deep evidence-backed analysis |
 | [Research](research/README.md) | Reviews, investigations, discussions |
 | [Learnings](learnings/README.md) | Reusable engineering lessons |
-| [2026-09-25 Ledger](contributions/ALL_PR_HISTORY.md) | Dated contribution-state snapshot |
+| [2026-09-26 Ledger](contributions/ALL_PR_HISTORY.md) | Dated contribution-state snapshot |
 | [Operating Model](docs/OPERATING_MODEL.md) | Evidence and maintenance rules |
 | [Automation](docs/AUTOMATION.md) | GitHub Actions and drift-audit contract |
 | [Roadmap](docs/ROADMAP.md) | Atlas implementation plan |
@@ -46,8 +46,8 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 
 | State | Count |
 |---|---:|
-| Merged upstream | **10** |
-| Open upstream | **18** |
+| Merged upstream | **9** |
+| Open upstream | **19** |
 | Open fork-side | **7** |
 | Closed without merge | **6** |
 | **External OSS PRs** | **41** |
@@ -84,9 +84,10 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 
 ## 🏆 Recent upstream merges
 
-### 🔥 Microsoft PyRIT — two merged upstream contributions
+### 🔥 Microsoft PyRIT — current upstream track
+- **New open proposal:** [PyRIT #2882 — Reject empty targets in ExactTextMatching](https://github.com/microsoft/PyRIT/pull/2882) — **open upstream on September 26, 2026**; rejects empty and whitespace-only exact-match targets after normalization and adds focused regression coverage.
 - **Prepared fork-side fix:** [PyRIT #2839](https://github.com/microsoft/PyRIT/issues/2839) — fixes `TemplateSegmentConverter` sampling when a prompt has fewer words than template parameters, with focused regression coverage. Branch: [aspire488/PyRIT `fix/template-segment-short-prompts`](https://github.com/aspire488/PyRIT/tree/fix/template-segment-short-prompts). Upstream PR creation is currently blocked by the GitHub integration permission boundary, so this remains fork-side prepared work.
-- **New open proposal:** [PyRIT #3](https://github.com/aspire488/PyRIT/pull/3) — targets upstream issue [#2835](https://github.com/microsoft/PyRIT/issues/2835), fixing ObjectiveScorerEvaluator so `[user, assistant]` conversations retain all turns in memory but score only the assistant response, with regression coverage.
+- **Open fork proposal:** [PyRIT #3](https://github.com/aspire488/PyRIT/pull/3) — targets upstream issue [#2835](https://github.com/microsoft/PyRIT/issues/2835), fixing ObjectiveScorerEvaluator so `[user, assistant]` conversations retain all turns in memory but score only the assistant response, with regression coverage.
 
 - [PicadoLabs Agent-Bench #8 — Global command palette](https://github.com/PicadoLabs/agent-bench/pull/8)  
   **Merged upstream on September 26, 2026** after maintainer review. The command palette implementation was approved with the build passing; the maintainer also pushed a small refactor switching the trigger from `useEffect` to `onClick`.
