@@ -8,8 +8,8 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 | Status | Count |
 |---|---:|
-| Merged upstream | 8 |
-| Open upstream | 16 |
+| Merged upstream | 9 |
+| Open upstream | 15 |
 | Open fork-side | 6 |
 | Closed without merge | 6 |
 | **External OSS PRs** | **36** |
@@ -24,13 +24,13 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [eumemic/aios #2458 — record streaming length as truncated output](https://github.com/eumemic/aios/pull/2458) — merged 2026-09-24 (merge commit `fe051b2c`)
 - [microsoft/PyRIT #2823 — preserve HarmBench context string](https://github.com/microsoft/PyRIT/pull/2823) — merged 2026-09-25 (merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`)
 - [PicadoLabs/agent-bench #8 — global command palette](https://github.com/PicadoLabs/agent-bench/pull/8) — merged 2026-09-26 (merge commit `2d95c522d95705d332f2e6ddc5929c281e2886b3`)
+- [Agent-Field/agentfield #1073 — Go harness factory tests](https://github.com/Agent-Field/agentfield/pull/1073) — merged 2026-09-26 (merge commit `13b44603e2fb09a5d1817e8d2d0f64f3a40041fa`)
 
 ## Open upstream
 
 - [KARAN-D05/TopoCore #1 — detect repeated spatial execution states](https://github.com/KARAN-D05/TopoCore/pull/1)
 - [run-llama/llama_index #23201 — preserve retrieved scores during prev-next expansion](https://github.com/run-llama/llama_index/pull/23201)
 - [NousResearch/hermes-agent #121771 — desktop gateway stale-ref recovery](https://github.com/NousResearch/hermes-agent/pull/121771)
-- [Agent-Field/agentfield #1073 — Go harness factory tests](https://github.com/Agent-Field/agentfield/pull/1073)
 - [cloudflare/quiche #2759 — ignore ACKs for non-in-flight packets](https://github.com/cloudflare/quiche/pull/2759)
 - [cloudflare/quiche #2758 — verify peers with a custom CA](https://github.com/cloudflare/quiche/pull/2758)
 - [cloudflare/quiche #2756 — unify PTO-based timer duration](https://github.com/cloudflare/quiche/pull/2756)
