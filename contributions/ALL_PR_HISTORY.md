@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on September 25, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on September 26, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -8,11 +8,11 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 | Status | Count |
 |---|---:|
-| Merged upstream | 7 |
-| Open upstream | 17 |
-| Open fork-side | 6 |
+| Merged upstream | 8 |
+| Open upstream | 19 |
+| Open fork-side | 7 |
 | Closed without merge | 6 |
-| **External OSS PRs** | **36** |
+| **External OSS PRs** | **40** |
 
 ## Merged upstream
 
@@ -43,6 +43,10 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [PicadoLabs/agent-bench #8 — global command palette](https://github.com/PicadoLabs/agent-bench/pull/8)
 - [adityamallia7/GoalAI-Score-predictor-26 #1 — reproducible Monte Carlo prediction analysis](https://github.com/adityamallia7/GoalAI-Score-predictor-26/pull/1)
 - [RajX-dev/N3MO #39 — Ruby/Kotlin language routing regression coverage](https://github.com/RajX-dev/N3MO/pull/39)
+
+## Merged upstream
+
+- [PicadoLabs/agent-bench #8 — global command palette](https://github.com/PicadoLabs/agent-bench/pull/8) — merged 2026-09-26
 
 ## Open fork-side OSS work
 
