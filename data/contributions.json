@@ -4,10 +4,10 @@
   "observed_at": "2026-09-26",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
-    "total": 36,
+    "total": 30,
     "merged": 9,
     "open_upstream": 15,
-    "open_fork": 6,
+    "open_fork": 0,
     "closed": 6
   },
   "contributions": [
@@ -256,50 +256,6 @@
       "source": "github"
     },
     {
-      "id": "aspire488/inspect_ai#1",
-      "title": "aspire488/inspect_ai #1 — base64 encode Google inline image bytes",
-      "url": "https://github.com/aspire488/inspect_ai/pull/1",
-      "owner": "aspire488",
-      "repository": "inspect_ai",
-      "pr": 1,
-      "status": "open_fork",
-      "summary": "",
-      "source": "github"
-    },
-    {
-      "id": "aspire488/garak#1",
-      "title": "aspire488/garak #1 — handle unset soft prompt cap",
-      "url": "https://github.com/aspire488/garak/pull/1",
-      "owner": "aspire488",
-      "repository": "garak",
-      "pr": 1,
-      "status": "open_fork",
-      "summary": "",
-      "source": "github"
-    },
-    {
-      "id": "aspire488/RAMPART#1",
-      "title": "aspire488/RAMPART #1 — adaptive multi-turn XPIA execution",
-      "url": "https://github.com/aspire488/RAMPART/pull/1",
-      "owner": "aspire488",
-      "repository": "RAMPART",
-      "pr": 1,
-      "status": "open_fork",
-      "summary": "",
-      "source": "github"
-    },
-    {
-      "id": "aspire488/PyRIT#1",
-      "title": "aspire488/PyRIT #1 — canonical technique names in scenario summaries",
-      "url": "https://github.com/aspire488/PyRIT/pull/1",
-      "owner": "aspire488",
-      "repository": "PyRIT",
-      "pr": 1,
-      "status": "open_fork",
-      "summary": "",
-      "source": "github"
-    },
-    {
       "id": "uutils/coreutils#14812",
       "title": "uutils/coreutils #14812 — preserve canonical quoting style in dired metadata",
       "url": "https://github.com/uutils/coreutils/pull/14812",
@@ -374,28 +330,6 @@
       "repository": "hermes-agent",
       "pr": 121771,
       "status": "open_upstream",
-      "summary": "",
-      "source": "github"
-    },
-    {
-      "id": "aspire488/siyuan#1",
-      "title": "aspire488/siyuan #1 — recover expired MCP sessions without unsafe replay",
-      "url": "https://github.com/aspire488/siyuan/pull/1",
-      "owner": "aspire488",
-      "repository": "siyuan",
-      "pr": 1,
-      "status": "open_fork",
-      "summary": "",
-      "source": "github"
-    },
-    {
-      "id": "aspire488/linguist#1",
-      "title": "aspire488/linguist #1 — trim .example suffix before language detection",
-      "url": "https://github.com/aspire488/linguist/pull/1",
-      "owner": "aspire488",
-      "repository": "linguist",
-      "pr": 1,
-      "status": "open_fork",
       "summary": "",
       "source": "github"
     },
