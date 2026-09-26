@@ -46,8 +46,8 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 
 | State | Count |
 |---|---:|
-| Merged upstream | **9** |
-| Open upstream | **19** |
+| Merged upstream | **10** |
+| Open upstream | **18** |
 | Open fork-side | **7** |
 | Closed without merge | **6** |
 | **External OSS PRs** | **41** |
@@ -90,6 +90,9 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 
 - [PicadoLabs Agent-Bench #8 — Global command palette](https://github.com/PicadoLabs/agent-bench/pull/8)  
   **Merged upstream on September 26, 2026** after maintainer review. The command palette implementation was approved with the build passing; the maintainer also pushed a small refactor switching the trigger from `useEffect` to `onClick`.
+
+- [Agent-Field AgentField #1073 — Go harness factory tests](https://github.com/Agent-Field/agentfield/pull/1073)  
+  **Merged upstream on September 26, 2026.** Adds focused `factory_test.go` coverage for explicit Claude Code and OpenCode provider construction, with the table driving concrete type assertions. Maintainer review approved the change and confirmed focused factory tests plus `go vet` pass locally.
 - [PyRIT #2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — **MERGED UPSTREAM · September 24, 2026**; memory-backed dataset summaries with multiple substantive review rounds covering aggregation, dataset identity, SQLite behavior, selection-key isolation, metadata query controls, `loaded_only`, and regression coverage. Merge commit `47c6151a`.
 - [PyRIT #2823 — HarmBench context preservation](https://github.com/microsoft/PyRIT/pull/2823) — **MERGED UPSTREAM · September 25, 2026**; preserves non-empty HarmBench `ContextString` in behavior prompts, retains context metadata, and adds regression coverage. Merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`.
 - [Microsoft RAMPART #2 — Generic PyRIT converter bridge](https://github.com/aspire488/RAMPART/pull/2) — **open upstream fork-side proposal · September 25, 2026**; implements the documented PyRIT PromptConverter → RAMPART PayloadConverter bridge for text-to-text converters, preserving payload identity/metadata with focused regression coverage.
