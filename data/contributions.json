@@ -4,9 +4,9 @@
   "observed_at": "2026-09-26",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
-    "total": 38,
+    "total": 39,
     "merged": 9,
-    "open_upstream": 22,
+    "open_upstream": 23,
     "open_fork": 0,
     "closed": 7
   },
@@ -431,6 +431,17 @@
       "pr": 23260,
       "status": "open_upstream",
       "summary": "",
+      "source": "github"
+    },
+    {
+      "id": "microsoft/PyRIT#2885",
+      "title": "microsoft/PyRIT #2885 — preserve text after Prompt Shield document tags",
+      "url": "https://github.com/microsoft/PyRIT/pull/2885",
+      "owner": "microsoft",
+      "repository": "PyRIT",
+      "pr": 2885,
+      "status": "open_upstream",
+      "summary": "opened 2026-09-27",
       "source": "github"
     }
   ]
