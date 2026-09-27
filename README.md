@@ -47,12 +47,12 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | State | Count |
 |---|---:|
 | Merged upstream | **9** |
-| Open upstream | **22** |
+| Open upstream | **23** |
 | Open fork-side | **7** |
 | Closed without merge | **6** |
-| **External OSS PRs** | **38** |
+| **External OSS PRs** | **39** |
 
-Snapshot date: **September 26, 2026**.
+Snapshot date: **September 27, 2026**.
 
 ## 📈 OSS Atlas Dashboard
 
@@ -85,6 +85,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 ## 🏆 Recent upstream merges
 
 ### 🔥 Microsoft PyRIT — current upstream track
+- **New open proposal:** [PyRIT #2885 — Preserve text after Prompt Shield document tags](https://github.com/microsoft/PyRIT/pull/2885) — **open upstream on September 27, 2026**; fixes `PromptShieldTarget._input_parser` dropping text between and after `</document>` tags, with focused regression coverage.
 - **New open proposal:** [PyRIT #2882 — Reject empty targets in ExactTextMatching](https://github.com/microsoft/PyRIT/pull/2882) — **open upstream on September 26, 2026**; rejects empty and whitespace-only exact-match targets after normalization and adds focused regression coverage.
 - **Prepared fork-side fix:** [PyRIT #2839](https://github.com/microsoft/PyRIT/issues/2839) — fixes `TemplateSegmentConverter` sampling when a prompt has fewer words than template parameters, with focused regression coverage. Branch: [aspire488/PyRIT `fix/template-segment-short-prompts`](https://github.com/aspire488/PyRIT/tree/fix/template-segment-short-prompts). Upstream PR creation is currently blocked by the GitHub integration permission boundary, so this remains fork-side prepared work.
 - **Open fork proposal:** [PyRIT #3](https://github.com/aspire488/PyRIT/pull/3) — targets upstream issue [#2835](https://github.com/microsoft/PyRIT/issues/2835), fixing ObjectiveScorerEvaluator so `[user, assistant]` conversations retain all turns in memory but score only the assistant response, with regression coverage.
