@@ -28,6 +28,7 @@
 
 ### AI / security / agent tooling
 - [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — merged upstream
+- [Microsoft PyRIT #2885](https://github.com/microsoft/PyRIT/pull/2885) — Prompt Shield parser fix, upstream open
 - [TopoCore #1](https://github.com/KARAN-D05/TopoCore/pull/1) — upstream, open
 - [garak #1](https://github.com/aspire488/garak/pull/1) — fork-side, open
 - [Inspect AI #1](https://github.com/aspire488/inspect_ai/pull/1) — fork-side, open
