@@ -6,7 +6,9 @@
 >
 > **#2823 — HarmBench context preservation** · September 25, 2026 · merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`
 >
-> Together, these are two separate accepted upstream contributions to Microsoft's open-source AI red-teaming framework, spanning backend feature work and regression-focused behavior preservation.
+> **#2882 — ExactTextMatching empty-target fix** · September 28, 2026 · merge commit `dff83aaab767f9b2b0aee68a20ab277de7e9d289`
+>
+> Together, these are three separate accepted upstream contributions to Microsoft's open-source AI red-teaming framework, spanning backend feature work and regression-focused behavior preservation.
 ---
 
 <p align="center">
@@ -85,8 +87,8 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 ## 🏆 Recent upstream merges
 
 ### 🔥 Microsoft PyRIT — current upstream track
-- **New open proposal:** [PyRIT #2885 — Preserve text after Prompt Shield document tags](https://github.com/microsoft/PyRIT/pull/2885) — **open upstream on September 27, 2026**; fixes `PromptShieldTarget._input_parser` dropping text between and after `</document>` tags, with focused regression coverage.
-- **New open proposal:** [PyRIT #2882 — Reject empty targets in ExactTextMatching](https://github.com/microsoft/PyRIT/pull/2882) — **open upstream on September 26, 2026**; rejects empty and whitespace-only exact-match targets after normalization and adds focused regression coverage.
+- **Microsoft PyRIT #2882 — ExactTextMatching empty-target fix** — **MERGED UPSTREAM on September 28, 2026**; rejects empty and whitespace-only exact-match targets, with `DecodingScorer` regression coverage and explicit `ignore_whitespace=False` coverage. Merge commit: `dff83aaab767f9b2b0aee68a20ab277de7e9d289`.
+- **Microsoft PyRIT #2885 — Prompt Shield parser** — **CLOSED AS DUPLICATE on September 28, 2026**; maintainer directed the fix/review to earlier #2838, which addresses the same parsing bug.
 - **New open proposals:** [Hermes Agent #123846](https://github.com/NousResearch/hermes-agent/pull/123846) and [#123850](https://github.com/NousResearch/hermes-agent/pull/123850) — **open upstream on September 26, 2026**; the first fixes Fire CLI tuple/numeric argument normalization, while the second preserves Tool Search bridge trajectories during batch validation. #123850 now also has behavioral regression coverage through `_combine_batch_files()` verifying a `tool_call` bridge trajectory is retained rather than filtered as invalid.
 - **Prepared fork-side fix:** [PyRIT #2839](https://github.com/microsoft/PyRIT/issues/2839) — fixes `TemplateSegmentConverter` sampling when a prompt has fewer words than template parameters, with focused regression coverage. Branch: [aspire488/PyRIT `fix/template-segment-short-prompts`](https://github.com/aspire488/PyRIT/tree/fix/template-segment-short-prompts). Upstream PR creation is currently blocked by the GitHub integration permission boundary, so this remains fork-side prepared work.
 - **Open fork proposal:** [PyRIT #3](https://github.com/aspire488/PyRIT/pull/3) — targets upstream issue [#2835](https://github.com/microsoft/PyRIT/issues/2835), fixing ObjectiveScorerEvaluator so `[user, assistant]` conversations retain all turns in memory but score only the assistant response, with regression coverage.
@@ -97,6 +99,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - [Agent-Field AgentField #1073 — Go harness factory tests](https://github.com/Agent-Field/agentfield/pull/1073)  
   **Merged upstream on September 26, 2026.** Adds focused `factory_test.go` coverage for explicit Claude Code and OpenCode provider construction, with the table driving concrete type assertions. Maintainer review approved the change and confirmed focused factory tests plus `go vet` pass locally.
 - [PyRIT #2762 — Dataset Summary API](https://github.com/microsoft/PyRIT/pull/2762) — **MERGED UPSTREAM · September 24, 2026**; memory-backed dataset summaries with multiple substantive review rounds covering aggregation, dataset identity, SQLite behavior, selection-key isolation, metadata query controls, `loaded_only`, and regression coverage. Merge commit `47c6151a`.
+- [PyRIT #2882 — ExactTextMatching empty-target fix](https://github.com/microsoft/PyRIT/pull/2882) — **MERGED UPSTREAM · September 28, 2026**; rejects empty/whitespace-only targets with scorer-level and `ignore_whitespace=False` regression coverage. Merge commit `dff83aaab767f9b2b0aee68a20ab277de7e9d289`.
 - [PyRIT #2823 — HarmBench context preservation](https://github.com/microsoft/PyRIT/pull/2823) — **MERGED UPSTREAM · September 25, 2026**; preserves non-empty HarmBench `ContextString` in behavior prompts, retains context metadata, and adds regression coverage. Merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`.
 - [Microsoft RAMPART #2 — Generic PyRIT converter bridge](https://github.com/aspire488/RAMPART/pull/2) — **open upstream fork-side proposal · September 25, 2026**; implements the documented PyRIT PromptConverter → RAMPART PayloadConverter bridge for text-to-text converters, preserving payload identity/metadata with focused regression coverage.
 
