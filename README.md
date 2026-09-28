@@ -48,10 +48,10 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 
 | State | Count |
 |---|---:|
-| Merged upstream | **10** |
-| Open upstream | **22** |
+|  Merged upstream | **10** |
+| Open upstream | **21** |
 | Open fork-side | **0** |
-| Closed without merge | **7** |
+| Closed without merge | **8** |
 | **External OSS PRs** | **39** |
 
 Snapshot date: **September 28, 2026**.
@@ -90,6 +90,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - **Microsoft PyRIT #2882 — ExactTextMatching empty-target fix** — **MERGED UPSTREAM on September 28, 2026**; rejects empty and whitespace-only exact-match targets, with `DecodingScorer` regression coverage and explicit `ignore_whitespace=False` coverage. Merge commit: `dff83aaab767f9b2b0aee68a20ab277de7e9d289`.
 - **Microsoft PyRIT #2885 — Prompt Shield parser** — **CLOSED AS DUPLICATE on September 28, 2026**; maintainer directed the fix/review to earlier #2838, which addresses the same parsing bug.
 - **New open proposals:** [Hermes Agent #123846](https://github.com/NousResearch/hermes-agent/pull/123846) and [#123850](https://github.com/NousResearch/hermes-agent/pull/123850) — **open upstream on September 26, 2026**; the first fixes Fire CLI tuple/numeric argument normalization, while the second preserves Tool Search bridge trajectories during batch validation. #123850 now also has behavioral regression coverage through `_combine_batch_files()` verifying a `tool_call` bridge trajectory is retained rather than filtered as invalid.
+- **Hermes Agent #126144** — **open upstream on September 28, 2026**; incorporates and credits #121771's stale gateway-ref recovery into broader desktop/session routing work. Standalone #121771 is closed as superseded.
 - **Prepared fork-side fix:** [PyRIT #2839](https://github.com/microsoft/PyRIT/issues/2839) — fixes `TemplateSegmentConverter` sampling when a prompt has fewer words than template parameters, with focused regression coverage. Branch: [aspire488/PyRIT `fix/template-segment-short-prompts`](https://github.com/aspire488/PyRIT/tree/fix/template-segment-short-prompts). Upstream PR creation is currently blocked by the GitHub integration permission boundary, so this remains fork-side prepared work.
 - **Open fork proposal:** [PyRIT #3](https://github.com/aspire488/PyRIT/pull/3) — targets upstream issue [#2835](https://github.com/microsoft/PyRIT/issues/2835), fixing ObjectiveScorerEvaluator so `[user, assistant]` conversations retain all turns in memory but score only the assistant response, with regression coverage.
 
@@ -118,7 +119,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - **NVIDIA garak #2234** — **open upstream**; fixes paraphrase compatibility with newer Transformers by removing the deprecated custom-generation dependency and `trust_remote_code`, with focused regression coverage.
 - **Microsoft PyRIT #2762** — **merged upstream**; dataset summary API accepted after multiple substantive review rounds. Merge commit: `47c6151a`.
 - **Microsoft PyRIT #2823** — **merged upstream**; preserves non-empty HarmBench contextual behavior prompts with regression coverage. Merge commit: `940a8efabb404d80f6a716c5e641d81809d8972a`.
-- **NousResearch Hermes Agent #121771** — **open upstream**; desktop gateway request recovery falls back to the active registry gateway when the hook ref is stale, with focused regression coverage.
+- **NousResearch Hermes Agent #126144** — **open upstream**; broader desktop/session routing work incorporates and credits #121771's stale gateway-ref recovery. **#121771 was closed as superseded on September 28, 2026.**
 - **collective/icalendar #1835** — **open upstream**; resolves inconsistent `DTEND` + `DURATION` handling with focused regression coverage.
 - **NVIDIA garak #2234** — **open upstream**; removes the deprecated `transformers-community/group-beam-search` custom-generation path and `trust_remote_code` requirement from the `Fast` paraphrase buff, retaining native group-beam-search parameters with regression coverage.
 - **aios #2458** — **merged upstream** on September 24, 2026; records provider `finish_reason="length"` as `output_truncated=true` with streaming regression coverage. Merge commit: `fe051b2c`.
@@ -168,7 +169,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 The Atlas has been reconciled against the current PR state.
 
 - **PyRIT #2823** — **merged upstream** on September 25, 2026. Merge commit: `940a8efabb404d80f6a716c5e641d81809d8972a`. Preserves non-empty HarmBench ContextString in behavior prompts, retains context metadata, and adds regression coverage.
-- **Hermes Agent #121771** — hardened stale gateway recovery so an open state is trusted only when the registered gateway socket is actually open; added a reconnect-and-retry regression test. Bot Mode's separate requestOnPrimaryGateway path remains outside this focused fix.
+- **Hermes Agent #121771 → #126144** — the standalone stale-gateway recovery PR was closed as superseded after #126144 incorporated and credited the fix. The upstream PR now carries the recovery logic as part of the broader desktop/session routing change.
 - **RisingWave #27181** — latest requested regression and ctx.clone() compile issue were addressed; no new actionable review work is visible.
 - **SiYuan #1, TopoCore #1, Inspect AI #1, MVT #939, quiche #2756/#2758/#2759, Linguist #1, AI Platform AWS #4, GoalAI #1** — no new code changes required from the latest review/status pass; these remain maintainer/deployment waiting states.
 
