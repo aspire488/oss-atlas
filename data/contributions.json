@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-09-26",
+  "observed_at": "2026-09-28",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
     "total": 39,
-    "merged": 9,
-    "open_upstream": 23,
+    "merged": 10,
+    "open_upstream": 22,
     "open_fork": 0,
     "closed": 7
   },
@@ -407,9 +407,10 @@
       "owner": "microsoft",
       "repository": "PyRIT",
       "pr": 2882,
-      "status": "open_upstream",
-      "summary": "",
-      "source": "github"
+      "status": "merged",
+      "summary": "merged 2026-09-28",
+      "source": "github",
+      "merge_commit": "dff83aaab767f9b2b0aee68a20ab277de7e9d289"
     },
     {
       "id": "pydantic/pydantic-ai#8823",
@@ -440,8 +441,8 @@
       "owner": "microsoft",
       "repository": "PyRIT",
       "pr": 2885,
-      "status": "open_upstream",
-      "summary": "opened 2026-09-27",
+      "status": "closed",
+      "summary": "closed 2026-09-28; duplicate/superseded by earlier #2838",
       "source": "github"
     }
   ]
