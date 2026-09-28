@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on September 27, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on September 28, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -8,9 +8,9 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 | Status | Count |
 |---|---:|
-| Merged upstream | 9 |
-| Open upstream | 23 |
-| Open fork-side | 6 |
+| Merged upstream | 10 |
+| Open upstream | 22 |
+| Open fork-side | 0 |
 | Closed without merge | 7 |
 | **External OSS PRs** | **39** |
 
@@ -32,8 +32,8 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [NousResearch/hermes-agent #123850 — fix(batch): keep tool-search bridge trajectories](https://github.com/NousResearch/hermes-agent/pull/123850)
 - [Younesfdj/gitfut #125 — Fix/active years from contributions](https://github.com/Younesfdj/gitfut/pull/125)
 - [collective/icalendar #1835 — Fix/start end duration mismatch](https://github.com/collective/icalendar/pull/1835)
-- [microsoft/PyRIT #2882 — Fix/exact text matching empty target](https://github.com/microsoft/PyRIT/pull/2882)
-- [microsoft/PyRIT #2885 — preserve text after Prompt Shield document tags](https://github.com/microsoft/PyRIT/pull/2885) — opened 2026-09-27
+- [microsoft/PyRIT #2882 — Fix/exact text matching empty target](https://github.com/microsoft/PyRIT/pull/2882) — merged 2026-09-28 (merge commit `dff83aaab767f9b2b0aee68a20ab277de7e9d289`)
+- [microsoft/PyRIT #2885 — preserve text after Prompt Shield document tags](https://github.com/microsoft/PyRIT/pull/2885) — closed 2026-09-28; duplicate/superseded by earlier #2838
 - [run-llama/llama_index #23260 — fix(postprocessor): preserve retrieved scores during prev/next expansion](https://github.com/run-llama/llama_index/pull/23260)
 
 - [KARAN-D05/TopoCore #1 — detect repeated spatial execution states](https://github.com/KARAN-D05/TopoCore/pull/1)
