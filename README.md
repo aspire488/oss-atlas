@@ -128,7 +128,6 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - **TopoCore #1** — **open upstream**; deterministic cycle detection added for repeated spatial execution states.
 - **LlamaIndex #23201** — **open upstream**; retrieved scores preserved during prev-next expansion.
 - **OpenHands #17579** — **open upstream**; condenser metadata aligned with the agent-server minimum.
-- **OpenTelemetry Erlang #822** — **open upstream**; retry/redirect span isolation fix.
 - **Coder #29668** — **open upstream**; unknown AI Gateway client deduplication.
 - **Cloudflare quiche #2758 / #2759** — **open upstream**; custom-CA peer verification and Reno non-in-flight ACK handling.
 - **IntelliJ PowerShell #506** — **open upstream**; PowerShell executable reparse-point resolution.
