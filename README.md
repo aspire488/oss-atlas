@@ -48,13 +48,13 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 
 | State | Count |
 |---|---:|
-| Merged upstream | **9** |
-| Open upstream | **23** |
-| Open fork-side | **7** |
-| Closed without merge | **6** |
+| Merged upstream | **10** |
+| Open upstream | **22** |
+| Open fork-side | **0** |
+| Closed without merge | **7** |
 | **External OSS PRs** | **39** |
 
-Snapshot date: **September 27, 2026**.
+Snapshot date: **September 28, 2026**.
 
 ## 📈 OSS Atlas Dashboard
 
@@ -103,7 +103,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - [PyRIT #2823 — HarmBench context preservation](https://github.com/microsoft/PyRIT/pull/2823) — **MERGED UPSTREAM · September 25, 2026**; preserves non-empty HarmBench `ContextString` in behavior prompts, retains context metadata, and adds regression coverage. Merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`.
 - [Microsoft RAMPART #2 — Generic PyRIT converter bridge](https://github.com/aspire488/RAMPART/pull/2) — **open upstream fork-side proposal · September 25, 2026**; implements the documented PyRIT PromptConverter → RAMPART PayloadConverter bridge for text-to-text converters, preserving payload identity/metadata with focused regression coverage.
 
-**PyRIT track record:** 2 separate upstream PRs merged into Microsoft's AI red-teaming framework.
+**PyRIT track record:** 3 separate upstream PRs merged into Microsoft's AI red-teaming framework.
 
 - [aios #2457](https://github.com/eumemic/aios/pull/2457) — preserved streaming length termination semantics
 - [aios #2460](https://github.com/eumemic/aios/pull/2460) — preserved LiteLLM parameter translation
@@ -111,7 +111,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30) — refined evidence-weighted impact scoring
 - [GitFut #125](https://github.com/Younesfdj/gitfut/pull/125) — open upstream; derives active years from annual GitHub contribution windows instead of owned-repository timestamps, with focused regression coverage.
 
-## 📌 September 25, 2026 update
+## 📌 September 28, 2026 update
 
 ### 🔥 Current OSS state
 
