@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-09-28",
+  "observed_at": "2026-10-04",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
-    "total": 39,
-    "merged": 10,
-    "open_upstream": 22,
+    "total": 46,
+    "merged": 11,
+    "open_upstream": 27,
     "open_fork": 0,
-    "closed": 7
+    "closed": 8
   },
   "contributions": [
     {
@@ -443,6 +443,84 @@
       "pr": 2885,
       "status": "closed",
       "summary": "closed 2026-09-28; duplicate/superseded by earlier #2838",
+      "source": "github"
+    },
+    {
+      "id": "UKGovernmentBEIS/inspect_ai#5675",
+      "title": "UKGovernmentBEIS/inspect_ai #5675",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675",
+      "owner": "UKGovernmentBEIS",
+      "repository": "inspect_ai",
+      "pr": 5675,
+      "status": "open_upstream",
+      "summary": "open 2026-10-04; fixes #5639",
+      "source": "github"
+    },
+    {
+      "id": "UKGovernmentBEIS/inspect_ai#5670",
+      "title": "UKGovernmentBEIS/inspect_ai #5670",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai/pull/5670",
+      "owner": "UKGovernmentBEIS",
+      "repository": "inspect_ai",
+      "pr": 5670,
+      "status": "open_upstream",
+      "summary": "open 2026-10-04",
+      "source": "github"
+    },
+    {
+      "id": "UKGovernmentBEIS/inspect_ai#5671",
+      "title": "UKGovernmentBEIS/inspect_ai #5671",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671",
+      "owner": "UKGovernmentBEIS",
+      "repository": "inspect_ai",
+      "pr": 5671,
+      "status": "open_upstream",
+      "summary": "open 2026-10-04",
+      "source": "github"
+    },
+    {
+      "id": "UKGovernmentBEIS/inspect_ai#5672",
+      "title": "UKGovernmentBEIS/inspect_ai #5672",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai/pull/5672",
+      "owner": "UKGovernmentBEIS",
+      "repository": "inspect_ai",
+      "pr": 5672,
+      "status": "open_upstream",
+      "summary": "open 2026-10-04",
+      "source": "github"
+    },
+    {
+      "id": "microsoft/PyRIT#2976",
+      "title": "microsoft/PyRIT #2976",
+      "url": "https://github.com/microsoft/PyRIT/pull/2976",
+      "owner": "microsoft",
+      "repository": "PyRIT",
+      "pr": 2976,
+      "status": "open_upstream",
+      "summary": "open 2026-10-04",
+      "source": "github"
+    },
+    {
+      "id": "NousResearch/hermes-agent#127233",
+      "title": "NousResearch/hermes-agent #127233",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/127233",
+      "owner": "NousResearch",
+      "repository": "hermes-agent",
+      "pr": 127233,
+      "status": "merged",
+      "summary": "merged 2026-10-01",
+      "source": "github",
+      "merge_commit": "a0707dd1ab8a087b9104438f10fb44340c13668e"
+    },
+    {
+      "id": "microsoft/PyRIT#2919",
+      "title": "microsoft/PyRIT #2919",
+      "url": "https://github.com/microsoft/PyRIT/pull/2919",
+      "owner": "microsoft",
+      "repository": "PyRIT",
+      "pr": 2919,
+      "status": "closed",
+      "summary": "closed 2026-10-01; not merged",
       "source": "github"
     }
   ]
