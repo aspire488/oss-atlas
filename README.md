@@ -49,10 +49,22 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 
 ### 🔥 New upstream proposals
 
+- **Inspect AI #5670** — **open upstream** — explicit Google API keys now take precedence over ambient ADC defaults; regression coverage added.
+- **Inspect AI #5671** — **open upstream** — structured Pydantic validation failures now flow through retryable tool parsing errors; regression coverage added.
+- **Inspect AI #5672** — **open upstream** — cached input tokens are preserved across provider bridges; regression coverage added.
 - **Microsoft PyRIT #2976** — **open upstream**; preserves `WordLevelConverter` selection parameters in `StringJoinConverter` identifiers and adds regression coverage for distinct selections, equivalent index sets, and registry registration.
 - **NousResearch Hermes Agent #127233** — **open upstream**; fixes MCP `get_prompt` rendering so structured content blocks are rendered correctly.
 
-Both are **open upstream**, not merged. The Atlas keeps upstream acceptance separate from active proposals.
+All five are **open upstream**, not merged. The Atlas keeps upstream acceptance separate from active proposals.
+
+
+### 🧩 Inspect AI — October 4, 2026
+
+- [Inspect AI #5670 — Google API key / ADC precedence](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5670) — **OPEN UPSTREAM**; fixes #5358 by making an explicit API key win over ambient `GOOGLE_USE_ADC`, while preserving explicit `use_adc=true` behavior. Adds focused regression coverage.
+- [Inspect AI #5671 — structured tool validation errors](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671) — **OPEN UPSTREAM**; fixes #5403 by converting Pydantic structured-parameter `ValidationError` into the normal retryable `ToolParsingError` path. Adds focused regression coverage.
+- [Inspect AI #5672 — cached input-token preservation](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5672) — **OPEN UPSTREAM**; fixes #5364 by preserving cached-read/write input tokens across OpenAI Responses and Gemini provider bridges. Adds round-trip regression coverage.
+
+All three are **open upstream** and are not counted as merged until upstream acceptance.
 
 ## 📊 External OSS snapshot
 
@@ -62,9 +74,9 @@ Both are **open upstream**, not merged. The Atlas keeps upstream acceptance sepa
 | Open upstream | **20** |
 | Open fork-side | **0** |
 | Closed without merge | **8** |
-| **External OSS PRs** | **39** |
+| **External OSS PRs** | **42** |
 
-Snapshot date: **September 28, 2026**.
+Snapshot date: **October 4, 2026**.
 
 ## 📈 OSS Atlas Dashboard
 
