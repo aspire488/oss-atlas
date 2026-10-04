@@ -26,6 +26,13 @@
 
 ## Featured active work
 
+- [Inspect AI #5675](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — **open upstream** — preserve eval-level errors during streamed log conversion
+- [Inspect AI #5670](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5670) — **open upstream**
+- [Inspect AI #5671](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671) — **open upstream**
+- [Inspect AI #5672](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5672) — **open upstream**
+- [Microsoft PyRIT #2976](https://github.com/microsoft/PyRIT/pull/2976) — **open upstream**
+- [NousResearch Hermes Agent #127233](https://github.com/NousResearch/hermes-agent/pull/127233) — **merged upstream**
+
 ### AI / security / agent tooling
 - [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — merged upstream
 - [Microsoft PyRIT #2885](https://github.com/microsoft/PyRIT/pull/2885) — Prompt Shield parser fix, upstream open
