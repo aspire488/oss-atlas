@@ -44,6 +44,16 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | [Automation](docs/AUTOMATION.md) | GitHub Actions and drift-audit contract |
 | [Roadmap](docs/ROADMAP.md) | Atlas implementation plan |
 
+
+## 📅 October 4, 2026 — Current OSS update
+
+### 🔥 New upstream proposals
+
+- **Microsoft PyRIT #2976** — **open upstream**; preserves `WordLevelConverter` selection parameters in `StringJoinConverter` identifiers and adds regression coverage for distinct selections, equivalent index sets, and registry registration.
+- **NousResearch Hermes Agent #127233** — **open upstream**; fixes MCP `get_prompt` rendering so structured content blocks are rendered correctly.
+
+Both are **open upstream**, not merged. The Atlas keeps upstream acceptance separate from active proposals.
+
 ## 📊 External OSS snapshot
 
 | State | Count |
