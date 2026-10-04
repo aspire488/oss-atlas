@@ -71,7 +71,7 @@ All three are **open upstream** and are not counted as merged until upstream acc
 | State | Count |
 |---|---:|
 |  Merged upstream | **11** |
-| Open upstream | **20** |
+| Open upstream | **23** |
 | Open fork-side | **0** |
 | Closed without merge | **8** |
 | **External OSS PRs** | **42** |
