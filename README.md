@@ -47,18 +47,24 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 
 ## 📅 October 4, 2026 — Current OSS update
 
-### 🔥 New upstream proposals
+### 🔥 October 4 upstream state
 
+- **Inspect AI #5675** — **open upstream** — fixes #5639 by preserving the eval-level error during streamed log conversion; adds .eval and JSON regression coverage plus a changelog entry.
 - **Inspect AI #5670** — **open upstream** — explicit Google API keys now take precedence over ambient ADC defaults; regression coverage added.
 - **Inspect AI #5671** — **open upstream** — structured Pydantic validation failures now flow through retryable tool parsing errors; regression coverage added.
 - **Inspect AI #5672** — **open upstream** — cached input tokens are preserved across provider bridges; regression coverage added.
-- **Microsoft PyRIT #2976** — **open upstream**; preserves `WordLevelConverter` selection parameters in `StringJoinConverter` identifiers and adds regression coverage for distinct selections, equivalent index sets, and registry registration.
-- **NousResearch Hermes Agent #127233** — **open upstream**; fixes MCP `get_prompt` rendering so structured content blocks are rendered correctly.
+- **Microsoft PyRIT #2976** — **open upstream**; preserves WordLevelConverter selection parameters in StringJoinConverter identifiers and adds regression coverage.
+- **NousResearch Hermes Agent #127233** — **MERGED UPSTREAM · October 1, 2026**; fixes MCP get_prompt rendering through the existing content-block path. Merge commit: a0707dd1.
+- **Microsoft PyRIT #2919** — **closed without merge · October 1, 2026**; inverted-score metadata fix was not accepted upstream.
 
-All five are **open upstream**, not merged. The Atlas keeps upstream acceptance separate from active proposals.
+The Atlas separates open proposals from accepted and closed outcomes.
+
+
 
 
 ### 🧩 Inspect AI — October 4, 2026
+
+- [Inspect AI #5675 — stream conversion preserves eval errors](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — **OPEN UPSTREAM**; fixes #5639 by passing the eval-level error through the streaming recorder and adds regression coverage for both .eval and JSON conversion.
 
 - [Inspect AI #5670 — Google API key / ADC precedence](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5670) — **OPEN UPSTREAM**; fixes #5358 by making an explicit API key win over ambient `GOOGLE_USE_ADC`, while preserving explicit `use_adc=true` behavior. Adds focused regression coverage.
 - [Inspect AI #5671 — structured tool validation errors](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671) — **OPEN UPSTREAM**; fixes #5403 by converting Pydantic structured-parameter `ValidationError` into the normal retryable `ToolParsingError` path. Adds focused regression coverage.
@@ -71,10 +77,10 @@ All three are **open upstream** and are not counted as merged until upstream acc
 | State | Count |
 |---|---:|
 |  Merged upstream | **11** |
-| Open upstream | **23** |
+| Open upstream | **27** |
 | Open fork-side | **0** |
 | Closed without merge | **8** |
-| **External OSS PRs** | **42** |
+| **External OSS PRs** | **46** |
 
 Snapshot date: **October 4, 2026**.
 
