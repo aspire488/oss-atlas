@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on September 28, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on October 4, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -8,14 +8,15 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 | Status | Count |
 |---|---:|
-| Merged upstream | 10 |
-| Open upstream | 22 |
+| Merged upstream | 11 |
+| Open upstream | 27 |
 | Open fork-side | 0 |
-| Closed without merge | 7 |
-| **External OSS PRs** | **39** |
+| Closed without merge | 8 |
+| **External OSS PRs** | **46** |
 
 ## Merged upstream
 
+- [NousResearch/hermes-agent #127233 — MCP prompt rendering fix](https://github.com/NousResearch/hermes-agent/pull/127233) — merged 2026-10-01 (merge commit `a0707dd1ab8a087b9104438f10fb44340c13668e`)
 - [0xarchit/github-profile-analyzer #30 — Fix/impact score evidence](https://github.com/0xarchit/github-profile-analyzer/pull/30) — merged 2026-09-23
 - [eumemic/aios #2460 — preserve LiteLLM parameter translation](https://github.com/eumemic/aios/pull/2460) — merged 2026-09-23
 - [eumemic/aios #2457 — preserve length finish reason across streaming trailers](https://github.com/eumemic/aios/pull/2457) — merged 2026-09-23
@@ -27,6 +28,11 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [Agent-Field/agentfield #1073 — Go harness factory tests](https://github.com/Agent-Field/agentfield/pull/1073) — merged 2026-09-26 (merge commit `13b44603e2fb09a5d1817e8d2d0f64f3a40041fa`)
 
 ## Open upstream
+- [UKGovernmentBEIS/inspect_ai #5675 — preserve eval-level error during stream conversion](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — fixes #5639
+- [UKGovernmentBEIS/inspect_ai #5670 — prefer explicit API keys over ambient ADC](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5670)
+- [UKGovernmentBEIS/inspect_ai #5671 — convert structured validation failures to parsing errors](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671)
+- [UKGovernmentBEIS/inspect_ai #5672 — preserve cached input tokens across provider bridges](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5672)
+- [microsoft/PyRIT #2976 — preserve word-selection parameters in StringJoinConverter identifiers](https://github.com/microsoft/PyRIT/pull/2976)
 - [NVIDIA/garak #2234 — Fix/paraphrase transformers compat](https://github.com/NVIDIA/garak/pull/2234)
 - [NousResearch/hermes-agent #123846 — fix(batch): accept Fire tuple args and numeric run names](https://github.com/NousResearch/hermes-agent/pull/123846)
 - [NousResearch/hermes-agent #123850 — fix(batch): keep tool-search bridge trajectories](https://github.com/NousResearch/hermes-agent/pull/123850)
@@ -63,6 +69,8 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [aspire488/PyRIT #1 — canonical technique names in scenario summaries](https://github.com/aspire488/PyRIT/pull/1)
 
 ## Closed without merge
+
+- [microsoft/PyRIT #2919 — inverted score metadata](https://github.com/microsoft/PyRIT/pull/2919) — closed 2026-10-01 without merge
 
 - [pydantic/pydantic-ai #8823 — perf: avoid redundant RunContext copy when validation context is unset](https://github.com/pydantic/pydantic-ai/pull/8823)
 
