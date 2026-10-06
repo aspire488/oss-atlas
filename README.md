@@ -45,7 +45,7 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | [Roadmap](docs/ROADMAP.md) | Atlas implementation plan |
 
 
-## 📅 October 5, 2026 — Current OSS update
+## 📅 October 6, 2026 — Current OSS update
 
 ### 🔥 October 4 upstream state
 
@@ -53,7 +53,7 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 - **Inspect AI #5670** — **MERGED UPSTREAM · October 4, 2026** — explicit Google API keys now take precedence over ambient ADC defaults; regression coverage added. Merge commit: `203dc42caabc01980ac7afe767a8d1dcc2eb7f73`.
 - **Inspect AI #5671** — **OPEN UPSTREAM · DRAFT** — structured Pydantic validation failures now flow through retryable tool parsing errors; regression coverage added.
 - **Inspect AI #5672** — **OPEN UPSTREAM · DRAFT** — confirmed cached-read input tokens are preserved across provider bridges; regression coverage added.
-- **Microsoft PyRIT #2976** — **open upstream**; preserves WordLevelConverter selection parameters in StringJoinConverter identifiers and adds regression coverage.
+- **Microsoft PyRIT #2976** — **MERGED UPSTREAM · October 6, 2026**; preserves WordLevelConverter selection parameters in StringJoinConverter identifiers and adds regression coverage.
 - **NousResearch Hermes Agent #127233** — **MERGED UPSTREAM · October 1, 2026**; fixes MCP get_prompt rendering through the existing content-block path. Merge commit: a0707dd1.
 - **Microsoft PyRIT #2919** — **closed without merge · October 1, 2026**; inverted-score metadata fix was not accepted upstream.
 
@@ -76,13 +76,13 @@ All three are **open upstream** and are not counted as merged until upstream acc
 
 | State | Count |
 |---|---:|
-|  Merged upstream | **12** |
-| Open upstream | **26** |
+|  Merged upstream | **13** |
+| Open upstream | **25** |
 | Open fork-side | **0** |
 | Closed without merge | **8** |
 | **External OSS PRs** | **46** |
 
-Snapshot date: **October 5, 2026**.
+Snapshot date: **October 6, 2026**.
 
 ## 📈 OSS Atlas Dashboard
 
@@ -115,6 +115,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 ## 🏆 Recent upstream merges
 
 ### 🔥 Microsoft PyRIT — current upstream track
+- **Microsoft PyRIT #2976 — StringJoinConverter identifier fix** — **MERGED UPSTREAM on October 6, 2026**; preserves word-selection parameters in `StringJoinConverter` identifiers while retaining default identifier compatibility, with focused regression coverage. [PR](https://github.com/microsoft/PyRIT/pull/2976)
 - **Microsoft PyRIT #2882 — ExactTextMatching empty-target fix** — **MERGED UPSTREAM on September 28, 2026**; rejects empty and whitespace-only exact-match targets, with `DecodingScorer` regression coverage and explicit `ignore_whitespace=False` coverage. Merge commit: `dff83aaab767f9b2b0aee68a20ab277de7e9d289`.
 - **Microsoft PyRIT #2885 — Prompt Shield parser** — **CLOSED AS DUPLICATE on September 28, 2026**; maintainer directed the fix/review to earlier #2838, which addresses the same parsing bug.
 - **New open proposals:** [Hermes Agent #123846](https://github.com/NousResearch/hermes-agent/pull/123846) and [#123850](https://github.com/NousResearch/hermes-agent/pull/123850) — **open upstream on September 26, 2026**; the first fixes Fire CLI tuple/numeric argument normalization, while the second preserves Tool Search bridge trajectories during batch validation. #123850 now also has behavioral regression coverage through `_combine_batch_files()` verifying a `tool_call` bridge trajectory is retained rather than filtered as invalid.
@@ -132,7 +133,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - [PyRIT #2823 — HarmBench context preservation](https://github.com/microsoft/PyRIT/pull/2823) — **MERGED UPSTREAM · September 25, 2026**; preserves non-empty HarmBench `ContextString` in behavior prompts, retains context metadata, and adds regression coverage. Merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`.
 - [Microsoft RAMPART #2 — Generic PyRIT converter bridge](https://github.com/aspire488/RAMPART/pull/2) — **open upstream fork-side proposal · September 25, 2026**; implements the documented PyRIT PromptConverter → RAMPART PayloadConverter bridge for text-to-text converters, preserving payload identity/metadata with focused regression coverage.
 
-**PyRIT track record:** 3 separate upstream PRs merged into Microsoft's AI red-teaming framework.
+**PyRIT track record:** 4 separate upstream PRs merged into Microsoft's AI red-teaming framework.
 
 - [aios #2457](https://github.com/eumemic/aios/pull/2457) — preserved streaming length termination semantics
 - [aios #2460](https://github.com/eumemic/aios/pull/2460) — preserved LiteLLM parameter translation
