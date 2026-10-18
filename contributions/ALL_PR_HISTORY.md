@@ -8,10 +8,10 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 | Status | Count |
 |---|---:|
-| Merged upstream | 13 |
+| Merged upstream | 12 |
 | Open upstream | 25 |
 | Open fork-side | 3 |
-| Closed without merge | 8 |
+| Closed without merge | 9 |
 | **External OSS PRs** | **49** |
 
 ## Merged upstream
