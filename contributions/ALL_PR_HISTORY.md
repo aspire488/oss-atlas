@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on October 4, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on October 18, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -8,11 +8,11 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 | Status | Count |
 |---|---:|
-| Merged upstream | 11 |
-| Open upstream | 27 |
-| Open fork-side | 0 |
+| Merged upstream | 13 |
+| Open upstream | 25 |
+| Open fork-side | 3 |
 | Closed without merge | 8 |
-| **External OSS PRs** | **46** |
+| **External OSS PRs** | **49** |
 
 ## Merged upstream
 
@@ -59,6 +59,10 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [RajX-dev/N3MO #39 — Ruby/Kotlin language routing regression coverage](https://github.com/RajX-dev/N3MO/pull/39)
 
 ## Open fork-side OSS work
+
+- [aspire488/PyRIT #3309 — prevent role-play prompt preambles](https://github.com/microsoft/PyRIT/pull/3309) — open PR from fork; regression tests added, but tests and the requested 50-run comparison remain pending.
+- [aspire488/kestra #21225 — editor content widget lifecycle tests](https://github.com/kestra-io/kestra/pull/21225) — draft fork-side PR; Vitest run and required passing-test screenshot remain pending.
+- [aspire488/cmux #21749 — OpenCode database snapshot sidecar tests](https://github.com/manaflow-ai/cmux/pull/21749) — draft fork-side PR; native macOS/Xcode tests remain pending.
 
 - [aspire488/siyuan #1 — recover expired MCP sessions without unsafe replay](https://github.com/aspire488/siyuan/pull/1)
 - [aspire488/linguist #1 — trim .example suffix before language detection](https://github.com/aspire488/linguist/pull/1)
