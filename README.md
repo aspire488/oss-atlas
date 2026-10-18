@@ -45,7 +45,17 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | [Roadmap](docs/ROADMAP.md) | Atlas implementation plan |
 
 
-## 📅 October 6, 2026 — Current OSS update
+## 📅 October 18, 2026 — Current OSS update
+
+### Latest work — October 18
+
+- **Microsoft PyRIT #3309** — open PR from `aspire488/PyRIT`; adds no-preamble instructions to six role-play prompt templates and regression tests. Test execution and the requested 50-run before/after comparison are still pending; no behavior improvement is claimed yet.
+- **Kestra #21225** — draft fork-side PR adding editor content-widget lifecycle tests. Vitest execution and the issue-required passing-test screenshot are still pending.
+- **cmux #21749** — draft fork-side PR covering `OPENCODE_DB` snapshot sidecars (`-wal`, `-shm`) and missing-database behavior. macOS/Xcode tests are still pending. The underlying path resolver/snapshot implementation already exists upstream, so this PR only adds test coverage and an environment-injection seam.
+
+These are recorded as **fork-side proposals**, not upstream PRs. Their validation remains explicitly pending.
+
+## 📅 October 6, 2026 — Earlier OSS update
 
 ### 🔥 October 4 upstream state
 
@@ -78,11 +88,11 @@ All three are **open upstream** and are not counted as merged until upstream acc
 |---|---:|
 |  Merged upstream | **13** |
 | Open upstream | **25** |
-| Open fork-side | **0** |
+| Open fork-side | **3** |
 | Closed without merge | **8** |
-| **External OSS PRs** | **46** |
+| **External OSS PRs** | **49** |
 
-Snapshot date: **October 6, 2026**.
+Snapshot date: **October 18, 2026**.
 
 ## 📈 OSS Atlas Dashboard
 
