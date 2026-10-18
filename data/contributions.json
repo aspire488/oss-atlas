@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-10-04",
+  "observed_at": "2026-10-18",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
-    "total": 46,
-    "merged": 11,
-    "open_upstream": 27,
-    "open_fork": 0,
-    "closed": 8
+    "total": 49,
+    "merged": 12,
+    "open_upstream": 25,
+    "open_fork": 3,
+    "closed": 9
   },
   "contributions": [
     {
@@ -408,7 +408,7 @@
       "repository": "PyRIT",
       "pr": 2882,
       "status": "merged",
-      "summary": "merged 2026-09-28",
+      "summary": "merged 2026-09-28; merge commit dff83aaab767f9b2b0aee68a20ab277de7e9d289",
       "source": "github",
       "merge_commit": "dff83aaab767f9b2b0aee68a20ab277de7e9d289"
     },
@@ -496,8 +496,8 @@
       "owner": "microsoft",
       "repository": "PyRIT",
       "pr": 2976,
-      "status": "open_upstream",
-      "summary": "open 2026-10-04",
+      "status": "merged",
+      "summary": "merged 2026-10-06",
       "source": "github"
     },
     {
@@ -521,6 +521,39 @@
       "pr": 2919,
       "status": "closed",
       "summary": "closed 2026-10-01; not merged",
+      "source": "github"
+    },
+    {
+      "id": "microsoft/PyRIT#3309",
+      "title": "microsoft/PyRIT #3309 — prevent role-play prompt preambles",
+      "url": "https://github.com/microsoft/PyRIT/pull/3309",
+      "owner": "microsoft",
+      "repository": "PyRIT",
+      "pr": 3309,
+      "status": "open_fork",
+      "summary": "open PR from aspire488/PyRIT; regression tests added, execution and requested 50-run comparison pending",
+      "source": "github"
+    },
+    {
+      "id": "kestra-io/kestra#21225",
+      "title": "kestra-io/kestra #21225 — editor content widget lifecycle tests",
+      "url": "https://github.com/kestra-io/kestra/pull/21225",
+      "owner": "kestra-io",
+      "repository": "kestra",
+      "pr": 21225,
+      "status": "open_fork",
+      "summary": "draft PR from aspire488/kestra; focused Vitest run and required passing-test screenshot pending",
+      "source": "github"
+    },
+    {
+      "id": "manaflow-ai/cmux#21749",
+      "title": "manaflow-ai/cmux #21749 — OpenCode database snapshot sidecar tests",
+      "url": "https://github.com/manaflow-ai/cmux/pull/21749",
+      "owner": "manaflow-ai",
+      "repository": "cmux",
+      "pr": 21749,
+      "status": "open_fork",
+      "summary": "draft PR from aspire488/cmux; macOS/Xcode test suite not run in this environment",
       "source": "github"
     }
   ]
