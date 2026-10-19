@@ -35,7 +35,7 @@
 - [Inspect AI #5671](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671) — **open upstream**
 - [Inspect AI #5672](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5672) — **open upstream**
 - [Microsoft PyRIT #2976](https://github.com/microsoft/PyRIT/pull/2976) — **open upstream**
-- [NousResearch Hermes Agent #127233](https://github.com/NousResearch/hermes-agent/pull/127233) — **merged upstream**
+- [NousResearch Hermes Agent #127233](https://github.com/NousResearch/hermes-agent/pull/127233) — **closed without merge** (duplicate of #122824)
 
 ### AI / security / agent tooling
 - [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — merged upstream

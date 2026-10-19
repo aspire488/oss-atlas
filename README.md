@@ -64,7 +64,7 @@ These are recorded as **fork-side proposals**, not upstream PRs. Their validatio
 - **Inspect AI #5671** — **OPEN UPSTREAM · DRAFT** — structured Pydantic validation failures now flow through retryable tool parsing errors; regression coverage added.
 - **Inspect AI #5672** — **OPEN UPSTREAM · DRAFT** — confirmed cached-read input tokens are preserved across provider bridges; regression coverage added.
 - **Microsoft PyRIT #2976** — **MERGED UPSTREAM · October 6, 2026**; preserves WordLevelConverter selection parameters in StringJoinConverter identifiers and adds regression coverage.
-- **NousResearch Hermes Agent #127233** — **MERGED UPSTREAM · October 1, 2026**; fixes MCP get_prompt rendering through the existing content-block path. Merge commit: a0707dd1.
+- **NousResearch Hermes Agent #127233** — **closed without merge · October 1, 2026**; MCP get_prompt rendering fix, closed as a duplicate of the earlier #122824. (An earlier version of this entry called it merged, citing a0707dd1; that commit is GitHub's automatic test merge of the PR branch, not an upstream merge.)
 - **Microsoft PyRIT #2919** — **closed without merge · October 1, 2026**; inverted-score metadata fix was not accepted upstream.
 
 The Atlas separates open proposals from accepted and closed outcomes.
@@ -86,10 +86,10 @@ All three are **open upstream** and are not counted as merged until upstream acc
 
 | State | Count |
 |---|---:|
-|  Merged upstream | **12** |
+|  Merged upstream | **11** |
 | Open upstream | **25** |
 | Open fork-side | **3** |
-| Closed without merge | **9** |
+| Closed without merge | **10** |
 | **External OSS PRs** | **49** |
 
 Snapshot date: **October 18, 2026**.

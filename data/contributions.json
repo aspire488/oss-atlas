@@ -5,10 +5,10 @@
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
     "total": 49,
-    "merged": 12,
+    "merged": 11,
     "open_upstream": 25,
     "open_fork": 3,
-    "closed": 9
+    "closed": 10
   },
   "contributions": [
     {
@@ -507,10 +507,9 @@
       "owner": "NousResearch",
       "repository": "hermes-agent",
       "pr": 127233,
-      "status": "merged",
-      "summary": "merged 2026-10-01",
-      "source": "github",
-      "merge_commit": "a0707dd1ab8a087b9104438f10fb44340c13668e"
+      "status": "closed",
+      "summary": "closed 2026-10-01 (duplicate of #122824, not merged)",
+      "source": "github"
     },
     {
       "id": "microsoft/PyRIT#2919",

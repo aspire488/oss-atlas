@@ -8,15 +8,14 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 | Status | Count |
 |---|---:|
-| Merged upstream | 12 |
+| Merged upstream | 11 |
 | Open upstream | 25 |
 | Open fork-side | 3 |
-| Closed without merge | 9 |
+| Closed without merge | 10 |
 | **External OSS PRs** | **49** |
 
 ## Merged upstream
 
-- [NousResearch/hermes-agent #127233 — MCP prompt rendering fix](https://github.com/NousResearch/hermes-agent/pull/127233) — merged 2026-10-01 (merge commit `a0707dd1ab8a087b9104438f10fb44340c13668e`)
 - [0xarchit/github-profile-analyzer #30 — Fix/impact score evidence](https://github.com/0xarchit/github-profile-analyzer/pull/30) — merged 2026-09-23
 - [eumemic/aios #2460 — preserve LiteLLM parameter translation](https://github.com/eumemic/aios/pull/2460) — merged 2026-09-23
 - [eumemic/aios #2457 — preserve length finish reason across streaming trailers](https://github.com/eumemic/aios/pull/2457) — merged 2026-09-23
@@ -74,6 +73,7 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 ## Closed without merge
 
+- [NousResearch/hermes-agent #127233 — MCP prompt rendering fix](https://github.com/NousResearch/hermes-agent/pull/127233) — closed 2026-10-01 without merge (duplicate of #122824)
 - [microsoft/PyRIT #2919 — inverted score metadata](https://github.com/microsoft/PyRIT/pull/2919) — closed 2026-10-01 without merge
 
 - [pydantic/pydantic-ai #8823 — perf: avoid redundant RunContext copy when validation context is unset](https://github.com/pydantic/pydantic-ai/pull/8823)
