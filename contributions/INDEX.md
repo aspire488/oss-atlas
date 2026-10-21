@@ -26,6 +26,9 @@
 
 ## Featured active work
 
+- [Microsoft PyRIT #3429](https://github.com/microsoft/PyRIT/pull/3429) — **open upstream** — adds XXE output-scorer detection for external XInclude resources; focused regex smoke checks passed, full suite not run.
+- [Microsoft PyRIT #3335](https://github.com/microsoft/PyRIT/pull/3335) — **open upstream** — AzureML extra-parameter identifier fix.
+
 - [Microsoft PyRIT #3309](https://github.com/microsoft/PyRIT/pull/3309) — **open fork-side** — role-play prompts now explicitly prohibit conversational preambles; tests and 50-run comparison pending.
 - [Kestra #21225](https://github.com/kestra-io/kestra/pull/21225) — **draft fork-side** — editor content-widget lifecycle regression coverage; focused Vitest run pending.
 - [cmux #21749](https://github.com/manaflow-ai/cmux/pull/21749) — **draft fork-side** — OpenCode database snapshot sidecar/missing-file tests; native macOS/Xcode validation pending.
