@@ -45,10 +45,12 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | [Roadmap](docs/ROADMAP.md) | Atlas implementation plan |
 
 
-## 📅 October 18, 2026 — Current OSS update
+## 📅 October 21, 2026 — Current OSS update
 
-### Latest work — October 18
+### Latest work — October 21
 
+- **Microsoft PyRIT #3429** — open upstream PR adding XXE output-scorer detection for external XInclude resources (`file:`, `http:`, `https:`, and `ftp:`). Added local-file and remote-resource positives plus relative-reference and unrelated-element negatives. Regex smoke checks passed; full PyRIT suite has not been run.
+- **Microsoft PyRIT #3335** — open upstream PR for the AzureML extra-parameter identifier fix.
 - **Microsoft PyRIT #3309** — open PR from `aspire488/PyRIT`; adds no-preamble instructions to six role-play prompt templates and regression tests. Test execution and the requested 50-run before/after comparison are still pending; no behavior improvement is claimed yet.
 - **Kestra #21225** — draft fork-side PR adding editor content-widget lifecycle tests. Vitest execution and the issue-required passing-test screenshot are still pending.
 - **cmux #21749** — draft fork-side PR covering `OPENCODE_DB` snapshot sidecars (`-wal`, `-shm`) and missing-database behavior. macOS/Xcode tests are still pending. The underlying path resolver/snapshot implementation already exists upstream, so this PR only adds test coverage and an environment-injection seam.
@@ -87,12 +89,12 @@ All three are **open upstream** and are not counted as merged until upstream acc
 | State | Count |
 |---|---:|
 |  Merged upstream | **11** |
-| Open upstream | **25** |
+| Open upstream | **27** |
 | Open fork-side | **3** |
 | Closed without merge | **10** |
-| **External OSS PRs** | **49** |
+| **External OSS PRs** | **51** |
 
-Snapshot date: **October 18, 2026**.
+Snapshot date: **October 21, 2026**.
 
 ## 📈 OSS Atlas Dashboard
 
@@ -125,6 +127,8 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 ## 🏆 Recent upstream merges
 
 ### 🔥 Microsoft PyRIT — current upstream track
+- **Microsoft PyRIT #3429 — XInclude external-resource detection** — **OPEN UPSTREAM · October 21, 2026**; extends XXE output scoring to prefixed/unprefixed XInclude elements referencing external `file:`, `http:`, `https:`, or `ftp:` resources. Regression cases cover local/remote resources, relative references, and unrelated XML elements. Regex smoke checks passed; full suite not run. [PR](https://github.com/microsoft/PyRIT/pull/3429).
+- **Microsoft PyRIT #3335 — AzureML extra-parameter identifier fix** — open upstream. [PR](https://github.com/microsoft/PyRIT/pull/3335).
 - **Microsoft PyRIT #2976 — StringJoinConverter identifier fix** — **MERGED UPSTREAM on October 6, 2026**; preserves word-selection parameters in `StringJoinConverter` identifiers while retaining default identifier compatibility, with focused regression coverage. [PR](https://github.com/microsoft/PyRIT/pull/2976)
 - **Microsoft PyRIT #2882 — ExactTextMatching empty-target fix** — **MERGED UPSTREAM on September 28, 2026**; rejects empty and whitespace-only exact-match targets, with `DecodingScorer` regression coverage and explicit `ignore_whitespace=False` coverage. Merge commit: `dff83aaab767f9b2b0aee68a20ab277de7e9d289`.
 - **Microsoft PyRIT #2885 — Prompt Shield parser** — **CLOSED AS DUPLICATE on September 28, 2026**; maintainer directed the fix/review to earlier #2838, which addresses the same parsing bug.
