@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-10-18",
+  "observed_at": "2026-10-21",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
-    "total": 49,
+    "total": 51,
     "merged": 11,
-    "open_upstream": 25,
+    "open_upstream": 27,
     "open_fork": 3,
     "closed": 10
   },
@@ -553,6 +553,28 @@
       "pr": 21749,
       "status": "open_fork",
       "summary": "draft PR from aspire488/cmux; macOS/Xcode test suite not run in this environment",
+      "source": "github"
+    },
+    {
+      "id": "microsoft/PyRIT#3335",
+      "title": "microsoft/PyRIT #3335 — AzureML extra parameter identifier fix",
+      "url": "https://github.com/microsoft/PyRIT/pull/3335",
+      "owner": "microsoft",
+      "repository": "PyRIT",
+      "pr": 3335,
+      "status": "open_upstream",
+      "summary": "AzureML extra-parameter identifier fix; state observed 2026-10-21",
+      "source": "github"
+    },
+    {
+      "id": "microsoft/PyRIT#3429",
+      "title": "microsoft/PyRIT #3429 — detect external XInclude resources in XXE output scoring",
+      "url": "https://github.com/microsoft/PyRIT/pull/3429",
+      "owner": "microsoft",
+      "repository": "PyRIT",
+      "pr": 3429,
+      "status": "open_upstream",
+      "summary": "Adds XInclude external-resource detection and regression tests; regex smoke tests passed, full PyRIT suite not run",
       "source": "github"
     }
   ]
