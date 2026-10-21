@@ -8,11 +8,11 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 | Status | Count |
 |---|---:|
-| Merged upstream | 11 |
-| Open upstream | 27 |
+| Merged upstream | 12 |
+| Open upstream | 26 |
 | Open fork-side | 3 |
-| Closed without merge | 10 |
-| **External OSS PRs** | **51** |
+| Closed without merge | 12 |
+| **External OSS PRs** | **53** |
 
 ## Merged upstream
 
@@ -27,10 +27,11 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [Agent-Field/agentfield #1073 — Go harness factory tests](https://github.com/Agent-Field/agentfield/pull/1073) — merged 2026-09-26 (merge commit `13b44603e2fb09a5d1817e8d2d0f64f3a40041fa`)
 
 ## Open upstream
+- [NousResearch/hermes-agent #134658 — use type-only imports for session source types](https://github.com/NousResearch/hermes-agent/pull/134658) — fixes #134632.
 - [microsoft/PyRIT #3429 — detect external XInclude resources in XXE output scoring](https://github.com/microsoft/PyRIT/pull/3429) — adds external-resource XInclude detection and regression coverage; regex smoke tests passed, full suite not run.
 - [microsoft/PyRIT #3335 — AzureML extra parameter identifier fix](https://github.com/microsoft/PyRIT/pull/3335)
 - [UKGovernmentBEIS/inspect_ai #5675 — preserve eval-level error during stream conversion](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — fixes #5639
-- [UKGovernmentBEIS/inspect_ai #5670 — prefer explicit API keys over ambient ADC](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5670)
+- [UKGovernmentBEIS/inspect_ai #5670 — prefer explicit API keys over ambient ADC](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5670) — merged 2026-10-04
 - [UKGovernmentBEIS/inspect_ai #5671 — convert structured validation failures to parsing errors](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671)
 - [UKGovernmentBEIS/inspect_ai #5672 — preserve cached input tokens across provider bridges](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5672)
 - [microsoft/PyRIT #2976 — preserve word-selection parameters in StringJoinConverter identifiers](https://github.com/microsoft/PyRIT/pull/2976)
@@ -45,7 +46,7 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 - [KARAN-D05/TopoCore #1 — detect repeated spatial execution states](https://github.com/KARAN-D05/TopoCore/pull/1)
 - [run-llama/llama_index #23201 — preserve retrieved scores during prev-next expansion](https://github.com/run-llama/llama_index/pull/23201)
-- [NousResearch/hermes-agent #121771 — desktop gateway stale-ref recovery](https://github.com/NousResearch/hermes-agent/pull/121771)
+- [NousResearch/hermes-agent #121771 — desktop gateway stale-ref recovery](https://github.com/NousResearch/hermes-agent/pull/121771) — closed as superseded after #126144 incorporated the fix
 - [cloudflare/quiche #2759 — ignore ACKs for non-in-flight packets](https://github.com/cloudflare/quiche/pull/2759)
 - [cloudflare/quiche #2758 — verify peers with a custom CA](https://github.com/cloudflare/quiche/pull/2758)
 - [cloudflare/quiche #2756 — unify PTO-based timer duration](https://github.com/cloudflare/quiche/pull/2756)
@@ -74,6 +75,7 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [aspire488/PyRIT #1 — canonical technique names in scenario summaries](https://github.com/aspire488/PyRIT/pull/1)
 
 ## Closed without merge
+- [NousResearch/hermes-agent #135229 — update lock custodian partner v2](https://github.com/NousResearch/hermes-agent/pull/135229) — closed without merge (state observed 2026-10-21).
 
 - [NousResearch/hermes-agent #127233 — MCP prompt rendering fix](https://github.com/NousResearch/hermes-agent/pull/127233) — closed 2026-10-01 without merge (duplicate of #122824)
 - [microsoft/PyRIT #2919 — inverted score metadata](https://github.com/microsoft/PyRIT/pull/2919) — closed 2026-10-01 without merge
