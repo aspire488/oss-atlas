@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on October 18, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on October 21, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -9,10 +9,10 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 | Status | Count |
 |---|---:|
 | Merged upstream | 11 |
-| Open upstream | 25 |
+| Open upstream | 27 |
 | Open fork-side | 3 |
 | Closed without merge | 10 |
-| **External OSS PRs** | **49** |
+| **External OSS PRs** | **51** |
 
 ## Merged upstream
 
@@ -27,6 +27,8 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [Agent-Field/agentfield #1073 — Go harness factory tests](https://github.com/Agent-Field/agentfield/pull/1073) — merged 2026-09-26 (merge commit `13b44603e2fb09a5d1817e8d2d0f64f3a40041fa`)
 
 ## Open upstream
+- [microsoft/PyRIT #3429 — detect external XInclude resources in XXE output scoring](https://github.com/microsoft/PyRIT/pull/3429) — adds external-resource XInclude detection and regression coverage; regex smoke tests passed, full suite not run.
+- [microsoft/PyRIT #3335 — AzureML extra parameter identifier fix](https://github.com/microsoft/PyRIT/pull/3335)
 - [UKGovernmentBEIS/inspect_ai #5675 — preserve eval-level error during stream conversion](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — fixes #5639
 - [UKGovernmentBEIS/inspect_ai #5670 — prefer explicit API keys over ambient ADC](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5670)
 - [UKGovernmentBEIS/inspect_ai #5671 — convert structured validation failures to parsing errors](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671)
