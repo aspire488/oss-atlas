@@ -1,12 +1,13 @@
 # 🏆 Featured Upstream Contributions — Microsoft PyRIT
 
-> ## **Three PRs — All MERGED UPSTREAM**
+> ## **Four PRs — All MERGED UPSTREAM**
 >
 > **#2762 — Dataset Summary API** · September 24, 2026 · merge commit `47c6151a`
 >
 > **#2823 — HarmBench context preservation** · September 25, 2026 · merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`
 >
-> **#2882 — ExactTextMatching empty-target fix** · September 28, 2026 · merge commit `dff83aaab767f9b2b0aee68a20ab277de7e9d289`
+> **#2882 — ExactTextMatching empty-target fix** · September 28, 2026 · merge commit `dff83aaab767f9b2b0aee68a20ab277de7e9d289`  
+> **#2976 — StringJoinConverter identifier fix** · October 6, 2026 · merged upstream
 >
 > Together, these are three separate accepted upstream contributions to Microsoft's open-source AI red-teaming framework, spanning backend feature work and regression-focused behavior preservation.
 ---
@@ -39,7 +40,7 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | [Case Studies](case-studies/README.md) | Deep evidence-backed analysis |
 | [Research](research/README.md) | Reviews, investigations, discussions |
 | [Learnings](learnings/README.md) | Reusable engineering lessons |
-| [2026-09-27 Ledger](contributions/ALL_PR_HISTORY.md) | Dated contribution-state snapshot |
+| [2026-10-21 Ledger](contributions/ALL_PR_HISTORY.md) | Dated contribution-state snapshot |
 | [Operating Model](docs/OPERATING_MODEL.md) | Evidence and maintenance rules |
 | [Automation](docs/AUTOMATION.md) | GitHub Actions and drift-audit contract |
 | [Roadmap](docs/ROADMAP.md) | Atlas implementation plan |
