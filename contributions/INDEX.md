@@ -26,6 +26,8 @@
 
 ## Featured active work
 
+- [Hermes Agent #134658](https://github.com/NousResearch/hermes-agent/pull/134658) — **open upstream** — fixes type-only imports for session source types under `verbatimModuleSyntax`.
+
 - [Microsoft PyRIT #3429](https://github.com/microsoft/PyRIT/pull/3429) — **open upstream** — adds XXE output-scorer detection for external XInclude resources; focused regex smoke checks passed, full suite not run.
 - [Microsoft PyRIT #3335](https://github.com/microsoft/PyRIT/pull/3335) — **open upstream** — AzureML extra-parameter identifier fix.
 
