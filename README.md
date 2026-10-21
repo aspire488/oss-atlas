@@ -50,6 +50,8 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 
 ### Latest work — October 21
 
+- **NousResearch Hermes Agent #134658** — open upstream; type-only imports for session source types to satisfy `verbatimModuleSyntax`. [PR](https://github.com/NousResearch/hermes-agent/pull/134658).
+- **NousResearch Hermes Agent #135229** — closed without merge; retained as historical activity rather than counted as open work. [PR](https://github.com/NousResearch/hermes-agent/pull/135229).
 - **Microsoft PyRIT #3429** — open upstream PR adding XXE output-scorer detection for external XInclude resources (`file:`, `http:`, `https:`, and `ftp:`). Added local-file and remote-resource positives plus relative-reference and unrelated-element negatives. Regex smoke checks passed; full PyRIT suite has not been run.
 - **Microsoft PyRIT #3335** — open upstream PR for the AzureML extra-parameter identifier fix.
 - **Microsoft PyRIT #3309** — open PR from `aspire488/PyRIT`; adds no-preamble instructions to six role-play prompt templates and regression tests. Test execution and the requested 50-run before/after comparison are still pending; no behavior improvement is claimed yet.
@@ -67,7 +69,8 @@ These are recorded as **fork-side proposals**, not upstream PRs. Their validatio
 - **Inspect AI #5671** — **OPEN UPSTREAM · DRAFT** — structured Pydantic validation failures now flow through retryable tool parsing errors; regression coverage added.
 - **Inspect AI #5672** — **OPEN UPSTREAM · DRAFT** — confirmed cached-read input tokens are preserved across provider bridges; regression coverage added.
 - **Microsoft PyRIT #2976** — **MERGED UPSTREAM · October 6, 2026**; preserves WordLevelConverter selection parameters in StringJoinConverter identifiers and adds regression coverage.
-- **NousResearch Hermes Agent #127233** — **closed without merge · October 1, 2026**; MCP get_prompt rendering fix, closed as a duplicate of the earlier #122824. (An earlier version of this entry called it merged, citing a0707dd1; that commit is GitHub's automatic test merge of the PR branch, not an upstream merge.)
+- **NousResearch Hermes Agent #127233** — **closed without merge · October 1, 2026**; MCP get_prompt rendering fix, closed as a duplicate of the earlier #122824.
+- **NousResearch Hermes Agent #121771** — **closed as superseded** after #126144 incorporated and credited the stale-gateway recovery fix. (An earlier version of this entry called it merged, citing a0707dd1; that commit is GitHub's automatic test merge of the PR branch, not an upstream merge.)
 - **Microsoft PyRIT #2919** — **closed without merge · October 1, 2026**; inverted-score metadata fix was not accepted upstream.
 
 The Atlas separates open proposals from accepted and closed outcomes.
@@ -89,11 +92,11 @@ All three are **open upstream** and are not counted as merged until upstream acc
 
 | State | Count |
 |---|---:|
-|  Merged upstream | **11** |
-| Open upstream | **27** |
+|  Merged upstream | **12** |
+| Open upstream | **26** |
 | Open fork-side | **3** |
-| Closed without merge | **10** |
-| **External OSS PRs** | **51** |
+| Closed without merge | **12** |
+| **External OSS PRs** | **53** |
 
 Snapshot date: **October 21, 2026**.
 
