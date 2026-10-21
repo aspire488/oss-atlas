@@ -4,11 +4,11 @@
   "observed_at": "2026-10-21",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
-    "total": 51,
-    "merged": 11,
-    "open_upstream": 27,
+    "total": 53,
+    "merged": 12,
+    "open_upstream": 26,
     "open_fork": 3,
-    "closed": 10
+    "closed": 12
   },
   "contributions": [
     {
@@ -329,8 +329,8 @@
       "owner": "NousResearch",
       "repository": "hermes-agent",
       "pr": 121771,
-      "status": "open_upstream",
-      "summary": "",
+      "status": "closed",
+      "summary": "closed as superseded after #126144 incorporated the stale-gateway recovery fix",
       "source": "github"
     },
     {
@@ -463,8 +463,8 @@
       "owner": "UKGovernmentBEIS",
       "repository": "inspect_ai",
       "pr": 5670,
-      "status": "open_upstream",
-      "summary": "open 2026-10-04",
+      "status": "merged",
+      "summary": "merged 2026-10-04",
       "source": "github"
     },
     {
@@ -575,6 +575,28 @@
       "pr": 3429,
       "status": "open_upstream",
       "summary": "Adds XInclude external-resource detection and regression tests; regex smoke tests passed, full PyRIT suite not run",
+      "source": "github"
+    },
+    {
+      "id": "NousResearch/hermes-agent#134658",
+      "title": "NousResearch/hermes-agent #134658 — use type-only imports for session source types",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/134658",
+      "owner": "NousResearch",
+      "repository": "hermes-agent",
+      "pr": 134658,
+      "status": "open_upstream",
+      "summary": "Fixes #134632; satisfies verbatimModuleSyntax type-only import requirements; observed 2026-10-21",
+      "source": "github"
+    },
+    {
+      "id": "NousResearch/hermes-agent#135229",
+      "title": "NousResearch/hermes-agent #135229 — update lock custodian partner v2",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/135229",
+      "owner": "NousResearch",
+      "repository": "hermes-agent",
+      "pr": 135229,
+      "status": "closed",
+      "summary": "Closed without merge; state observed 2026-10-21",
       "source": "github"
     }
   ]
