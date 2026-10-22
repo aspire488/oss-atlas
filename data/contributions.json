@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-10-21",
+  "observed_at": "2026-10-22",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
     "total": 53,
@@ -218,7 +218,7 @@
       "repository": "OpenHands",
       "pr": 17579,
       "status": "open_upstream",
-      "summary": "",
+      "summary": "open; latest CI passed after review fixes (condenser.max_size key, minimum 20, formatting)",
       "source": "github"
     },
     {
@@ -453,7 +453,7 @@
       "repository": "inspect_ai",
       "pr": 5675,
       "status": "open_upstream",
-      "summary": "open 2026-10-04; fixes #5639",
+      "summary": "open 2026-10-22; fixes #5639; restored missing test parametrization after Python 3.14 CI setup error; fix pushed as fb9a400; CI rerunning; make check/make test not run locally",
       "source": "github"
     },
     {
@@ -552,7 +552,7 @@
       "repository": "cmux",
       "pr": 21749,
       "status": "open_fork",
-      "summary": "draft PR from aspire488/cmux; macOS/Xcode test suite not run in this environment",
+      "summary": "draft fork-side PR; macOS/Xcode tests pending; CLA bot requested contributor signature",
       "source": "github"
     },
     {
@@ -574,7 +574,7 @@
       "repository": "PyRIT",
       "pr": 3429,
       "status": "open_upstream",
-      "summary": "Adds XInclude external-resource detection and regression tests; regex smoke tests passed, full PyRIT suite not run",
+      "summary": "Open; XInclude external-resource detection and regression tests; workflow runs report action_required pending maintainer authorization",
       "source": "github"
     },
     {
