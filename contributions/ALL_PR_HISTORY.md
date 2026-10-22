@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on October 21, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on October 22, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -28,9 +28,9 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 ## Open upstream
 - [NousResearch/hermes-agent #134658 — use type-only imports for session source types](https://github.com/NousResearch/hermes-agent/pull/134658) — fixes #134632.
-- [microsoft/PyRIT #3429 — detect external XInclude resources in XXE output scoring](https://github.com/microsoft/PyRIT/pull/3429) — adds external-resource XInclude detection and regression coverage; regex smoke tests passed, full suite not run.
+- [microsoft/PyRIT #3429 — detect external XInclude resources in XXE output scoring](https://github.com/microsoft/PyRIT/pull/3429) — adds external-resource XInclude detection and regression coverage; workflows currently require maintainer authorization; full suite not run.
 - [microsoft/PyRIT #3335 — AzureML extra parameter identifier fix](https://github.com/microsoft/PyRIT/pull/3335)
-- [UKGovernmentBEIS/inspect_ai #5675 — preserve eval-level error during stream conversion](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — fixes #5639
+- [UKGovernmentBEIS/inspect_ai #5675 — preserve eval-level error during stream conversion](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — fixes #5639; follow-up CI fix pushed 2026-10-22 (`fb9a400`) to restore the existing test's `stream`/`to` parametrization after a Python 3.14 fixture setup error; CI rerunning, local `make check`/`make test` not run
 - [UKGovernmentBEIS/inspect_ai #5670 — prefer explicit API keys over ambient ADC](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5670) — merged 2026-10-04
 - [UKGovernmentBEIS/inspect_ai #5671 — convert structured validation failures to parsing errors](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671)
 - [UKGovernmentBEIS/inspect_ai #5672 — preserve cached input tokens across provider bridges](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5672)
@@ -56,7 +56,7 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [mvt-project/mvt #939 — STIX indicator equals](https://github.com/mvt-project/mvt/pull/939)
 - [coder/coder #29668 — deduplicate Unknown AI Gateway clients](https://github.com/coder/coder/pull/29668)
 - [tysoncung/ai-platform-aws #4 — provider routing specificity](https://github.com/tysoncung/ai-platform-aws/pull/4)
-- [OpenHands/OpenHands #17579 — align condenser max size with agent-server minimum](https://github.com/OpenHands/OpenHands/pull/17579)
+- [OpenHands/OpenHands #17579 — align condenser max size with agent-server minimum](https://github.com/OpenHands/OpenHands/pull/17579) — still open; latest CI passed after review fixes
 - [adityamallia7/GoalAI-Score-predictor-26 #1 — reproducible Monte Carlo prediction analysis](https://github.com/adityamallia7/GoalAI-Score-predictor-26/pull/1)
 - [RajX-dev/N3MO #39 — Ruby/Kotlin language routing regression coverage](https://github.com/RajX-dev/N3MO/pull/39)
 
@@ -64,7 +64,7 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 - [aspire488/PyRIT #3309 — prevent role-play prompt preambles](https://github.com/microsoft/PyRIT/pull/3309) — open PR from fork; regression tests added, but tests and the requested 50-run comparison remain pending.
 - [aspire488/kestra #21225 — editor content widget lifecycle tests](https://github.com/kestra-io/kestra/pull/21225) — draft fork-side PR; Vitest run and required passing-test screenshot remain pending.
-- [aspire488/cmux #21749 — OpenCode database snapshot sidecar tests](https://github.com/manaflow-ai/cmux/pull/21749) — draft fork-side PR; native macOS/Xcode tests remain pending.
+- [aspire488/cmux #21749 — OpenCode database snapshot sidecar tests](https://github.com/manaflow-ai/cmux/pull/21749) — draft fork-side PR; native macOS/Xcode tests and requested CLA signature remain pending.
 
 - [aspire488/siyuan #1 — recover expired MCP sessions without unsafe replay](https://github.com/aspire488/siyuan/pull/1)
 - [aspire488/linguist #1 — trim .example suffix before language detection](https://github.com/aspire488/linguist/pull/1)
