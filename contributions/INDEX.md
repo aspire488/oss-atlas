@@ -35,7 +35,7 @@
 - [Kestra #21225](https://github.com/kestra-io/kestra/pull/21225) — **draft fork-side** — editor content-widget lifecycle regression coverage; focused Vitest run pending.
 - [cmux #21749](https://github.com/manaflow-ai/cmux/pull/21749) — **draft fork-side** — OpenCode database snapshot sidecar/missing-file tests; native macOS/Xcode validation pending.
 
-- [Inspect AI #5675](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — **open upstream** — preserve eval-level errors during streamed log conversion
+- [Inspect AI #5675](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — **open upstream · CI rerunning** — preserve eval-level errors during streamed log conversion; follow-up commit `fb9a400` restores the existing test parametrization after a Python 3.14 fixture setup error
 - [Inspect AI #5670](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5670) — **merged upstream · October 4, 2026**
 - [Inspect AI #5671](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671) — **open upstream**
 - [Inspect AI #5672](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5672) — **open upstream**
@@ -59,7 +59,7 @@
 - [quiche #2756](https://github.com/cloudflare/quiche/pull/2756)
 - [quiche #2758](https://github.com/cloudflare/quiche/pull/2758)
 - [quiche #2759](https://github.com/cloudflare/quiche/pull/2759)
-- [OpenHands #17579](https://github.com/OpenHands/OpenHands/pull/17579)
+- [OpenHands #17579](https://github.com/OpenHands/OpenHands/pull/17579) — open; latest CI passed after review fixes
 - [opentelemetry-erlang-contrib #822](https://github.com/open-telemetry/opentelemetry-erlang-contrib/pull/822)
 - [RisingWave #27181](https://github.com/risingwavelabs/risingwave/pull/27181)
 - [Coder #29668](https://github.com/coder/coder/pull/29668)
