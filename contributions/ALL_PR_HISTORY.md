@@ -9,10 +9,10 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 | Status | Count |
 |---|---:|
 | Merged upstream | 13 |
-| Open upstream | 25 |
+| Open upstream | 26 |
 | Open fork-side | 3 |
 | Closed without merge | 12 |
-| **External OSS PRs** | **53** |
+| **External OSS PRs** | **54** |
 
 ## Merged upstream
 - [microsoft/PyRIT #3429 — detect external XInclude resources in XXE output scoring](https://github.com/microsoft/PyRIT/pull/3429) — merged 2026-10-26 (merge commit `0735f4c1077db4b3042495bb821fa33a625482a5`); full PyRIT suite was not run locally.
@@ -28,6 +28,7 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [Agent-Field/agentfield #1073 — Go harness factory tests](https://github.com/Agent-Field/agentfield/pull/1073) — merged 2026-09-26 (merge commit `13b44603e2fb09a5d1817e8d2d0f64f3a40041fa`)
 
 ## Open upstream
+- [microsoft/PyRIT #3558 — assign user roles to social-bias multi-turn seeds](https://github.com/microsoft/PyRIT/pull/3558) — opened 2026-10-26; regression assertion added, tests not yet run.
 - [NousResearch/hermes-agent #134658 — use type-only imports for session source types](https://github.com/NousResearch/hermes-agent/pull/134658) — fixes #134632.
 
 - [microsoft/PyRIT #3335 — AzureML extra parameter identifier fix](https://github.com/microsoft/PyRIT/pull/3335)
