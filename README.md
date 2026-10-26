@@ -1,15 +1,16 @@
 # 🏆 Featured Upstream Contributions — Microsoft PyRIT
 
-> ## **Four PRs — All MERGED UPSTREAM**
+> ## **Five PRs — All MERGED UPSTREAM**
 >
 > **#2762 — Dataset Summary API** · September 24, 2026 · merge commit `47c6151a`
 >
 > **#2823 — HarmBench context preservation** · September 25, 2026 · merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`
 >
 > **#2882 — ExactTextMatching empty-target fix** · September 28, 2026 · merge commit `dff83aaab767f9b2b0aee68a20ab277de7e9d289`  
-> **#2976 — StringJoinConverter identifier fix** · October 6, 2026 · merged upstream
+> **#2976 — StringJoinConverter identifier fix** · October 6, 2026 · merged upstream  
+> **#3429 — XXE XInclude external-resource detection** · October 26, 2026 · merge commit `0735f4c1`
 >
-> Together, these are three separate accepted upstream contributions to Microsoft's open-source AI red-teaming framework, spanning backend feature work and regression-focused behavior preservation.
+> Together, these are five accepted upstream contributions to Microsoft's open-source AI red-teaming framework, spanning backend feature work and regression-focused behavior preservation.
 ---
 
 <p align="center">
@@ -54,10 +55,10 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 - **OpenHands #17579** — remains open; latest CI passed after correcting the schema key to `condenser.max_size`, enforcing the backend minimum of 20, and fixing formatting.
 - **GH-OPS #3** — owned-repository PR, intentionally excluded from this external-OSS ledger. CI currently fails six reporting/notification tests unrelated to the timestamp change; kept separate rather than inflating external contribution counts.
 - **cmux #21749** — still draft; native macOS/Xcode validation and CLA signature remain pending.
-- **PyRIT #3429** — still open; GitHub Actions workflows show `action_required`, likely awaiting maintainer authorization; full suite not run.
+- **PyRIT #3429** — merged upstream on October 26, 2026 (merge commit `0735f4c1077db4b3042495bb821fa33a625482a5`).
 - **NousResearch Hermes Agent #134658** — open upstream; type-only imports for session source types to satisfy `verbatimModuleSyntax`. [PR](https://github.com/NousResearch/hermes-agent/pull/134658).
 - **NousResearch Hermes Agent #135229** — closed without merge; retained as historical activity rather than counted as open work. [PR](https://github.com/NousResearch/hermes-agent/pull/135229).
-- **Microsoft PyRIT #3429** — open upstream PR adding XXE output-scorer detection for external XInclude resources (`file:`, `http:`, `https:`, and `ftp:`). Added local-file and remote-resource positives plus relative-reference and unrelated-element negatives. Regex smoke checks passed; full PyRIT suite has not been run.
+- **Microsoft PyRIT #3429** — merged upstream October 26, 2026; adds XXE output-scorer detection for external XInclude resources (`file:`, `http:`, `https:`, and `ftp:`). Merge commit: `0735f4c1077db4b3042495bb821fa33a625482a5`. Full PyRIT suite was not run locally.
 - **Microsoft PyRIT #3335** — open upstream PR for the AzureML extra-parameter identifier fix.
 - **Microsoft PyRIT #3309** — open PR from `aspire488/PyRIT`; adds no-preamble instructions to six role-play prompt templates and regression tests. Test execution and the requested 50-run before/after comparison are still pending; no behavior improvement is claimed yet.
 - **Kestra #21225** — draft fork-side PR adding editor content-widget lifecycle tests. Vitest execution and the issue-required passing-test screenshot are still pending.
@@ -97,8 +98,8 @@ All three are **open upstream** and are not counted as merged until upstream acc
 
 | State | Count |
 |---|---:|
-|  Merged upstream | **12** |
-| Open upstream | **26** |
+|  Merged upstream | **13** |
+| Open upstream | **25** |
 | Open fork-side | **3** |
 | Closed without merge | **12** |
 | **External OSS PRs** | **53** |
