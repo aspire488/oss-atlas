@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-10-22",
+  "observed_at": "2026-10-26",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
     "total": 53,
-    "merged": 12,
-    "open_upstream": 26,
+    "merged": 13,
+    "open_upstream": 25,
     "open_fork": 3,
     "closed": 12
   },
@@ -573,9 +573,10 @@
       "owner": "microsoft",
       "repository": "PyRIT",
       "pr": 3429,
-      "status": "open_upstream",
-      "summary": "Open; XInclude external-resource detection and regression tests; workflow runs report action_required pending maintainer authorization",
-      "source": "github"
+      "status": "merged",
+      "summary": "merged 2026-10-25; merge commit 0735f4c1077db4b3042495bb821fa33a625482a5",
+      "source": "github",
+      "merge_commit": "0735f4c1077db4b3042495bb821fa33a625482a5"
     },
     {
       "id": "NousResearch/hermes-agent#134658",
