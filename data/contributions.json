@@ -4,9 +4,9 @@
   "observed_at": "2026-10-26",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
-    "total": 53,
+    "total": 54,
     "merged": 13,
-    "open_upstream": 25,
+    "open_upstream": 26,
     "open_fork": 3,
     "closed": 12
   },
@@ -598,6 +598,17 @@
       "pr": 135229,
       "status": "closed",
       "summary": "Closed without merge; state observed 2026-10-21",
+      "source": "github"
+    },
+    {
+      "id": "microsoft/PyRIT#3558",
+      "title": "microsoft/PyRIT #3558 — assign user roles to social-bias multi-turn seeds",
+      "url": "https://github.com/microsoft/PyRIT/pull/3558",
+      "owner": "microsoft",
+      "repository": "PyRIT",
+      "pr": 3558,
+      "status": "open_upstream",
+      "summary": "opened 2026-10-26; regression assertion added, tests not yet run",
       "source": "github"
     }
   ]
