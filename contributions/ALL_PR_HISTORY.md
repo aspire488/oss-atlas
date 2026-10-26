@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on October 22, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state observed on October 26, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -8,13 +8,14 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 | Status | Count |
 |---|---:|
-| Merged upstream | 12 |
-| Open upstream | 26 |
+| Merged upstream | 13 |
+| Open upstream | 25 |
 | Open fork-side | 3 |
 | Closed without merge | 12 |
 | **External OSS PRs** | **53** |
 
 ## Merged upstream
+- [microsoft/PyRIT #3429 — detect external XInclude resources in XXE output scoring](https://github.com/microsoft/PyRIT/pull/3429) — merged 2026-10-26 (merge commit `0735f4c1077db4b3042495bb821fa33a625482a5`); full PyRIT suite was not run locally.
 
 - [0xarchit/github-profile-analyzer #30 — Fix/impact score evidence](https://github.com/0xarchit/github-profile-analyzer/pull/30) — merged 2026-09-23
 - [eumemic/aios #2460 — preserve LiteLLM parameter translation](https://github.com/eumemic/aios/pull/2460) — merged 2026-09-23
@@ -28,7 +29,7 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 ## Open upstream
 - [NousResearch/hermes-agent #134658 — use type-only imports for session source types](https://github.com/NousResearch/hermes-agent/pull/134658) — fixes #134632.
-- [microsoft/PyRIT #3429 — detect external XInclude resources in XXE output scoring](https://github.com/microsoft/PyRIT/pull/3429) — adds external-resource XInclude detection and regression coverage; workflows currently require maintainer authorization; full suite not run.
+
 - [microsoft/PyRIT #3335 — AzureML extra parameter identifier fix](https://github.com/microsoft/PyRIT/pull/3335)
 - [UKGovernmentBEIS/inspect_ai #5675 — preserve eval-level error during stream conversion](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — fixes #5639; follow-up CI fix pushed 2026-10-22 (`fb9a400`) to restore the existing test's `stream`/`to` parametrization after a Python 3.14 fixture setup error; CI rerunning, local `make check`/`make test` not run
 - [UKGovernmentBEIS/inspect_ai #5670 — prefer explicit API keys over ambient ADC](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5670) — merged 2026-10-04
