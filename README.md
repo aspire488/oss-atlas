@@ -99,12 +99,12 @@ All three are **open upstream** and are not counted as merged until upstream acc
 | State | Count |
 |---|---:|
 |  Merged upstream | **13** |
-| Open upstream | **25** |
+| Open upstream | **26** |
 | Open fork-side | **3** |
 | Closed without merge | **12** |
-| **External OSS PRs** | **53** |
+| **External OSS PRs** | **54** |
 
-Snapshot date: **October 22, 2026**.
+Snapshot date: **October 26, 2026**.
 
 ## 📈 OSS Atlas Dashboard
 
@@ -137,6 +137,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 ## 🏆 Recent upstream merges
 
 ### 🔥 Microsoft PyRIT — current upstream track
+- **Microsoft PyRIT #3558 — assign user roles to social-bias multi-turn seeds** — **OPEN UPSTREAM · October 26, 2026**; sets `role="user"` on multi-turn `SeedPrompt` entries and adds a regression assertion. The regression test has not yet been run. [PR](https://github.com/microsoft/PyRIT/pull/3558) · [issue #3555](https://github.com/microsoft/PyRIT/issues/3555).
 - **Microsoft PyRIT #3429 — XInclude external-resource detection** — **MERGED UPSTREAM · October 26, 2026**; extends XXE output scoring to prefixed/unprefixed XInclude elements referencing external `file:`, `http:`, `https:`, or `ftp:` resources. Merge commit [`0735f4c1`](https://github.com/microsoft/PyRIT/commit/0735f4c1077db4b3042495bb821fa33a625482a5). Full suite not run locally. [PR](https://github.com/microsoft/PyRIT/pull/3429).
 - **Microsoft PyRIT #3335 — AzureML extra-parameter identifier fix** — open upstream. [PR](https://github.com/microsoft/PyRIT/pull/3335).
 - **Microsoft PyRIT #2976 — StringJoinConverter identifier fix** — **MERGED UPSTREAM on October 6, 2026**; preserves word-selection parameters in `StringJoinConverter` identifiers while retaining default identifier compatibility, with focused regression coverage. [PR](https://github.com/microsoft/PyRIT/pull/2976)
