@@ -28,7 +28,7 @@
 
 - [Hermes Agent #134658](https://github.com/NousResearch/hermes-agent/pull/134658) — **open upstream** — fixes type-only imports for session source types under `verbatimModuleSyntax`.
 
-- [Microsoft PyRIT #3429](https://github.com/microsoft/PyRIT/pull/3429) — **open upstream** — adds XXE output-scorer detection for external XInclude resources; focused regex smoke checks passed, full suite not run.
+- [Microsoft PyRIT #3429](https://github.com/microsoft/PyRIT/pull/3429) — **merged upstream · October 26, 2026** — adds XXE output-scorer detection for external XInclude resources. Merge commit [`0735f4c1`](https://github.com/microsoft/PyRIT/commit/0735f4c1077db4b3042495bb821fa33a625482a5); full suite was not run locally.
 - [Microsoft PyRIT #3335](https://github.com/microsoft/PyRIT/pull/3335) — **open upstream** — AzureML extra-parameter identifier fix.
 
 - [Microsoft PyRIT #3309](https://github.com/microsoft/PyRIT/pull/3309) — **open fork-side** — role-play prompts now explicitly prohibit conversational preambles; tests and 50-run comparison pending.
