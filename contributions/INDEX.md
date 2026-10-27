@@ -29,10 +29,6 @@
 - [Hermes Agent #134658](https://github.com/NousResearch/hermes-agent/pull/134658) — **open upstream** — fixes type-only imports for session source types under `verbatimModuleSyntax`.
 
 - [Microsoft PyRIT #3429](https://github.com/microsoft/PyRIT/pull/3429) — **merged upstream · October 26, 2026** — adds XXE output-scorer detection for external XInclude resources. Merge commit [`0735f4c1`](https://github.com/microsoft/PyRIT/commit/0735f4c1077db4b3042495bb821fa33a625482a5); full suite was not run locally.
-- [Microsoft PyRIT #3335](https://github.com/microsoft/PyRIT/pull/3335) — **open upstream** — AzureML extra-parameter identifier fix.
-
-- [Microsoft PyRIT #3309](https://github.com/microsoft/PyRIT/pull/3309) — **open fork-side** — role-play prompts now explicitly prohibit conversational preambles; tests and 50-run comparison pending.
-- [Kestra #21225](https://github.com/kestra-io/kestra/pull/21225) — **draft fork-side** — editor content-widget lifecycle regression coverage; focused Vitest run pending.
 - [cmux #21749](https://github.com/manaflow-ai/cmux/pull/21749) — **draft fork-side** — OpenCode database snapshot sidecar/missing-file tests; native macOS/Xcode validation pending.
 
 - [Inspect AI #5675](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — **open upstream · CI rerunning** — preserve eval-level errors during streamed log conversion; follow-up commit `fb9a400` restores the existing test parametrization after a Python 3.14 fixture setup error
@@ -46,6 +42,9 @@
 ## Recently closed / superseded
 
 - [Microsoft PyRIT #3558](https://github.com/microsoft/PyRIT/pull/3558) — closed without merge on October 27, 2026; superseded by #3557, which was merged from another contributor's branch.
+- [Microsoft PyRIT #3335](https://github.com/microsoft/PyRIT/pull/3335) — closed without merge on October 19, 2026.
+- [Microsoft PyRIT #3309](https://github.com/microsoft/PyRIT/pull/3309) — closed without merge on October 20, 2026; the requested 50-run comparison was not completed.
+- [Kestra #21225](https://github.com/kestra-io/kestra/pull/21225) — closed without merge on October 21, 2026; required Vitest evidence was not recorded.
 
 ### AI / security / agent tooling
 - [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — merged upstream
