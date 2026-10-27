@@ -6,8 +6,8 @@
   "counts": {
     "total": 54,
     "merged": 13,
-    "open_upstream": 21,
-    "open_fork": 1,
+    "open_upstream": 22,
+    "open_fork": 0,
     "closed": 19
   },
   "contributions": [
@@ -551,8 +551,8 @@
       "owner": "manaflow-ai",
       "repository": "cmux",
       "pr": 21749,
-      "status": "open_fork",
-      "summary": "draft fork-side PR; macOS/Xcode tests pending; CLA bot requested contributor signature",
+      "status": "open_upstream",
+      "summary": "open upstream; native macOS/Xcode tests and CLA signature remain pending",
       "source": "github"
     },
     {
