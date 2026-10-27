@@ -26,8 +26,6 @@
 
 ## Featured active work
 
-- [Microsoft PyRIT #3558](https://github.com/microsoft/PyRIT/pull/3558) — **open upstream · October 26, 2026** — assigns the required `user` role to multi-turn social-bias seeds and adds a regression assertion; test execution remains pending.
-
 - [Hermes Agent #134658](https://github.com/NousResearch/hermes-agent/pull/134658) — **open upstream** — fixes type-only imports for session source types under `verbatimModuleSyntax`.
 
 - [Microsoft PyRIT #3429](https://github.com/microsoft/PyRIT/pull/3429) — **merged upstream · October 26, 2026** — adds XXE output-scorer detection for external XInclude resources. Merge commit [`0735f4c1`](https://github.com/microsoft/PyRIT/commit/0735f4c1077db4b3042495bb821fa33a625482a5); full suite was not run locally.
@@ -44,6 +42,10 @@
 - [Microsoft PyRIT #2976](https://github.com/microsoft/PyRIT/pull/2976) — **open upstream**
 - [NousResearch Hermes Agent #127233](https://github.com/NousResearch/hermes-agent/pull/127233) — **closed without merge** (duplicate of #122824)
 - [Hermes Agent #135229](https://github.com/NousResearch/hermes-agent/pull/135229) — **closed without merge**
+
+## Recently closed / superseded
+
+- [Microsoft PyRIT #3558](https://github.com/microsoft/PyRIT/pull/3558) — closed without merge on October 27, 2026; superseded by #3557, which was merged from another contributor's branch.
 
 ### AI / security / agent tooling
 - [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — merged upstream
