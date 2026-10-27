@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-10-26",
+  "observed_at": "2026-10-27",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
     "total": 54,
     "merged": 13,
-    "open_upstream": 26,
-    "open_fork": 3,
-    "closed": 12
+    "open_upstream": 21,
+    "open_fork": 1,
+    "closed": 19
   },
   "contributions": [
     {
@@ -85,8 +85,8 @@
       "owner": "run-llama",
       "repository": "llama_index",
       "pr": 23201,
-      "status": "open_upstream",
-      "summary": "",
+      "status": "closed",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -97,7 +97,7 @@
       "repository": "KiroCrew",
       "pr": 12861,
       "status": "closed",
-      "summary": "closed 2026-09-25; superseded by #12925",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -162,8 +162,8 @@
       "owner": "open-telemetry",
       "repository": "opentelemetry-erlang-contrib",
       "pr": 822,
-      "status": "open_upstream",
-      "summary": "",
+      "status": "closed",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -263,7 +263,7 @@
       "repository": "coreutils",
       "pr": 14812,
       "status": "closed",
-      "summary": "",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -274,7 +274,7 @@
       "repository": "PyRIT",
       "pr": 2743,
       "status": "closed",
-      "summary": "",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -285,7 +285,7 @@
       "repository": "ai-memory",
       "pr": 828,
       "status": "closed",
-      "summary": "",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -296,7 +296,7 @@
       "repository": "linguist",
       "pr": 8220,
       "status": "closed",
-      "summary": "",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -307,7 +307,7 @@
       "repository": "clicky",
       "pr": 72,
       "status": "closed",
-      "summary": "",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -330,7 +330,7 @@
       "repository": "hermes-agent",
       "pr": 121771,
       "status": "closed",
-      "summary": "closed as superseded after #126144 incorporated the stale-gateway recovery fix",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -420,7 +420,7 @@
       "repository": "pydantic-ai",
       "pr": 8823,
       "status": "closed",
-      "summary": "",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -430,8 +430,8 @@
       "owner": "run-llama",
       "repository": "llama_index",
       "pr": 23260,
-      "status": "open_upstream",
-      "summary": "",
+      "status": "closed",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -442,7 +442,7 @@
       "repository": "PyRIT",
       "pr": 2885,
       "status": "closed",
-      "summary": "closed 2026-09-28; duplicate/superseded by earlier #2838",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -508,7 +508,7 @@
       "repository": "hermes-agent",
       "pr": 127233,
       "status": "closed",
-      "summary": "closed 2026-10-01 (duplicate of #122824, not merged)",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -519,7 +519,7 @@
       "repository": "PyRIT",
       "pr": 2919,
       "status": "closed",
-      "summary": "closed 2026-10-01; not merged",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -529,8 +529,8 @@
       "owner": "microsoft",
       "repository": "PyRIT",
       "pr": 3309,
-      "status": "open_fork",
-      "summary": "open PR from aspire488/PyRIT; regression tests added, execution and requested 50-run comparison pending",
+      "status": "closed",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -540,8 +540,8 @@
       "owner": "kestra-io",
       "repository": "kestra",
       "pr": 21225,
-      "status": "open_fork",
-      "summary": "draft PR from aspire488/kestra; focused Vitest run and required passing-test screenshot pending",
+      "status": "closed",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -562,8 +562,8 @@
       "owner": "microsoft",
       "repository": "PyRIT",
       "pr": 3335,
-      "status": "open_upstream",
-      "summary": "AzureML extra-parameter identifier fix; state observed 2026-10-21",
+      "status": "closed",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -574,7 +574,7 @@
       "repository": "PyRIT",
       "pr": 3429,
       "status": "merged",
-      "summary": "merged 2026-10-25; merge commit 0735f4c1077db4b3042495bb821fa33a625482a5",
+      "summary": "merged upstream 2026-10-25; merge commit 0735f4c1077db4b3042495bb821fa33a625482a5",
       "source": "github",
       "merge_commit": "0735f4c1077db4b3042495bb821fa33a625482a5"
     },
@@ -597,7 +597,7 @@
       "repository": "hermes-agent",
       "pr": 135229,
       "status": "closed",
-      "summary": "Closed without merge; state observed 2026-10-21",
+      "summary": "closed without merge; state verified 2026-10-27",
       "source": "github"
     },
     {
@@ -607,8 +607,8 @@
       "owner": "microsoft",
       "repository": "PyRIT",
       "pr": 3558,
-      "status": "open_upstream",
-      "summary": "opened 2026-10-26; regression assertion added, tests not yet run",
+      "status": "closed",
+      "summary": "closed 2026-10-27 without merge; superseded by #3557, which was merged from another contributor's branch",
       "source": "github"
     }
   ]
