@@ -9,8 +9,8 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 | Status | Count |
 |---|---:|
 | Merged upstream | 13 |
-| Open upstream | 21 |
-| Open fork-side | 1 |
+| Open upstream | 22 |
+| Open fork-side | 0 |
 | Closed without merge | 19 |
 | **External OSS PRs** | **54** |
 
@@ -30,6 +30,7 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [microsoft/PyRIT #2882 — Fix/exact text matching empty target](https://github.com/microsoft/PyRIT/pull/2882) — merged 2026-09-28 (merge commit `dff83aaab767f9b2b0aee68a20ab277de7e9d289`)
 
 ## Open upstream
+- [manaflow-ai/cmux #21749 — OpenCode database snapshot sidecar tests](https://github.com/manaflow-ai/cmux/pull/21749) — open upstream PR; native macOS/Xcode tests and requested CLA signature remain pending.
 - [NousResearch/hermes-agent #134658 — use type-only imports for session source types](https://github.com/NousResearch/hermes-agent/pull/134658) — fixes #134632.
 - [UKGovernmentBEIS/inspect_ai #5675 — preserve eval-level error during stream conversion](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — fixes #5639; follow-up CI fix pushed 2026-10-22 (`fb9a400`) to restore the existing test's `stream`/`to` parametrization after a Python 3.14 fixture setup error; CI rerunning, local `make check`/`make test` not run
 - [UKGovernmentBEIS/inspect_ai #5671 — convert structured validation failures to parsing errors](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671)
@@ -53,7 +54,7 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [RajX-dev/N3MO #39 — Ruby/Kotlin language routing regression coverage](https://github.com/RajX-dev/N3MO/pull/39)
 
 ## Open fork-side OSS work
-- [aspire488/cmux #21749 — OpenCode database snapshot sidecar tests](https://github.com/manaflow-ai/cmux/pull/21749) — draft fork-side PR; native macOS/Xcode tests and requested CLA signature remain pending.
+
 - [aspire488/siyuan #1 — recover expired MCP sessions without unsafe replay](https://github.com/aspire488/siyuan/pull/1)
 - [aspire488/linguist #1 — trim .example suffix before language detection](https://github.com/aspire488/linguist/pull/1)
 - [aspire488/inspect_ai #1 — base64 encode Google inline image bytes](https://github.com/aspire488/inspect_ai/pull/1)
