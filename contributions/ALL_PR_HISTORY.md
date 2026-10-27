@@ -55,12 +55,8 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 ## Open fork-side OSS work
 
-- [aspire488/siyuan #1 — recover expired MCP sessions without unsafe replay](https://github.com/aspire488/siyuan/pull/1)
-- [aspire488/linguist #1 — trim .example suffix before language detection](https://github.com/aspire488/linguist/pull/1)
-- [aspire488/inspect_ai #1 — base64 encode Google inline image bytes](https://github.com/aspire488/inspect_ai/pull/1)
-- [aspire488/garak #1 — handle unset soft prompt cap](https://github.com/aspire488/garak/pull/1)
-- [aspire488/RAMPART #1 — adaptive multi-turn XPIA execution](https://github.com/aspire488/RAMPART/pull/1)
-- [aspire488/PyRIT #1 — canonical technique names in scenario summaries](https://github.com/aspire488/PyRIT/pull/1)
+No open fork-side PRs against external repositories are recorded in this snapshot.
+
 
 ## Closed without merge
 - [microsoft/PyRIT #3558 — assign user roles to social-bias multi-turn seeds](https://github.com/microsoft/PyRIT/pull/3558) — closed without merge on 2026-10-27; superseded by #3557, merged from another contributor's branch.
