@@ -41,21 +41,21 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | [Case Studies](case-studies/README.md) | Deep evidence-backed analysis |
 | [Research](research/README.md) | Reviews, investigations, discussions |
 | [Learnings](learnings/README.md) | Reusable engineering lessons |
-| [2026-10-22 Ledger](contributions/ALL_PR_HISTORY.md) | Dated contribution-state snapshot |
+| [2026-10-27 Ledger](contributions/ALL_PR_HISTORY.md) | Dated contribution-state snapshot |
 | [Operating Model](docs/OPERATING_MODEL.md) | Evidence and maintenance rules |
 | [Automation](docs/AUTOMATION.md) | GitHub Actions and drift-audit contract |
 | [Roadmap](docs/ROADMAP.md) | Atlas implementation plan |
 
 
-## 📅 October 22, 2026 — Current OSS update
+## 📅 October 27, 2026 — Current OSS update
 
-### Latest work — October 22
+### Latest work — October 27
 
 - **Inspect AI #5675** — follow-up CI fix pushed as [`fb9a400`](https://github.com/aspire488/inspect_ai/commit/fb9a400165730d6a51bb4bd39097a6cce2fa2d42), restoring the `stream`/`to` parametrization on an existing regression test after Python 3.14 CI failed at fixture setup. New CI is running; `make check` and `make test` have not been run locally. PR remains open/draft.
 - **OpenHands #17579** — remains open; latest CI passed after correcting the schema key to `condenser.max_size`, enforcing the backend minimum of 20, and fixing formatting.
 - **GH-OPS #3** — owned-repository PR, intentionally excluded from this external-OSS ledger. CI currently fails six reporting/notification tests unrelated to the timestamp change; kept separate rather than inflating external contribution counts.
 - **cmux #21749** — still draft; native macOS/Xcode validation and CLA signature remain pending.
-- **PyRIT #3429** — merged upstream on October 26, 2026 (merge commit `0735f4c1077db4b3042495bb821fa33a625482a5`).
+- **Microsoft PyRIT #3558** — closed without merge on October 27 as superseded by #3557. The replacement was authored by another contributor, so #3558 is not counted as a merged contribution.
 - **NousResearch Hermes Agent #134658** — open upstream; type-only imports for session source types to satisfy `verbatimModuleSyntax`. [PR](https://github.com/NousResearch/hermes-agent/pull/134658).
 - **NousResearch Hermes Agent #135229** — closed without merge; retained as historical activity rather than counted as open work. [PR](https://github.com/NousResearch/hermes-agent/pull/135229).
 - **Microsoft PyRIT #3429** — merged upstream October 26, 2026; adds XXE output-scorer detection for external XInclude resources (`file:`, `http:`, `https:`, and `ftp:`). Merge commit: `0735f4c1077db4b3042495bb821fa33a625482a5`. Full PyRIT suite was not run locally.
