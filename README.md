@@ -62,7 +62,7 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 - **Microsoft PyRIT #3335** — closed without merge on October 19, 2026; AzureML extra-parameter identifier fix.
 - **Microsoft PyRIT #3309** — closed without merge on October 20, 2026; role-play preamble change was not merged, and the requested 50-run comparison was not completed.
 - **Kestra #21225** — closed without merge on October 21, 2026; editor content-widget lifecycle tests were not accepted, and the required passing-test screenshot was not recorded.
-- **cmux #21749** — draft fork-side PR covering `OPENCODE_DB` snapshot sidecars (`-wal`, `-shm`) and missing-database behavior. macOS/Xcode tests are still pending. The underlying path resolver/snapshot implementation already exists upstream, so this PR only adds test coverage and an environment-injection seam.
+- **cmux #21749** — open upstream PR covering `OPENCODE_DB` snapshot sidecars (`-wal`, `-shm`) and missing-database behavior. Native macOS/Xcode tests and the requested CLA signature remain pending. The underlying path resolver/snapshot implementation already exists upstream, so this PR only adds test coverage and an environment-injection seam.
 
 These are recorded as **fork-side proposals**, not upstream PRs. Their validation remains explicitly pending.
 
