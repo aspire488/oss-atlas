@@ -35,7 +35,7 @@
 - [Inspect AI #5670](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5670) — **merged upstream · October 4, 2026**
 - [Inspect AI #5671](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671) — **open upstream**
 - [Inspect AI #5672](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5672) — **open upstream**
-- [Microsoft PyRIT #2976](https://github.com/microsoft/PyRIT/pull/2976) — **open upstream**
+- [Microsoft PyRIT #2976](https://github.com/microsoft/PyRIT/pull/2976) — **merged upstream · October 6, 2026** — preserves word-selection parameters in `StringJoinConverter` identifiers.
 - [NousResearch Hermes Agent #127233](https://github.com/NousResearch/hermes-agent/pull/127233) — **closed without merge** (duplicate of #122824)
 - [Hermes Agent #135229](https://github.com/NousResearch/hermes-agent/pull/135229) — **closed without merge**
 
@@ -48,7 +48,7 @@
 
 ### AI / security / agent tooling
 - [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — merged upstream
-- [Microsoft PyRIT #2885](https://github.com/microsoft/PyRIT/pull/2885) — Prompt Shield parser fix, upstream open
+- [Microsoft PyRIT #2885](https://github.com/microsoft/PyRIT/pull/2885) — **closed as duplicate/superseded** by #2838.
 - [TopoCore #1](https://github.com/KARAN-D05/TopoCore/pull/1) — upstream, open
 - [garak #1](https://github.com/aspire488/garak/pull/1) — fork-side, open
 - [Inspect AI #1](https://github.com/aspire488/inspect_ai/pull/1) — fork-side, open
