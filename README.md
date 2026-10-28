@@ -98,13 +98,13 @@ All three are **open upstream** and are not counted as merged until upstream acc
 
 | State | Count |
 |---|---:|
-|  Merged upstream | **13** |
-| Open upstream | **26** |
-| Open fork-side | **3** |
-| Closed without merge | **12** |
+| Merged upstream | **13** |
+| Open upstream | **22** |
+| Open fork-side | **0** |
+| Closed without merge | **19** |
 | **External OSS PRs** | **54** |
 
-Snapshot date: **October 26, 2026**.
+Snapshot date: **October 27, 2026**.
 
 ## 📈 OSS Atlas Dashboard
 
