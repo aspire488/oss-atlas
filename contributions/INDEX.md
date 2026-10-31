@@ -17,6 +17,8 @@
 
 ## Featured merged work
 
+- [RajX-dev/N3MO #39](https://github.com/RajX-dev/N3MO/pull/39) — Ruby/Kotlin language routing regression coverage; **merged upstream · October 31, 2026**
+
 - [aios #2457](https://github.com/eumemic/aios/pull/2457) — preserve streaming `finish_reason="length"`
 - [aios #2458](https://github.com/eumemic/aios/pull/2458) — record streaming length as truncated output
 - [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — Dataset Summary API
