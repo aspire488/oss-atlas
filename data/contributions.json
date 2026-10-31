@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-10-27",
+  "observed_at": "2026-10-31",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
     "total": 54,
-    "merged": 13,
-    "open_upstream": 22,
+    "merged": 14,
+    "open_upstream": 21,
     "open_fork": 0,
     "closed": 19
   },
@@ -251,8 +251,8 @@
       "owner": "RajX-dev",
       "repository": "N3MO",
       "pr": 39,
-      "status": "open_upstream",
-      "summary": "",
+      "status": "merged",
+      "summary": "merged upstream 2026-10-31; maintainer Raj Shekhar confirmed merge into main",
       "source": "github"
     },
     {
