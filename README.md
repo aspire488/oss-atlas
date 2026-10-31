@@ -47,9 +47,13 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | [Roadmap](docs/ROADMAP.md) | Atlas implementation plan |
 
 
-## 📅 October 27, 2026 — Current OSS update
+## 📅 October 31, 2026 — Current OSS update
 
-### Latest work — October 27
+### Latest work — October 31
+
+- **RajX-dev/N3MO #39 — Ruby/Kotlin language routing regression coverage** — **MERGED UPSTREAM · October 31, 2026**; maintainer Raj Shekhar confirmed the PR was merged into `main`. The PR adds regression coverage for Tree-sitter Ruby/Kotlin parser loading, `.rb`/`.rbw` and `.kt`/`.kts` routing, and Kotlin class/function/call extraction. [PR](https://github.com/RajX-dev/N3MO/pull/39).
+
+### Previous work — October 27
 
 - **Inspect AI #5675** — follow-up CI fix pushed as [`fb9a400`](https://github.com/aspire488/inspect_ai/commit/fb9a400165730d6a51bb4bd39097a6cce2fa2d42), restoring the `stream`/`to` parametrization on an existing regression test after Python 3.14 CI failed at fixture setup. New CI is running; `make check` and `make test` have not been run locally. PR remains open/draft.
 - **OpenHands #17579** — remains open; latest CI passed after correcting the schema key to `condenser.max_size`, enforcing the backend minimum of 20, and fixing formatting.
@@ -98,13 +102,13 @@ All three are **open upstream** and are not counted as merged until upstream acc
 
 | State | Count |
 |---|---:|
-| Merged upstream | **13** |
-| Open upstream | **22** |
+| Merged upstream | **14** |
+| Open upstream | **21** |
 | Open fork-side | **0** |
 | Closed without merge | **19** |
 | **External OSS PRs** | **54** |
 
-Snapshot date: **October 27, 2026**.
+Snapshot date: **October 31, 2026**.
 
 ## 📈 OSS Atlas Dashboard
 
@@ -136,6 +140,8 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 
 ## 🏆 Recent upstream merges
 
+- [RajX-dev/N3MO #39 — Ruby/Kotlin language routing regression coverage](https://github.com/RajX-dev/N3MO/pull/39) — **MERGED UPSTREAM · October 31, 2026**; maintainer-confirmed merge into `main`.
+
 ### 🔥 Microsoft PyRIT — current upstream track
 - **Microsoft PyRIT #3558 — assign user roles to social-bias multi-turn seeds** — **OPEN UPSTREAM · October 26, 2026**; sets `role="user"` on multi-turn `SeedPrompt` entries and adds a regression assertion. The regression test has not yet been run. [PR](https://github.com/microsoft/PyRIT/pull/3558) · [issue #3555](https://github.com/microsoft/PyRIT/issues/3555).
 - **Microsoft PyRIT #3429 — XInclude external-resource detection** — **MERGED UPSTREAM · October 26, 2026**; extends XXE output scoring to prefixed/unprefixed XInclude elements referencing external `file:`, `http:`, `https:`, or `ftp:` resources. Merge commit [`0735f4c1`](https://github.com/microsoft/PyRIT/commit/0735f4c1077db4b3042495bb821fa33a625482a5). Full suite not run locally. [PR](https://github.com/microsoft/PyRIT/pull/3429).
@@ -158,7 +164,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - [PyRIT #2823 — HarmBench context preservation](https://github.com/microsoft/PyRIT/pull/2823) — **MERGED UPSTREAM · September 25, 2026**; preserves non-empty HarmBench `ContextString` in behavior prompts, retains context metadata, and adds regression coverage. Merge commit `940a8efabb404d80f6a716c5e641d81809d8972a`.
 - [Microsoft RAMPART #2 — Generic PyRIT converter bridge](https://github.com/aspire488/RAMPART/pull/2) — **open upstream fork-side proposal · September 25, 2026**; implements the documented PyRIT PromptConverter → RAMPART PayloadConverter bridge for text-to-text converters, preserving payload identity/metadata with focused regression coverage.
 
-**PyRIT track record:** 4 separate upstream PRs merged into Microsoft's AI red-teaming framework.
+**PyRIT track record:** 5 separate upstream PRs merged into Microsoft's AI red-teaming framework.
 
 - [aios #2457](https://github.com/eumemic/aios/pull/2457) — preserved streaming length termination semantics
 - [aios #2460](https://github.com/eumemic/aios/pull/2460) — preserved LiteLLM parameter translation
@@ -185,7 +191,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - **Coder #29668** — **open upstream**; unknown AI Gateway client deduplication.
 - **Cloudflare quiche #2758 / #2759** — **open upstream**; custom-CA peer verification and Reno non-in-flight ACK handling.
 - **IntelliJ PowerShell #506** — **open upstream**; PowerShell executable reparse-point resolution.
-- **N3MO #39** — **open upstream**; Ruby/Kotlin routing regression coverage.
+- **N3MO #39** — **merged upstream · October 31, 2026**; Ruby/Kotlin language routing regression coverage.
 
 ### 🧪 Fork-side / prepared work
 
