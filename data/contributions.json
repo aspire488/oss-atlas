@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-10-31",
+  "observed_at": "2026-11-01",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
     "total": 54,
@@ -397,7 +397,7 @@
       "repository": "icalendar",
       "pr": 1835,
       "status": "open_upstream",
-      "summary": "",
+      "summary": "open upstream; merge conflicts outstanding; maintainer requested merging latest main before another review",
       "source": "github"
     },
     {
@@ -453,7 +453,7 @@
       "repository": "inspect_ai",
       "pr": 5675,
       "status": "open_upstream",
-      "summary": "open 2026-10-22; fixes #5639; restored missing test parametrization after Python 3.14 CI setup error; fix pushed as fb9a400; CI rerunning; make check/make test not run locally",
+      "summary": "open upstream draft; fixes #5639; maintainer requested PR template, local make check/make test, and independent agent-review disclosure",
       "source": "github"
     },
     {
@@ -475,7 +475,7 @@
       "repository": "inspect_ai",
       "pr": 5671,
       "status": "open_upstream",
-      "summary": "open 2026-10-04",
+      "summary": "open upstream draft; maintainer requested PR template, local make check/make test, and independent agent-review disclosure",
       "source": "github"
     },
     {
@@ -486,7 +486,7 @@
       "repository": "inspect_ai",
       "pr": 5672,
       "status": "open_upstream",
-      "summary": "open 2026-10-04",
+      "summary": "open upstream draft; narrowed to cached-read input token accounting only after maintainer feedback; cache-write mapping excluded; local checks and independent agent-review disclosure pending",
       "source": "github"
     },
     {
