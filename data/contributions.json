@@ -397,7 +397,7 @@
       "repository": "icalendar",
       "pr": 1835,
       "status": "open_upstream",
-      "summary": "open upstream; merge conflicts outstanding; maintainer requested merging latest main before another review",
+      "summary": "open upstream; rebased onto upstream main 2026-11-01 (base 02a7754, head fdc741d); Ruff check queued and mergeability recalculating",
       "source": "github"
     },
     {
