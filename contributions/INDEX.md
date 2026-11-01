@@ -33,10 +33,10 @@
 - [Microsoft PyRIT #3429](https://github.com/microsoft/PyRIT/pull/3429) — **merged upstream · October 26, 2026** — adds XXE output-scorer detection for external XInclude resources. Merge commit [`0735f4c1`](https://github.com/microsoft/PyRIT/commit/0735f4c1077db4b3042495bb821fa33a625482a5); full suite was not run locally.
 - [cmux #21749](https://github.com/manaflow-ai/cmux/pull/21749) — **open upstream** — OpenCode database snapshot sidecar/missing-file tests; native macOS/Xcode validation pending.
 
-- [Inspect AI #5675](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — **open upstream · CI rerunning** — preserve eval-level errors during streamed log conversion; follow-up commit `fb9a400` restores the existing test parametrization after a Python 3.14 fixture setup error
+- [Inspect AI #5675](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — **open upstream · draft** — preserve eval-level errors during streamed log conversion; maintainer requires local `make check`, `make test`, and independent agent-review disclosure
 - [Inspect AI #5670](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5670) — **merged upstream · October 4, 2026**
-- [Inspect AI #5671](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671) — **open upstream**
-- [Inspect AI #5672](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5672) — **open upstream**
+- [Inspect AI #5671](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671) — **open upstream · draft**; local checks and agent-review disclosure pending
+- [Inspect AI #5672](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5672) — **open upstream · draft**; narrowed to cached-read token accounting after maintainer feedback; local checks and agent-review disclosure pending
 - [Microsoft PyRIT #2976](https://github.com/microsoft/PyRIT/pull/2976) — **merged upstream · October 6, 2026** — preserves word-selection parameters in `StringJoinConverter` identifiers.
 - [NousResearch Hermes Agent #127233](https://github.com/NousResearch/hermes-agent/pull/127233) — **closed without merge** (duplicate of #122824)
 - [Hermes Agent #135229](https://github.com/NousResearch/hermes-agent/pull/135229) — **closed without merge**
