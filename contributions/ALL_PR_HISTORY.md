@@ -40,7 +40,7 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [NousResearch/hermes-agent #123846 — fix(batch): accept Fire tuple args and numeric run names](https://github.com/NousResearch/hermes-agent/pull/123846)
 - [NousResearch/hermes-agent #123850 — fix(batch): keep tool-search bridge trajectories](https://github.com/NousResearch/hermes-agent/pull/123850)
 - [Younesfdj/gitfut #125 — Fix/active years from contributions](https://github.com/Younesfdj/gitfut/pull/125)
-- [collective/icalendar #1835 — Fix/start end duration mismatch](https://github.com/collective/icalendar/pull/1835) — open; merge conflicts outstanding, maintainer requested merging latest `main`
+- [collective/icalendar #1835 — Fix/start end duration mismatch](https://github.com/collective/icalendar/pull/1835) — open; rebased onto upstream `main` at `02a7754` on 2026-11-01; head `fdc741d`; Ruff check queued, mergeability recalculating
 - [KARAN-D05/TopoCore #1 — detect repeated spatial execution states](https://github.com/KARAN-D05/TopoCore/pull/1)
 - [cloudflare/quiche #2759 — ignore ACKs for non-in-flight packets](https://github.com/cloudflare/quiche/pull/2759)
 - [cloudflare/quiche #2758 — verify peers with a custom CA](https://github.com/cloudflare/quiche/pull/2758)
