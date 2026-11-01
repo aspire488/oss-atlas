@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state refreshed on October 31, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state refreshed on November 1, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -33,14 +33,14 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 ## Open upstream
 - [manaflow-ai/cmux #21749 — OpenCode database snapshot sidecar tests](https://github.com/manaflow-ai/cmux/pull/21749) — open upstream PR; native macOS/Xcode tests and requested CLA signature remain pending.
 - [NousResearch/hermes-agent #134658 — use type-only imports for session source types](https://github.com/NousResearch/hermes-agent/pull/134658) — fixes #134632.
-- [UKGovernmentBEIS/inspect_ai #5675 — preserve eval-level error during stream conversion](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — fixes #5639; follow-up CI fix pushed 2026-10-22 (`fb9a400`) to restore the existing test's `stream`/`to` parametrization after a Python 3.14 fixture setup error; CI rerunning, local `make check`/`make test` not run
-- [UKGovernmentBEIS/inspect_ai #5671 — convert structured validation failures to parsing errors](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671)
-- [UKGovernmentBEIS/inspect_ai #5672 — preserve cached input tokens across provider bridges](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5672)
+- [UKGovernmentBEIS/inspect_ai #5675 — preserve eval-level error during stream conversion](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — fixes #5639; open draft; maintainer requires local `make check`, `make test`, completed PR template, and independent agent-review disclosure; local checks not run
+- [UKGovernmentBEIS/inspect_ai #5671 — convert structured validation failures to parsing errors](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671) — open draft; local checks and independent agent-review disclosure pending
+- [UKGovernmentBEIS/inspect_ai #5672 — preserve cached input tokens across provider bridges](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5672) — open draft; narrowed to cached-read accounting only after maintainer feedback; cache-write mapping remains out of scope; local checks and independent agent-review disclosure pending
 - [NVIDIA/garak #2234 — Fix/paraphrase transformers compat](https://github.com/NVIDIA/garak/pull/2234)
 - [NousResearch/hermes-agent #123846 — fix(batch): accept Fire tuple args and numeric run names](https://github.com/NousResearch/hermes-agent/pull/123846)
 - [NousResearch/hermes-agent #123850 — fix(batch): keep tool-search bridge trajectories](https://github.com/NousResearch/hermes-agent/pull/123850)
 - [Younesfdj/gitfut #125 — Fix/active years from contributions](https://github.com/Younesfdj/gitfut/pull/125)
-- [collective/icalendar #1835 — Fix/start end duration mismatch](https://github.com/collective/icalendar/pull/1835)
+- [collective/icalendar #1835 — Fix/start end duration mismatch](https://github.com/collective/icalendar/pull/1835) — open; merge conflicts outstanding, maintainer requested merging latest `main`
 - [KARAN-D05/TopoCore #1 — detect repeated spatial execution states](https://github.com/KARAN-D05/TopoCore/pull/1)
 - [cloudflare/quiche #2759 — ignore ACKs for non-in-flight packets](https://github.com/cloudflare/quiche/pull/2759)
 - [cloudflare/quiche #2758 — verify peers with a custom CA](https://github.com/cloudflare/quiche/pull/2758)
