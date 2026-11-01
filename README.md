@@ -47,6 +47,17 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | [Roadmap](docs/ROADMAP.md) | Atlas implementation plan |
 
 
+## 📅 November 1, 2026 — Current OSS update
+
+### Inspect AI follow-up
+
+- **#5672 — cached input-token bridge:** narrowed after maintainer feedback. Provider-facing input totals now include cached reads only; the OpenAI Responses cache-write mapping and cache-write assertions are excluded from this change. Commits: [a03e7f0](https://github.com/aspire488/inspect_ai/commit/a03e7f0e0ee80fa8f662723408347ccde4c04139), [a2410f7](https://github.com/aspire488/inspect_ai/commit/a2410f726a41a2db6b8651c988c14a3ea432aad9), [c230791](https://github.com/aspire488/inspect_ai/commit/c2307918804becfe1d5479734770ef7425cc92a0). PR remains draft; `make check`, `make test`, and independent fresh-context review are still outstanding.
+- **#5671 — structured tool validation:** remains draft. Maintainer requires completed PR template, local `make check` / `make test`, and disclosed independent review.
+- **#5675 — streamed log error preservation:** remains draft under the same validation and disclosure requirements.
+- **icalendar #1835:** still open but merge-conflicted; maintainer asked for latest `main` to be merged and conflicts resolved before another review. No claim of resolution or test pass.
+
+These changes do not increase the upstream merged count. No new external PR was opened in this session: the selected new issue, locale-doctor #8, is in a repository where the connected GitHub account has read-only permissions and no fork-creation action is available here.
+
 ## 📅 October 31, 2026 — Current OSS update
 
 ### Latest work — October 31
