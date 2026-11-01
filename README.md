@@ -55,7 +55,7 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 - **#5671 — structured tool validation:** remains draft. Maintainer requires completed PR template, local `make check` / `make test`, and disclosed independent review.
 - **Inspect AI #6094 — Codex agent-message IDs:** prepared branch [`fix/codex-agent-message-id`](https://github.com/aspire488/inspect_ai/tree/fix/codex-agent-message-id), head `2e8801d`. Allows an optional string `id` while retaining strict validation and adds focused tests. The issue is maintainer-accepted and labeled good first issue. PR creation was rejected by the connected GitHub integration (HTTP 403); this is a prepared fork branch, **not an upstream PR**.
 - **#5675 — streamed log error preservation:** remains draft under the same validation and disclosure requirements.
-- **icalendar #1835:** rebased onto upstream `main` at `02a7754` and force-with-lease updated the existing PR branch to `fdc741d`. The PR is open; GitHub is recalculating mergeability (`unknown`) and the fork-side Ruff check is queued. No test pass or conflict-free status is claimed yet.
+- **icalendar #1835:** rebased onto upstream `main` at `02a7754` and force-with-lease updated the existing PR branch to `fdc741d`. The PR is open; GitHub now reports the PR mergeable (no conflicts); the fork-side Ruff check passed. Overall commit status remains pending with no additional status checks reported, so no full-suite pass is claimed.
 
 These changes do not increase the upstream merged count. No new external PR was opened in this session: the selected new issue, locale-doctor #8, is in a repository where the connected GitHub account has read-only permissions and no fork-creation action is available here.
 
