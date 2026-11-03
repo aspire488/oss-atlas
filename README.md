@@ -115,12 +115,12 @@ All three are **open upstream** and are not counted as merged until upstream acc
 | State | Count |
 |---|---:|
 | Merged upstream | **14** |
-| Open upstream | **21** |
+| Open upstream | **22** |
 | Open fork-side | **0** |
 | Closed without merge | **19** |
-| **External OSS PRs** | **54** |
+| **External OSS PRs** | **55** |
 
-Snapshot date: **October 31, 2026**.
+Snapshot date: **November 3, 2026**.
 
 ## 📈 OSS Atlas Dashboard
 
@@ -155,6 +155,7 @@ The Atlas now has a **first-party GitHub Actions dashboard**. These cards are ge
 - [RajX-dev/N3MO #39 — Ruby/Kotlin language routing regression coverage](https://github.com/RajX-dev/N3MO/pull/39) — **MERGED UPSTREAM · October 31, 2026**; maintainer-confirmed merge into `main`.
 
 ### 🔥 Microsoft PyRIT — current upstream track
+- **Microsoft PyRIT #3885 — reject failed media attachment downloads** — **OPEN UPSTREAM · November 3, 2026**; fixes #3852 by rejecting non-2xx media responses and displaying retryable errors. [PR](https://github.com/microsoft/PyRIT/pull/3885). CI was running at the snapshot; Copilot review flagged two actionable items: make the 404 mock include a real error `blob()` response, and scope download errors to stable conversation/attachment identity.
 - **Microsoft PyRIT #3558 — assign user roles to social-bias multi-turn seeds** — **OPEN UPSTREAM · October 26, 2026**; sets `role="user"` on multi-turn `SeedPrompt` entries and adds a regression assertion. The regression test has not yet been run. [PR](https://github.com/microsoft/PyRIT/pull/3558) · [issue #3555](https://github.com/microsoft/PyRIT/issues/3555).
 - **Microsoft PyRIT #3429 — XInclude external-resource detection** — **MERGED UPSTREAM · October 26, 2026**; extends XXE output scoring to prefixed/unprefixed XInclude elements referencing external `file:`, `http:`, `https:`, or `ftp:` resources. Merge commit [`0735f4c1`](https://github.com/microsoft/PyRIT/commit/0735f4c1077db4b3042495bb821fa33a625482a5). Full suite not run locally. [PR](https://github.com/microsoft/PyRIT/pull/3429).
 - **Microsoft PyRIT #3335 — AzureML extra-parameter identifier fix** — open upstream. [PR](https://github.com/microsoft/PyRIT/pull/3335).
