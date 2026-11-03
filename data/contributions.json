@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-11-01",
+  "observed_at": "2026-11-03",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
-    "total": 54,
+    "total": 55,
     "merged": 14,
-    "open_upstream": 21,
+    "open_upstream": 22,
     "open_fork": 0,
     "closed": 19
   },
@@ -609,6 +609,17 @@
       "pr": 3558,
       "status": "closed",
       "summary": "closed 2026-10-27 without merge; superseded by #3557, which was merged from another contributor's branch",
+      "source": "github"
+    },
+    {
+      "id": "microsoft/PyRIT#3885",
+      "title": "microsoft/PyRIT #3885 — reject failed media attachment downloads",
+      "url": "https://github.com/microsoft/PyRIT/pull/3885",
+      "owner": "microsoft",
+      "repository": "PyRIT",
+      "pr": 3885,
+      "status": "open_upstream",
+      "summary": "opened 2026-11-03; mergeable; CI in progress; Copilot review identified two actionable issues (404 test mock must model blob(), and download error state must be scoped to conversation/attachment identity)",
       "source": "github"
     }
   ]
