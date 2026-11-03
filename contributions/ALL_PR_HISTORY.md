@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state refreshed on November 1, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state refreshed on November 3, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -9,10 +9,10 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 | Status | Count |
 |---|---:|
 | Merged upstream | 14 |
-| Open upstream | 21 |
+| Open upstream | 22 |
 | Open fork-side | 0 |
 | Closed without merge | 19 |
-| **External OSS PRs** | **54** |
+| **External OSS PRs** | **55** |
 
 ## Merged upstream
 - [RajX-dev/N3MO #39 — Ruby/Kotlin language routing regression coverage](https://github.com/RajX-dev/N3MO/pull/39) — merged 2026-10-31; maintainer Raj Shekhar confirmed merge into `main`.
@@ -31,6 +31,8 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [microsoft/PyRIT #2882 — Fix/exact text matching empty target](https://github.com/microsoft/PyRIT/pull/2882) — merged 2026-09-28 (merge commit `dff83aaab767f9b2b0aee68a20ab277de7e9d289`)
 
 ## Open upstream
+- [microsoft/PyRIT #3885 — reject failed media attachment downloads](https://github.com/microsoft/PyRIT/pull/3885) — opened 2026-11-03; fixes #3852. CI was in progress at the snapshot. Copilot review identified two actionable issues: the 404 mock must implement `blob()` so the test proves the status guard, and error state must be scoped to stable conversation/attachment identity. Not yet locally tested or merged.
+
 - [manaflow-ai/cmux #21749 — OpenCode database snapshot sidecar tests](https://github.com/manaflow-ai/cmux/pull/21749) — open upstream PR; native macOS/Xcode tests and requested CLA signature remain pending.
 - [NousResearch/hermes-agent #134658 — use type-only imports for session source types](https://github.com/NousResearch/hermes-agent/pull/134658) — fixes #134632.
 - [UKGovernmentBEIS/inspect_ai #5675 — preserve eval-level error during stream conversion](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — fixes #5639; open draft; maintainer requires local `make check`, `make test`, completed PR template, and independent agent-review disclosure; local checks not run
