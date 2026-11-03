@@ -28,6 +28,9 @@
 
 ## Featured active work
 
+- [Microsoft PyRIT #3885](https://github.com/microsoft/PyRIT/pull/3885) — **open upstream · November 3, 2026** — rejects failed media downloads for #3852; CI was in progress and Copilot identified two review fixes still needed.
+
+
 - [Hermes Agent #134658](https://github.com/NousResearch/hermes-agent/pull/134658) — **open upstream** — fixes type-only imports for session source types under `verbatimModuleSyntax`.
 
 - [Microsoft PyRIT #3429](https://github.com/microsoft/PyRIT/pull/3429) — **merged upstream · October 26, 2026** — adds XXE output-scorer detection for external XInclude resources. Merge commit [`0735f4c1`](https://github.com/microsoft/PyRIT/commit/0735f4c1077db4b3042495bb821fa33a625482a5); full suite was not run locally.
