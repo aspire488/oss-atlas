@@ -47,6 +47,20 @@ It records contributions, upstream outcomes, maintainer feedback, technical inve
 | [Roadmap](docs/ROADMAP.md) | Atlas implementation plan |
 
 
+## 📅 November 5, 2026 — PyRIT scorer identifier work
+
+### Prepared fork-side proposal — not an upstream PR
+
+- **PyRIT fork PR #5 — include response-handler configuration in general scorer identifiers:** [draft PR](https://github.com/aspire488/PyRIT/pull/5), branch [`fix/self-ask-output-keys-3839`](https://github.com/aspire488/PyRIT/tree/fix/self-ask-output-keys-3839). Targets upstream issue [microsoft/PyRIT #3839](https://github.com/microsoft/PyRIT/issues/3839).
+- Adds the wrapped response handler's replay identifier to both `SelfAskGeneralTrueFalseScorer` and `SelfAskGeneralFloatScaleScorer`, so differing parser output-key configuration is represented in component identity.
+- Adds parameterized regression coverage for all five configurable output keys across both scorer variants (10 cases).
+- **Validation boundary:** tests were added but have not been executed in this environment. The PR is a draft in the personal fork; it is not submitted to Microsoft's upstream repository and is not counted in upstream-open or merged totals.
+- The initial fork PR attempt (#4) was closed and is superseded by the focused three-file draft #5. It is not counted as an external contribution.
+
+Technical note: [PyRIT scorer identifier configuration](research/2026-11-05-pyrit-scorer-identifier.md).
+
+---
+
 ## 📅 November 1, 2026 — Current OSS update
 
 ### Inspect AI follow-up
