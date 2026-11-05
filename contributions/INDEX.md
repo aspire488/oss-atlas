@@ -44,6 +44,10 @@
 - [NousResearch Hermes Agent #127233](https://github.com/NousResearch/hermes-agent/pull/127233) — **closed without merge** (duplicate of #122824)
 - [Hermes Agent #135229](https://github.com/NousResearch/hermes-agent/pull/135229) — **closed without merge**
 
+## Prepared fork-side work (excluded from external totals)
+
+- [PyRIT fork PR #5](https://github.com/aspire488/PyRIT/pull/5) — **draft · November 5, 2026** — targets upstream issue [microsoft/PyRIT #3839](https://github.com/microsoft/PyRIT/issues/3839); adds response-handler replay configuration to both general scorer identifiers and regression coverage for all five output keys. Tests have not yet been run. This is a personal-fork PR, **not an upstream submission**, and is excluded from the external PR ledger counts. [Technical note](../research/2026-11-05-pyrit-scorer-identifier.md).
+
 ## Recently closed / superseded
 
 - [Microsoft PyRIT #3558](https://github.com/microsoft/PyRIT/pull/3558) — closed without merge on October 27, 2026; superseded by #3557, which was merged from another contributor's branch.
