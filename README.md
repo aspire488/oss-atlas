@@ -1,140 +1,173 @@
-<!--
-  OSS ATLAS
-  A factual, evidence-first record of external open-source engineering.
--->
-
 <p align="center">
   <img src="assets/brand/cover.svg" alt="OSS Atlas — Work worth keeping. Evidence worth checking." width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/aspire488/oss-atlas/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/aspire488/oss-atlas/ci.yml?branch=main&label=CI&style=flat-square" alt="Atlas CI"></a>
-  <a href="https://github.com/aspire488/oss-atlas/actions/workflows/atlas-audit.yml"><img src="https://img.shields.io/github/actions/workflow/status/aspire488/oss-atlas/atlas-audit.yml?branch=main&label=Ledger%20audit&style=flat-square" alt="Ledger audit"></a>
-  <a href="https://github.com/aspire488/oss-atlas/blob/main/docs/OPERATING_MODEL.md"><img src="https://img.shields.io/badge/standard-evidence--first-171715?style=flat-square" alt="Evidence-first standard"></a>
+  <a href="https://github.com/aspire488/oss-atlas/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/aspire488/oss-atlas/ci.yml?branch=main&label=BUILD&style=flat-square&logo=githubactions&logoColor=white" alt="Build status"></a>
+  <a href="https://github.com/aspire488/oss-atlas/actions/workflows/atlas-audit.yml"><img src="https://img.shields.io/github/actions/workflow/status/aspire488/oss-atlas/atlas-audit.yml?branch=main&label=LEDGER%20AUDIT&style=flat-square" alt="Ledger audit"></a>
+  <img src="https://img.shields.io/badge/RECORDS-55-171715?style=flat-square" alt="55 tracked records">
 </p>
 
 <p align="center">
-  <strong>Open-source engineering, recorded with evidence.</strong><br>
-  <sub>A living archive of contributions, technical investigations, maintainer feedback, and lessons that survive the pull request.</sub>
+  <strong>AN OPEN-SOURCE ENGINEERING JOURNAL</strong><br>
+  <sub>Contributions, investigations, reviews, and the engineering lessons behind them.</sub>
 </p>
 
----
+<br>
 
-## The ledger
+## 00 — The ledger
 
-OSS Atlas is a structured record of work contributed to **external open-source projects**. It tracks the full lifecycle — from investigation and implementation through review, acceptance, rejection, and follow-up.
+OSS Atlas is a living, evidence-first record of engineering work across external open-source projects.
 
-This is not a wall of green contribution badges. Every status has a source. Every validation claim has a boundary. Closed work stays in the history.
-
-|  | Merged upstream | Open upstream | Closed, not merged | Total |
-|:--|--:|--:|--:|--:|
-| **Tracked PRs** | **14** | **22** | **19** | **55** |
-
-<sub>Snapshot: 3 November 2026 · Fork-only work is kept separate and excluded from these external totals.</sub>
-
-<p align="center">
-  <img src="assets/dashboard/overview.svg" alt="OSS Atlas engineering overview" width="100%">
-</p>
-
-## Selected work
-
-A small selection of upstream outcomes and active engineering threads. The index and archive contain the complete record.
-
-| Project | Work | Outcome |
-|:--|:--|:--|
-| [Microsoft PyRIT](https://github.com/microsoft/PyRIT) | [Dataset Summary API · #2762](https://github.com/microsoft/PyRIT/pull/2762) | <strong>MERGED</strong> |
-| [Microsoft PyRIT](https://github.com/microsoft/PyRIT) | [HarmBench context preservation · #2823](https://github.com/microsoft/PyRIT/pull/2823) | <strong>MERGED</strong> |
-| [Microsoft PyRIT](https://github.com/microsoft/PyRIT) | [ExactTextMatching empty-target fix · #2882](https://github.com/microsoft/PyRIT/pull/2882) | <strong>MERGED</strong> |
-| [Microsoft PyRIT](https://github.com/microsoft/PyRIT) | [StringJoinConverter identifier fix · #2976](https://github.com/microsoft/PyRIT/pull/2976) | <strong>MERGED</strong> |
-| [Microsoft PyRIT](https://github.com/microsoft/PyRIT) | [XInclude resource detection · #3429](https://github.com/microsoft/PyRIT/pull/3429) | <strong>MERGED</strong> |
-| [RajX-dev/N3MO](https://github.com/RajX-dev/N3MO) | [Ruby/Kotlin routing regression coverage · #39](https://github.com/RajX-dev/N3MO/pull/39) | <strong>MERGED</strong> |
-| [Microsoft PyRIT](https://github.com/microsoft/PyRIT) | [Reject failed media downloads · #3885](https://github.com/microsoft/PyRIT/pull/3885) | <strong>OPEN</strong> |
-
-<p align="right"><a href="contributions/INDEX.md">Explore the full contribution index →</a></p>
-
-## Explore the Atlas
+It follows work beyond the commit: the original problem, implementation, regression coverage, maintainer feedback, upstream outcome, and what can be learned from it. It records unsuccessful attempts with the same factual discipline as merged work.
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>01 / Contributions</h3>
-      <p>What changed, where it landed, and what happened next.</p>
-      <ul>
-        <li><a href="contributions/INDEX.md">Curated contribution index</a></li>
-        <li><a href="contributions/ALL_PR_HISTORY.md">Complete PR history</a></li>
-        <li><a href="data/contributions.json">Canonical JSON ledger</a></li>
-      </ul>
+    <td align="center" width="25%">
+      <strong><sub>EXTERNAL PRs</sub></strong><br>
+      <strong><samp>55</samp></strong>
     </td>
-    <td width="50%" valign="top">
-      <h3>02 / Research</h3>
-      <p>Technical investigations and review context behind the work.</p>
-      <ul>
-        <li><a href="research/README.md">Research library</a></li>
-        <li><a href="case-studies/README.md">Engineering case studies</a></li>
-        <li><a href="learnings/README.md">Reusable learnings</a></li>
-      </ul>
+    <td align="center" width="25%">
+      <strong><sub>MERGED UPSTREAM</sub></strong><br>
+      <strong><samp>14</samp></strong>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>03 / Evidence</h3>
-      <p>Structured metadata and explicit standards for claims.</p>
-      <ul>
-        <li><a href="data/skills.json">Evidence-derived skills</a></li>
-        <li><a href="docs/OPERATING_MODEL.md">Operating model</a></li>
-        <li><a href="docs/AUTOMATION.md">Automation contract</a></li>
-      </ul>
+    <td align="center" width="25%">
+      <strong><sub>OPEN UPSTREAM</sub></strong><br>
+      <strong><samp>22</samp></strong>
     </td>
-    <td width="50%" valign="top">
-      <h3>04 / System</h3>
-      <p>How the Atlas is validated, audited, and maintained.</p>
-      <ul>
-        <li><a href="docs/ROADMAP.md">Roadmap</a></li>
-        <li><a href="docs/VISUAL_IDENTITY.md">Visual identity</a></li>
-        <li><a href=".github/workflows/ci.yml">Continuous integration</a></li>
-        <li><a href=".github/workflows/atlas-audit.yml">Scheduled ledger audit</a></li>
-      </ul>
+    <td align="center" width="25%">
+      <strong><sub>CLOSED</sub></strong><br>
+      <strong><samp>19</samp></strong>
     </td>
   </tr>
 </table>
 
-## How the record is built
+<p align="center"><sub>LEDGER SNAPSHOT · 03 NOVEMBER 2026 · PERSONAL-FORK WORK IS EXCLUDED FROM THESE TOTALS</sub></p>
+
+---
+
+## 01 — Selected work
+
+<sub>A FEW UPSTREAM OUTCOMES · THE FULL RECORD IS LINKED BELOW</sub>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>MICROSOFT / PyRIT</strong><br>
+      <sub>AI RED-TEAMING FRAMEWORK</sub>
+      <br><br>
+      <a href="https://github.com/microsoft/PyRIT/pull/2762">Dataset Summary API</a><br>
+      <a href="https://github.com/microsoft/PyRIT/pull/2823">HarmBench context preservation</a><br>
+      <a href="https://github.com/microsoft/PyRIT/pull/2882">ExactTextMatching empty-target fix</a><br>
+      <a href="https://github.com/microsoft/PyRIT/pull/2976">StringJoinConverter identifier fix</a><br>
+      <a href="https://github.com/microsoft/PyRIT/pull/3429">XXE XInclude resource detection</a>
+      <br><br>
+      <sub>5 FEATURED MERGED CONTRIBUTIONS</sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong>OTHER PROJECTS</strong><br>
+      <sub>TOOLS · SYSTEMS · DEVELOPER EXPERIENCE</sub>
+      <br><br>
+      <a href="https://github.com/RajX-dev/N3MO/pull/39">N3MO — Ruby/Kotlin routing regression coverage</a><br>
+      <a href="https://github.com/eumemic/aios/pull/2457">aios — streaming termination semantics</a><br>
+      <a href="https://github.com/eumemic/aios/pull/2460">aios — LiteLLM parameter translation</a><br>
+      <a href="https://github.com/0xarchit/github-profile-analyzer/pull/30">Profile Analyzer — evidence-weighted impact</a><br>
+      <a href="https://github.com/PicadoLabs/agent-bench/pull/8">Agent-Bench — global command palette</a>
+      <br><br>
+      <sub>SELECTED CROSS-PROJECT WORK</sub>
+    </td>
+  </tr>
+</table>
+
+<p align="right"><a href="contributions/INDEX.md"><strong>OPEN THE CONTRIBUTION INDEX ↗</strong></a></p>
+
+---
+
+## 02 — Explore the archive
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>01 / CONTRIBUTIONS</sub>
+      <h3>What shipped. What didn't.</h3>
+      The complete lifecycle of authored external OSS work.
+      <br><br>
+      → <a href="contributions/INDEX.md">Curated index</a><br>
+      → <a href="contributions/ALL_PR_HISTORY.md">Complete PR history</a><br>
+      → <a href="data/contributions.json">Machine-readable ledger</a>
+    </td>
+    <td width="50%" valign="top">
+      <sub>02 / INVESTIGATION</sub>
+      <h3>Reasoning behind the work.</h3>
+      Issue analysis, technical notes, reviewer feedback, and deep dives.
+      <br><br>
+      → <a href="research/README.md">Research library</a><br>
+      → <a href="case-studies/README.md">Case studies</a><br>
+      → <a href="learnings/README.md">Engineering learnings</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>03 / EVIDENCE</sub>
+      <h3>Claims with receipts.</h3>
+      Structured evidence and the rules used to interpret it.
+      <br><br>
+      → <a href="data/skills.json">Evidence-derived skill map</a><br>
+      → <a href="data/reviews.json">Review metadata</a><br>
+      → <a href="docs/OPERATING_MODEL.md">Operating model</a>
+    </td>
+    <td width="50%" valign="top">
+      <sub>04 / INFRASTRUCTURE</sub>
+      <h3>A ledger that checks itself.</h3>
+      Validation, drift detection, and the system that maintains the archive.
+      <br><br>
+      → <a href="docs/AUTOMATION.md">Automation contract</a><br>
+      → <a href="docs/ROADMAP.md">Roadmap</a><br>
+      → <a href=".github/workflows/ci.yml">CI workflow</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 03 — The method
 
 ```text
-  UPSTREAM EVIDENCE
-        │
-        ▼
-  CONTRIBUTION RECORD ────────┐
-        │                     │
-        ▼                     ▼
-  REVIEW & VALIDATION     STATUS HISTORY
-        │                     │
-        └──────────┬──────────┘
-                   ▼
-            CASE STUDY
-                   │
-                   ▼
-          REUSABLE LEARNING
-                   │
-                   ▼
-           SEARCHABLE LEDGER
+  UPSTREAM ISSUE / DISCUSSION
+             │
+             ▼
+       INVESTIGATION
+             │
+             ▼
+      IMPLEMENTATION
+             │
+             ▼
+    TESTS & VERIFICATION
+             │
+             ▼
+     MAINTAINER REVIEW
+             │
+             ▼
+      UPSTREAM OUTCOME
+             │
+             ▼
+     CASE STUDY / LEARNING
 ```
 
-The machine-readable source of truth is `data/contributions.json`. GitHub Actions validates the repository, audits recorded PR states, and regenerates the dashboard.
+The canonical source is `data/contributions.json`. GitHub Actions checks repository structure, metadata consistency, internal links, and contribution-state drift.
 
-## The rules
+### Editorial rules
 
-- **Upstream evidence wins.** A merge is recorded only when the upstream repository confirms it.
-- **Validation is scoped.** A targeted test is never presented as a full-suite pass.
-- **Fork work stays distinct.** Personal-fork proposals are labelled and excluded from external contribution totals.
-- **History is preserved.** Closed, superseded, and rejected work remains part of the engineering record.
-- **No vanity arithmetic.** Counts describe tracked activity, not quality or impact.
-
-The full standard lives in the [Operating Model](docs/OPERATING_MODEL.md).
+- **Evidence over assertion.** Upstream GitHub state determines contribution status.
+- **Precision over theatre.** Test claims state exactly what ran; no targeted test is dressed up as a full-suite pass.
+- **Clean boundaries.** Personal-fork proposals never inflate external OSS totals.
+- **History over vanity.** Closed and superseded work remains visible.
+- **No invented impact scores.** The ledger records verifiable activity, not subjective rankings.
 
 ---
 
 <p align="center">
-  <sub>Maintained by <a href="https://github.com/aspire488">aspire488</a> · Built to be audited, not admired at a glance.</sub><br>
-  <sub><a href="contributions/INDEX.md">Contributions</a> · <a href="research/README.md">Research</a> · <a href="docs/OPERATING_MODEL.md">Method</a></sub>
+  <strong>OBSERVE → BUILD → VERIFY → DOCUMENT</strong><br><br>
+  <sub>Maintained by <a href="https://github.com/aspire488">aspire488</a></sub><br>
+  <sub><a href="contributions/INDEX.md">CONTRIBUTIONS</a> &nbsp;·&nbsp; <a href="research/README.md">RESEARCH</a> &nbsp;·&nbsp; <a href="docs/OPERATING_MODEL.md">METHOD</a></sub>
 </p>
