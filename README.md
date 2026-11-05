@@ -90,6 +90,7 @@ A small selection of upstream outcomes and active engineering threads. The index
       <p>How the Atlas is validated, audited, and maintained.</p>
       <ul>
         <li><a href="docs/ROADMAP.md">Roadmap</a></li>
+        <li><a href="docs/VISUAL_IDENTITY.md">Visual identity</a></li>
         <li><a href=".github/workflows/ci.yml">Continuous integration</a></li>
         <li><a href=".github/workflows/atlas-audit.yml">Scheduled ledger audit</a></li>
       </ul>
