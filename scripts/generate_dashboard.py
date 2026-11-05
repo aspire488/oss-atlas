@@ -12,8 +12,8 @@ DATA = ROOT / "data" / "contributions.json"
 OUT = ROOT / "assets" / "dashboard"
 OUT.mkdir(parents=True, exist_ok=True)
 
-BG="#0d1117"; PANEL="#161b22"; TEXT="#f0f6fc"; MUTED="#8b949e"
-BLUE="#70a5fd"; GREEN="#3fb950"; ORANGE="#d29922"; RED="#f85149"; PURPLE="#bc8cff"
+BG="#f7f4ee"; PANEL="#fffdf8"; TEXT="#171715"; MUTED="#716d64"
+BLUE="#386b83"; GREEN="#36745b"; ORANGE="#b36a2f"; RED="#c7462e"; PURPLE="#78608f"
 
 def load():
     return json.loads(DATA.read_text(encoding="utf-8"))
@@ -21,7 +21,7 @@ def load():
 def svg(title, subtitle, body, width=1200, height=520):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
 <rect width="100%" height="100%" rx="24" fill="{BG}"/>
-<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="24" fill="none" stroke="#30363d"/>
+<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="24" fill="none" stroke="#d8d0c3"/>
 <text x="48" y="62" fill="{TEXT}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="700">{escape(title)}</text>
 <text x="48" y="94" fill="{MUTED}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">{escape(subtitle)}</text>
 {body}
@@ -62,7 +62,7 @@ labels=[("Merged upstream",merged,GREEN),("Open upstream",open_up,BLUE),("Open f
 barmax=max([v for _,v,_ in labels]+[1]); bars=[]
 for i,(label,value,color) in enumerate(labels):
     y=145+i*78; bw=760*value/barmax
-    bars.append(f'<text x="48" y="{y+18}" fill="{TEXT}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">{escape(label)}</text><rect x="48" y="{y+30}" width="760" height="22" rx="11" fill="#21262d"/><rect x="48" y="{y+30}" width="{bw:.1f}" height="22" rx="11" fill="{color}"/><text x="835" y="{y+48}" fill="{TEXT}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">{value}</text>')
+    bars.append(f'<text x="48" y="{y+18}" fill="{TEXT}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">{escape(label)}</text><rect x="48" y="{y+30}" width="760" height="22" rx="11" fill="#e4ded3"/><rect x="48" y="{y+30}" width="{bw:.1f}" height="22" rx="11" fill="{color}"/><text x="835" y="{y+48}" fill="{TEXT}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">{value}</text>')
 write("status.svg",svg("OSS Atlas · Contribution State",f"{total} tracked external PRs","".join(bars),1000,500))
 
 top=repos.most_common(8); maxv=max([v for _,v in top]+[1]); repo_bars=[]
