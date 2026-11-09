@@ -7,10 +7,9 @@ import json
 import os
 import re
 import sys
-import urllib.error
-import urllib.parse
-import urllib.request
 from pathlib import Path
+
+from atlas_github import ApiError, fetch_authored_prs, make_get
 
 ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE = ROOT / "contributions" / "ALL_PR_HISTORY.md"
@@ -19,34 +18,6 @@ TOKEN = os.environ.get("GITHUB_TOKEN")
 
 if not TOKEN:
     print("GITHUB_TOKEN is required", file=sys.stderr)
-    raise SystemExit(2)
-
-API = "https://api.github.com"
-HEADERS = {
-    "Accept": "application/vnd.github+json",
-    "Authorization": f"Bearer {TOKEN}",
-    "X-GitHub-Api-Version": "2022-11-28",
-    "User-Agent": "oss-atlas-audit",
-}
-
-
-def get(path: str, params: dict[str, str] | None = None):
-    url = API + path
-    if params:
-        url += "?" + urllib.parse.urlencode(params)
-    request = urllib.request.Request(url, headers=HEADERS)
-    try:
-        with urllib.request.urlopen(request, timeout=30) as response:
-            return json.load(response)
-    except urllib.error.HTTPError as exc:
-        # Exit 2 = could not audit (API problem); exit 1 is reserved for real drift.
-        print(
-            f"GitHub API error {exc.code} for {path}: {exc.read()[:300]!r} "
-            f"(x-ratelimit-remaining={exc.headers.get('x-ratelimit-remaining')})",
-            file=sys.stderr,
-        )
-    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
-        print(f"GitHub API request failed for {path}: {exc!r}", file=sys.stderr)
     raise SystemExit(2)
 
 
@@ -62,20 +33,11 @@ def archive_links() -> set[str]:
 
 
 def github_links() -> tuple[set[str], dict[str, str]]:
-    items: list[dict] = []
-    for page in range(1, 11):  # Search API serves at most 1000 results.
-        data = get(
-            "/search/issues",
-            {"q": "is:pr author:aspire488", "per_page": "100", "page": str(page)},
-        )
-        if data.get("incomplete_results") or "items" not in data:
-            print(f"GitHub search returned incomplete data on page {page}.", file=sys.stderr)
-            raise SystemExit(2)
-        items += data["items"]
-        if len(items) >= data["total_count"] or not data["items"]:
-            break
-    if len(items) != data["total_count"]:
-        print(f"Fetched {len(items)} of {data['total_count']} authored PRs.", file=sys.stderr)
+    try:
+        items = fetch_authored_prs(make_get(TOKEN))
+    except ApiError as exc:
+        # Exit 2 = could not audit (API problem); exit 1 is reserved for real drift.
+        print(exc, file=sys.stderr)
         raise SystemExit(2)
 
     links: set[str] = set()
