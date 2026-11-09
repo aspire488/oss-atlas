@@ -1,7 +1,7 @@
 # PyRIT — Dataset Summary API
 
 **Upstream:** [microsoft/PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762)  
-**Status:** Open upstream as of 2026-09-23
+**Status:** Merged upstream on 2026-09-24
 
 ## Problem
 
@@ -33,4 +33,4 @@ Maintainer verification covered real stored seeds, unnamed grouping, selection-k
 
 Aggregate APIs over relational data need explicit identity, null/empty semantics, collation, and join-cardinality contracts. Correctness is more than returning the right fields.
 
-The PR remains open pending final upstream disposition.
+The PR was merged upstream on 2026-09-24.

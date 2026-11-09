@@ -38,12 +38,11 @@ def write(name,text):
 
 def action_health():
     token=os.getenv("GITHUB_TOKEN")
-    if not token: return []
+    if not token: raise SystemExit("GITHUB_TOKEN is required to read workflow-run health")
     req=urllib.request.Request("https://api.github.com/repos/aspire488/oss-atlas/actions/runs?per_page=12",
         headers={"Authorization":f"Bearer {token}","Accept":"application/vnd.github+json","User-Agent":"oss-atlas-dashboard"})
-    try:
-        with urllib.request.urlopen(req,timeout=10) as r: return json.load(r).get("workflow_runs",[])
-    except Exception: return []
+    # No fallback: a failed fetch must fail the job (before the commit step), not publish a card of zeros.
+    with urllib.request.urlopen(req,timeout=10) as r: return json.load(r)["workflow_runs"]
 
 d=load(); items=d["contributions"]; counts=Counter(x["status"] for x in items)
 total=len(items); merged=counts["merged"]; open_up=counts["open_upstream"]; open_fork=counts["open_fork"]; closed=counts["closed"]

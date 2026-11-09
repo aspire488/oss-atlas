@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-LINK_RE = re.compile(r"(?<!!)[[^\]]+]\(([^)]+)\)")
+LINK_RE = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
 
 
 def fail(message: str) -> None:

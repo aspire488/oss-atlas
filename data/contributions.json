@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-11-03",
+  "observed_at": "2026-11-09",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
-    "total": 55,
+    "total": 64,
     "merged": 14,
-    "open_upstream": 22,
+    "open_upstream": 28,
     "open_fork": 0,
-    "closed": 19
+    "closed": 22
   },
   "contributions": [
     {
@@ -195,8 +195,8 @@
       "owner": "coder",
       "repository": "coder",
       "pr": 29668,
-      "status": "open_upstream",
-      "summary": "",
+      "status": "closed",
+      "summary": "closed without merge 2026-10-28",
       "source": "github"
     },
     {
@@ -620,6 +620,105 @@
       "pr": 3885,
       "status": "open_upstream",
       "summary": "opened 2026-11-03; mergeable; CI in progress; Copilot review identified two actionable issues (404 test mock must model blob(), and download error state must be scoped to conversation/attachment identity)",
+      "source": "github"
+    },
+    {
+      "id": "NousResearch/hermes-agent#148890",
+      "title": "NousResearch/hermes-agent #148890 — avoid false dead-IPv6 diagnosis behind HTTPS proxies",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/148890",
+      "owner": "NousResearch",
+      "repository": "hermes-agent",
+      "pr": 148890,
+      "status": "open_upstream",
+      "summary": "opened 2026-11-04",
+      "source": "github"
+    },
+    {
+      "id": "NousResearch/hermes-agent#149418",
+      "title": "NousResearch/hermes-agent #149418 — align hosted OAuth client metadata origins",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/149418",
+      "owner": "NousResearch",
+      "repository": "hermes-agent",
+      "pr": 149418,
+      "status": "open_upstream",
+      "summary": "opened 2026-11-05",
+      "source": "github"
+    },
+    {
+      "id": "cloudflare/quiche#2867",
+      "title": "cloudflare/quiche #2867 — resume partially written request lines",
+      "url": "https://github.com/cloudflare/quiche/pull/2867",
+      "owner": "cloudflare",
+      "repository": "quiche",
+      "pr": 2867,
+      "status": "open_upstream",
+      "summary": "opened 2026-11-04",
+      "source": "github"
+    },
+    {
+      "id": "collective/icalendar#2066",
+      "title": "collective/icalendar #2066 — add interval property accessor",
+      "url": "https://github.com/collective/icalendar/pull/2066",
+      "owner": "collective",
+      "repository": "icalendar",
+      "pr": 2066,
+      "status": "open_upstream",
+      "summary": "opened 2026-11-06",
+      "source": "github"
+    },
+    {
+      "id": "firecrawl/firecrawl#5603",
+      "title": "firecrawl/firecrawl #5603 — optionally raise on failed crawl and batch jobs",
+      "url": "https://github.com/firecrawl/firecrawl/pull/5603",
+      "owner": "firecrawl",
+      "repository": "firecrawl",
+      "pr": 5603,
+      "status": "open_upstream",
+      "summary": "opened 2026-11-06",
+      "source": "github"
+    },
+    {
+      "id": "firecrawl/firecrawl#5631",
+      "title": "firecrawl/firecrawl #5631 — make sitemap file limit configurable",
+      "url": "https://github.com/firecrawl/firecrawl/pull/5631",
+      "owner": "firecrawl",
+      "repository": "firecrawl",
+      "pr": 5631,
+      "status": "open_upstream",
+      "summary": "opened 2026-11-07; draft",
+      "source": "github"
+    },
+    {
+      "id": "firecrawl/firecrawl#5632",
+      "title": "firecrawl/firecrawl #5632 — preserve news dates with excludeDomains",
+      "url": "https://github.com/firecrawl/firecrawl/pull/5632",
+      "owner": "firecrawl",
+      "repository": "firecrawl",
+      "pr": 5632,
+      "status": "open_upstream",
+      "summary": "opened 2026-11-07",
+      "source": "github"
+    },
+    {
+      "id": "microsoft/PyRIT#3824",
+      "title": "microsoft/PyRIT #3824 — Fix/audio frequency aliasing 3715",
+      "url": "https://github.com/microsoft/PyRIT/pull/3824",
+      "owner": "microsoft",
+      "repository": "PyRIT",
+      "pr": 3824,
+      "status": "closed",
+      "summary": "closed without merge 2026-11-05",
+      "source": "github"
+    },
+    {
+      "id": "topoteretes/cognee#6595",
+      "title": "topoteretes/cognee #6595 — Fix/sqlite conflict edge UUID bindings v2",
+      "url": "https://github.com/topoteretes/cognee/pull/6595",
+      "owner": "topoteretes",
+      "repository": "cognee",
+      "pr": 6595,
+      "status": "closed",
+      "summary": "closed without merge 2026-11-06",
       "source": "github"
     }
   ]

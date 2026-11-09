@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state refreshed on November 3, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state refreshed on November 9, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -9,10 +9,10 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 | Status | Count |
 |---|---:|
 | Merged upstream | 14 |
-| Open upstream | 22 |
+| Open upstream | 28 |
 | Open fork-side | 0 |
-| Closed without merge | 19 |
-| **External OSS PRs** | **55** |
+| Closed without merge | 22 |
+| **External OSS PRs** | **64** |
 
 ## Merged upstream
 - [RajX-dev/N3MO #39 — Ruby/Kotlin language routing regression coverage](https://github.com/RajX-dev/N3MO/pull/39) — merged 2026-10-31; maintainer Raj Shekhar confirmed merge into `main`.
@@ -50,10 +50,16 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [intellij-powershell/intellij-powershell #506 — resolve pwsh reparse point](https://github.com/intellij-powershell/intellij-powershell/pull/506)
 - [risingwavelabs/risingwave #27181 — inspect correlated refs in LogicalValues](https://github.com/risingwavelabs/risingwave/pull/27181)
 - [mvt-project/mvt #939 — STIX indicator equals](https://github.com/mvt-project/mvt/pull/939)
-- [coder/coder #29668 — deduplicate Unknown AI Gateway clients](https://github.com/coder/coder/pull/29668)
 - [tysoncung/ai-platform-aws #4 — provider routing specificity](https://github.com/tysoncung/ai-platform-aws/pull/4)
 - [OpenHands/OpenHands #17579 — align condenser max size with agent-server minimum](https://github.com/OpenHands/OpenHands/pull/17579) — still open; latest CI passed after review fixes
 - [adityamallia7/GoalAI-Score-predictor-26 #1 — reproducible Monte Carlo prediction analysis](https://github.com/adityamallia7/GoalAI-Score-predictor-26/pull/1)
+- [NousResearch/hermes-agent #148890 — fix(doctor): avoid false dead-IPv6 diagnosis behind HTTPS proxies](https://github.com/NousResearch/hermes-agent/pull/148890) — opened 2026-11-04.
+- [NousResearch/hermes-agent #149418 — fix(mcp): align hosted OAuth client metadata origins](https://github.com/NousResearch/hermes-agent/pull/149418) — opened 2026-11-05.
+- [cloudflare/quiche #2867 — fix(http09): resume partially written request lines](https://github.com/cloudflare/quiche/pull/2867) — opened 2026-11-04.
+- [collective/icalendar #2066 — feat(recur): add interval property accessor](https://github.com/collective/icalendar/pull/2066) — opened 2026-11-06.
+- [firecrawl/firecrawl #5603 — feat(python-sdk): optionally raise on failed crawl and batch jobs](https://github.com/firecrawl/firecrawl/pull/5603) — opened 2026-11-06.
+- [firecrawl/firecrawl #5631 — feat(map): make sitemap file limit configurable](https://github.com/firecrawl/firecrawl/pull/5631) — opened 2026-11-07; draft.
+- [firecrawl/firecrawl #5632 — fix(search): preserve news dates with excludeDomains](https://github.com/firecrawl/firecrawl/pull/5632) — opened 2026-11-07.
 
 ## Open fork-side OSS work
 
@@ -61,6 +67,9 @@ No open fork-side PRs against external repositories are recorded in this snapsho
 
 
 ## Closed without merge
+- [microsoft/PyRIT #3824 — Fix/audio frequency aliasing 3715](https://github.com/microsoft/PyRIT/pull/3824) — closed without merge on 2026-11-05.
+- [topoteretes/cognee #6595 — Fix/sqlite conflict edge UUID bindings v2](https://github.com/topoteretes/cognee/pull/6595) — closed without merge on 2026-11-06.
+- [coder/coder #29668 — deduplicate Unknown AI Gateway clients](https://github.com/coder/coder/pull/29668) — closed without merge on 2026-10-28 (state verified 2026-11-09).
 - [microsoft/PyRIT #3558 — assign user roles to social-bias multi-turn seeds](https://github.com/microsoft/PyRIT/pull/3558) — closed without merge on 2026-10-27; superseded by #3557, merged from another contributor's branch.
 - [microsoft/PyRIT #3335 — AzureML extra-parameter identifier fix](https://github.com/microsoft/PyRIT/pull/3335) — closed without merge (state verified 2026-10-27).
 - [microsoft/PyRIT #2885 — preserve text after Prompt Shield document tags](https://github.com/microsoft/PyRIT/pull/2885) — closed 2026-09-28; duplicate/superseded by earlier #2838 — closed without merge (state verified 2026-10-27).
