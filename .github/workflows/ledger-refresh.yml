@@ -1,0 +1,90 @@
+name: Ledger Refresh
+
+# Runs before the 03:17 UTC audit. Proposes ledger changes as a pull request for human review;
+# it never pushes to main. See docs/AUTOMATION.md for the trade-offs.
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ledger-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Refresh ledger and open a review PR
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write # push the proposal branch
+      pull-requests: write # open the PR
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GITHUB_TOKEN: ${{ github.token }}
+      BRANCH_PREFIX: automation/ledger-refresh-
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c
+        with:
+          python-version: "3.12"
+
+      - name: Skip if a refresh PR is already open
+        id: open
+        run: |
+          count=$(gh pr list --state open --json headRefName \
+            --jq "[.[] | select(.headRefName | startswith(\"$BRANCH_PREFIX\"))] | length")
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          if [ "$count" != "0" ]; then
+            echo "::notice::A ledger refresh PR is already open; merge or close it before the next proposal."
+          fi
+
+      - name: Refresh ledger from GitHub
+        if: steps.open.outputs.count == '0'
+        shell: bash
+        run: python scripts/refresh_ledger.py | tee "$RUNNER_TEMP/report.txt"
+
+      - name: Validate and audit the refreshed ledger
+        if: steps.open.outputs.count == '0'
+        run: |
+          python scripts/validate_atlas.py
+          python scripts/audit_archive.py
+
+      - name: Open pull request
+        if: steps.open.outputs.count == '0'
+        run: |
+          if git diff --quiet; then
+            echo "Ledger is already current; nothing to propose."
+            exit 0
+          fi
+          branch="${BRANCH_PREFIX}${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git commit -am "chore(ledger): refresh from GitHub"
+          git push origin "$branch"
+          {
+            echo "Automated refresh of the external-OSS ledger from GitHub's authored-PR state."
+            echo
+            echo '```'
+            cat "$RUNNER_TEMP/report.txt"
+            echo '```'
+            echo
+            echo "Only API-derived data was changed (status, counts, dates, new entries). Entries listed as"
+            echo "'Needs editorial review' kept their existing prose, which may now be out of date."
+            echo "New entries have no editorial notes yet. validate_atlas.py and audit_archive.py passed on this branch."
+            echo "CI does not start automatically for PRs created with GITHUB_TOKEN; close and reopen this PR to run it."
+          } > "$RUNNER_TEMP/body.md"
+          gh pr create --base main --head "$branch" \
+            --title "chore(ledger): refresh from GitHub" --body-file "$RUNNER_TEMP/body.md" || {
+            echo "::error::Branch $branch was pushed but the PR could not be created. Enable Settings > Actions > General > 'Allow GitHub Actions to create and approve pull requests', or open the PR by hand."
+            exit 1
+          }
