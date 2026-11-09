@@ -4,7 +4,7 @@
 
 **Type:** Feature / API
 
-**Status:** Open upstream
+**Status:** Merged upstream on 2026-09-24
 
 ## What changed
 

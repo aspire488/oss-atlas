@@ -7,6 +7,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -34,8 +35,19 @@ def get(path: str, params: dict[str, str] | None = None):
     if params:
         url += "?" + urllib.parse.urlencode(params)
     request = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return json.load(response)
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            return json.load(response)
+    except urllib.error.HTTPError as exc:
+        # Exit 2 = could not audit (API problem); exit 1 is reserved for real drift.
+        print(
+            f"GitHub API error {exc.code} for {path}: {exc.read()[:300]!r} "
+            f"(x-ratelimit-remaining={exc.headers.get('x-ratelimit-remaining')})",
+            file=sys.stderr,
+        )
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+        print(f"GitHub API request failed for {path}: {exc!r}", file=sys.stderr)
+    raise SystemExit(2)
 
 
 def archive_links() -> set[str]:
@@ -50,10 +62,21 @@ def archive_links() -> set[str]:
 
 
 def github_links() -> tuple[set[str], dict[str, str]]:
-    items = get(
-        "/search/issues",
-        {"q": "is:pr author:aspire488", "per_page": "100"},
-    ).get("items", {})
+    items: list[dict] = []
+    for page in range(1, 11):  # Search API serves at most 1000 results.
+        data = get(
+            "/search/issues",
+            {"q": "is:pr author:aspire488", "per_page": "100", "page": str(page)},
+        )
+        if data.get("incomplete_results") or "items" not in data:
+            print(f"GitHub search returned incomplete data on page {page}.", file=sys.stderr)
+            raise SystemExit(2)
+        items += data["items"]
+        if len(items) >= data["total_count"] or not data["items"]:
+            break
+    if len(items) != data["total_count"]:
+        print(f"Fetched {len(items)} of {data['total_count']} authored PRs.", file=sys.stderr)
+        raise SystemExit(2)
 
     links: set[str] = set()
     states: dict[str, str] = {}
@@ -93,17 +116,22 @@ current, states = github_links()
 expected_status = {item["url"]: item["status"] for item in json.loads(INDEX.read_text(encoding="utf-8"))["contributions"]}
 actual_status = {url: ("merged" if state == "merged" else "open_upstream" if state == "open" and "/aspire488/" not in url else "open_fork" if state == "open" else "closed") for url, state in states.items()}
 
+drift = False
 if current != archive:
+    drift = True
     print("OSS contribution drift detected.")
-    print("New/missing GitHub PRs:", sorted(current ^ archive))
-    print("Refresh the archive and machine index intentionally.")
-    raise SystemExit(1)
+    print("On GitHub but not in archive:", sorted(current - archive))
+    print("In archive but not on GitHub:", sorted(archive - current))
 
 if actual_status != expected_status:
+    drift = True
     print("Per-contribution status drift detected.")
     for url in sorted(set(actual_status) | set(expected_status)):
         if actual_status.get(url) != expected_status.get(url):
             print(f"  {url}: GitHub={actual_status.get(url)} index={expected_status.get(url)}")
+
+if drift:
+    print("Refresh the archive and machine index intentionally.")
     raise SystemExit(1)
 
 counts = {
