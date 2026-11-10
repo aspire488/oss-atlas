@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-11-09",
+  "observed_at": "2026-11-10",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
-    "total": 64,
+    "total": 65,
     "merged": 14,
-    "open_upstream": 28,
+    "open_upstream": 29,
     "open_fork": 0,
     "closed": 22
   },
@@ -719,6 +719,17 @@
       "pr": 6595,
       "status": "closed",
       "summary": "closed without merge 2026-11-06",
+      "source": "github"
+    },
+    {
+      "id": "Shizoqua/PyRIT#1",
+      "title": "Shizoqua/PyRIT #1 — Fix Hugging Face truncation metadata and EOS handling",
+      "url": "https://github.com/Shizoqua/PyRIT/pull/1",
+      "owner": "Shizoqua",
+      "repository": "PyRIT",
+      "pr": 1,
+      "status": "open_upstream",
+      "summary": "opened 2026-11-10",
       "source": "github"
     }
   ]

@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/aspire488/oss-atlas/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/aspire488/oss-atlas/ci.yml?branch=main&label=BUILD&style=flat-square&logo=githubactions&logoColor=white" alt="Build status"></a>
   <a href="https://github.com/aspire488/oss-atlas/actions/workflows/atlas-audit.yml"><img src="https://img.shields.io/github/actions/workflow/status/aspire488/oss-atlas/atlas-audit.yml?branch=main&label=LEDGER%20AUDIT&style=flat-square" alt="Ledger audit"></a>
-  <img src="https://img.shields.io/badge/RECORDS-64-171715?style=flat-square" alt="64 tracked records">
+  <img src="https://img.shields.io/badge/RECORDS-65-171715?style=flat-square" alt="65 tracked records">
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@ It follows work beyond the commit: the original problem, implementation, regress
   <tr>
     <td align="center" width="25%">
       <strong><sub>EXTERNAL PRs</sub></strong><br>
-      <strong><samp>64</samp></strong>
+      <strong><samp>65</samp></strong>
     </td>
     <td align="center" width="25%">
       <strong><sub>MERGED UPSTREAM</sub></strong><br>
@@ -33,7 +33,7 @@ It follows work beyond the commit: the original problem, implementation, regress
     </td>
     <td align="center" width="25%">
       <strong><sub>OPEN UPSTREAM</sub></strong><br>
-      <strong><samp>28</samp></strong>
+      <strong><samp>29</samp></strong>
     </td>
     <td align="center" width="25%">
       <strong><sub>CLOSED</sub></strong><br>
@@ -42,7 +42,7 @@ It follows work beyond the commit: the original problem, implementation, regress
   </tr>
 </table>
 
-<p align="center"><sub>LEDGER SNAPSHOT · 09 NOVEMBER 2026 · PERSONAL-FORK WORK IS EXCLUDED FROM THESE TOTALS</sub></p>
+<p align="center"><sub>LEDGER SNAPSHOT · 10 NOVEMBER 2026 · PERSONAL-FORK WORK IS EXCLUDED FROM THESE TOTALS</sub></p>
 
 ---
 
