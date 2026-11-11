@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state refreshed on November 9, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state refreshed on November 11, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -9,10 +9,10 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 | Status | Count |
 |---|---:|
 | Merged upstream | 14 |
-| Open upstream | 28 |
+| Open upstream | 29 |
 | Open fork-side | 0 |
 | Closed without merge | 22 |
-| **External OSS PRs** | **64** |
+| **External OSS PRs** | **65** |
 
 ## Merged upstream
 - [RajX-dev/N3MO #39 — Ruby/Kotlin language routing regression coverage](https://github.com/RajX-dev/N3MO/pull/39) — merged 2026-10-31; maintainer Raj Shekhar confirmed merge into `main`.
@@ -60,6 +60,7 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [firecrawl/firecrawl #5603 — feat(python-sdk): optionally raise on failed crawl and batch jobs](https://github.com/firecrawl/firecrawl/pull/5603) — opened 2026-11-06.
 - [firecrawl/firecrawl #5631 — feat(map): make sitemap file limit configurable](https://github.com/firecrawl/firecrawl/pull/5631) — opened 2026-11-07; draft.
 - [firecrawl/firecrawl #5632 — fix(search): preserve news dates with excludeDomains](https://github.com/firecrawl/firecrawl/pull/5632) — opened 2026-11-07.
+- [Shizoqua/PyRIT #1 — Fix Hugging Face truncation metadata and EOS handling](https://github.com/Shizoqua/PyRIT/pull/1) — opened 2026-11-10.
 
 ## Open fork-side OSS work
 
