@@ -4,6 +4,8 @@
 
 ## November 11, 2026
 
+- [VS Code Discussions #3109 — Electron main-process hang diagnostics](2026-11-11-vscode-discussion-3109-electron-hangs.md) — **TECHNICAL DISCUSSION**; records Joel's diagnostic workflow and follow-up on JS versus native hangs. Excluded from PR and formal-review totals.
+
 - [PyRIT #4113 implementation review](2026-11-11-pyrit-pr-4113-review.md) — **REVIEWED**; records the review comment on another contributor's PR, its technical assessment, and the subsequent upstream merge. Excluded from authored-contribution totals and formal-review metadata.
 
 ## November 10, 2026
