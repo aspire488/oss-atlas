@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-11-09",
+  "observed_at": "2026-11-14",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
-    "total": 64,
+    "total": 67,
     "merged": 14,
     "open_upstream": 28,
     "open_fork": 0,
-    "closed": 22
+    "closed": 25
   },
   "contributions": [
     {
@@ -129,8 +129,8 @@
       "owner": "cloudflare",
       "repository": "quiche",
       "pr": 2756,
-      "status": "open_upstream",
-      "summary": "",
+      "status": "closed",
+      "summary": "closed without merge; state verified 2026-11-14",
       "source": "github"
     },
     {
@@ -390,10 +390,10 @@
       "source": "github"
     },
     {
-      "id": "collective/icalendar#1835",
-      "title": "collective/icalendar #1835 — Fix/start end duration mismatch",
-      "url": "https://github.com/collective/icalendar/pull/1835",
-      "owner": "collective",
+      "id": "PyCalendar/icalendar#1835",
+      "title": "PyCalendar/icalendar #1835 — Fix/start end duration mismatch",
+      "url": "https://github.com/PyCalendar/icalendar/pull/1835",
+      "owner": "PyCalendar",
       "repository": "icalendar",
       "pr": 1835,
       "status": "open_upstream",
@@ -656,10 +656,10 @@
       "source": "github"
     },
     {
-      "id": "collective/icalendar#2066",
-      "title": "collective/icalendar #2066 — add interval property accessor",
-      "url": "https://github.com/collective/icalendar/pull/2066",
-      "owner": "collective",
+      "id": "PyCalendar/icalendar#2066",
+      "title": "PyCalendar/icalendar #2066 — add interval property accessor",
+      "url": "https://github.com/PyCalendar/icalendar/pull/2066",
+      "owner": "PyCalendar",
       "repository": "icalendar",
       "pr": 2066,
       "status": "open_upstream",
@@ -719,6 +719,39 @@
       "pr": 6595,
       "status": "closed",
       "summary": "closed without merge 2026-11-06",
+      "source": "github"
+    },
+    {
+      "id": "PyCalendar/icalendar#2099",
+      "title": "PyCalendar/icalendar #2099 — Fix/2076 tuple parameter serialization",
+      "url": "https://github.com/PyCalendar/icalendar/pull/2099",
+      "owner": "PyCalendar",
+      "repository": "icalendar",
+      "pr": 2099,
+      "status": "closed",
+      "summary": "closed without merge; state verified 2026-11-14",
+      "source": "github"
+    },
+    {
+      "id": "PyCalendar/icalendar#2100",
+      "title": "PyCalendar/icalendar #2100 — Fix/2087 reject zero length periods",
+      "url": "https://github.com/PyCalendar/icalendar/pull/2100",
+      "owner": "PyCalendar",
+      "repository": "icalendar",
+      "pr": 2100,
+      "status": "closed",
+      "summary": "closed without merge; state verified 2026-11-14",
+      "source": "github"
+    },
+    {
+      "id": "Shizoqua/PyRIT#1",
+      "title": "Shizoqua/PyRIT #1 — Fix Hugging Face truncation metadata and EOS handling",
+      "url": "https://github.com/Shizoqua/PyRIT/pull/1",
+      "owner": "Shizoqua",
+      "repository": "PyRIT",
+      "pr": 1,
+      "status": "open_upstream",
+      "summary": "opened 2026-11-10",
       "source": "github"
     }
   ]
