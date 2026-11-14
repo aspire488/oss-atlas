@@ -5,8 +5,8 @@
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
     "total": 67,
-    "merged": 14,
-    "open_upstream": 28,
+    "merged": 15,
+    "open_upstream": 27,
     "open_fork": 0,
     "closed": 25
   },
@@ -618,8 +618,8 @@
       "owner": "microsoft",
       "repository": "PyRIT",
       "pr": 3885,
-      "status": "open_upstream",
-      "summary": "opened 2026-11-03; mergeable; CI in progress; Copilot review identified two actionable issues (404 test mock must model blob(), and download error state must be scoped to conversation/attachment identity)",
+      "status": "merged",
+      "summary": "merged 2026-11-14; merge commit c33dc503dac92256834ee8aa7331876c3dfdbbce; 190 additions and 18 deletions across 3 files",
       "source": "github"
     },
     {
