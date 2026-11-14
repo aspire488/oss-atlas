@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state refreshed on November 9, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state refreshed on November 14, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -11,8 +11,8 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 | Merged upstream | 14 |
 | Open upstream | 28 |
 | Open fork-side | 0 |
-| Closed without merge | 22 |
-| **External OSS PRs** | **64** |
+| Closed without merge | 25 |
+| **External OSS PRs** | **67** |
 
 ## Merged upstream
 - [RajX-dev/N3MO #39 — Ruby/Kotlin language routing regression coverage](https://github.com/RajX-dev/N3MO/pull/39) — merged 2026-10-31; maintainer Raj Shekhar confirmed merge into `main`.
@@ -42,11 +42,10 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [NousResearch/hermes-agent #123846 — fix(batch): accept Fire tuple args and numeric run names](https://github.com/NousResearch/hermes-agent/pull/123846)
 - [NousResearch/hermes-agent #123850 — fix(batch): keep tool-search bridge trajectories](https://github.com/NousResearch/hermes-agent/pull/123850)
 - [Younesfdj/gitfut #125 — Fix/active years from contributions](https://github.com/Younesfdj/gitfut/pull/125)
-- [collective/icalendar #1835 — Fix/start end duration mismatch](https://github.com/collective/icalendar/pull/1835) — open; rebased onto upstream `main` at `02a7754` on 2026-11-01; head `fdc741d`; mergeable (no conflicts); Ruff passed; overall status pending
+- [PyCalendar/icalendar #1835 — Fix/start end duration mismatch](https://github.com/PyCalendar/icalendar/pull/1835) — open; rebased onto upstream `main` at `02a7754` on 2026-11-01; head `fdc741d`; mergeable (no conflicts); Ruff passed; overall status pending
 - [KARAN-D05/TopoCore #1 — detect repeated spatial execution states](https://github.com/KARAN-D05/TopoCore/pull/1)
 - [cloudflare/quiche #2759 — ignore ACKs for non-in-flight packets](https://github.com/cloudflare/quiche/pull/2759)
 - [cloudflare/quiche #2758 — verify peers with a custom CA](https://github.com/cloudflare/quiche/pull/2758)
-- [cloudflare/quiche #2756 — unify PTO-based timer duration](https://github.com/cloudflare/quiche/pull/2756)
 - [intellij-powershell/intellij-powershell #506 — resolve pwsh reparse point](https://github.com/intellij-powershell/intellij-powershell/pull/506)
 - [risingwavelabs/risingwave #27181 — inspect correlated refs in LogicalValues](https://github.com/risingwavelabs/risingwave/pull/27181)
 - [mvt-project/mvt #939 — STIX indicator equals](https://github.com/mvt-project/mvt/pull/939)
@@ -56,10 +55,11 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [NousResearch/hermes-agent #148890 — fix(doctor): avoid false dead-IPv6 diagnosis behind HTTPS proxies](https://github.com/NousResearch/hermes-agent/pull/148890) — opened 2026-11-04.
 - [NousResearch/hermes-agent #149418 — fix(mcp): align hosted OAuth client metadata origins](https://github.com/NousResearch/hermes-agent/pull/149418) — opened 2026-11-05.
 - [cloudflare/quiche #2867 — fix(http09): resume partially written request lines](https://github.com/cloudflare/quiche/pull/2867) — opened 2026-11-04.
-- [collective/icalendar #2066 — feat(recur): add interval property accessor](https://github.com/collective/icalendar/pull/2066) — opened 2026-11-06.
+- [PyCalendar/icalendar #2066 — feat(recur): add interval property accessor](https://github.com/PyCalendar/icalendar/pull/2066) — opened 2026-11-06.
 - [firecrawl/firecrawl #5603 — feat(python-sdk): optionally raise on failed crawl and batch jobs](https://github.com/firecrawl/firecrawl/pull/5603) — opened 2026-11-06.
 - [firecrawl/firecrawl #5631 — feat(map): make sitemap file limit configurable](https://github.com/firecrawl/firecrawl/pull/5631) — opened 2026-11-07; draft.
 - [firecrawl/firecrawl #5632 — fix(search): preserve news dates with excludeDomains](https://github.com/firecrawl/firecrawl/pull/5632) — opened 2026-11-07.
+- [Shizoqua/PyRIT #1 — Fix Hugging Face truncation metadata and EOS handling](https://github.com/Shizoqua/PyRIT/pull/1) — opened 2026-11-10.
 
 ## Open fork-side OSS work
 
@@ -89,6 +89,9 @@ No open fork-side PRs against external repositories are recorded in this snapsho
 - [akitaonrails/ai-memory #828 — expand agent-memory comparison coverage](https://github.com/akitaonrails/ai-memory/pull/828) — closed without merge (state verified 2026-10-27).
 - [github-linguist/linguist #8220 — add Salam language support](https://github.com/github-linguist/linguist/pull/8220) — closed without merge (state verified 2026-10-27).
 - [daniel5151/clicky #72 — revamp contributor quickstart](https://github.com/daniel5151/clicky/pull/72) — closed without merge (state verified 2026-10-27).
+- [cloudflare/quiche #2756 — unify PTO-based timer duration](https://github.com/cloudflare/quiche/pull/2756) — closed without merge on 2026-11-11.
+- [PyCalendar/icalendar #2099 — Fix/2076 tuple parameter serialization](https://github.com/PyCalendar/icalendar/pull/2099) — closed without merge on 2026-11-12.
+- [PyCalendar/icalendar #2100 — Fix/2087 reject zero length periods](https://github.com/PyCalendar/icalendar/pull/2100) — closed without merge on 2026-11-12.
 
 ## Status rules
 
