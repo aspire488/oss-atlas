@@ -8,8 +8,8 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 
 | Status | Count |
 |---|---:|
-| Merged upstream | 14 |
-| Open upstream | 28 |
+| Merged upstream | 15 |
+| Open upstream | 27 |
 | Open fork-side | 0 |
 | Closed without merge | 25 |
 | **External OSS PRs** | **67** |
@@ -30,8 +30,10 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [microsoft/PyRIT #2976 — preserve word-selection parameters in StringJoinConverter identifiers](https://github.com/microsoft/PyRIT/pull/2976)
 - [microsoft/PyRIT #2882 — Fix/exact text matching empty target](https://github.com/microsoft/PyRIT/pull/2882) — merged 2026-09-28 (merge commit `dff83aaab767f9b2b0aee68a20ab277de7e9d289`)
 
+- [microsoft/PyRIT #3885 — reject failed media attachment downloads](https://github.com/microsoft/PyRIT/pull/3885) — merged 2026-11-14 (merge commit `c33dc503dac92256834ee8aa7331876c3dfdbbce`); fixes #3852. Added HTTP status validation, retryable inline download errors, and regression coverage for HTTP 404 followed by a successful retry. 190 additions and 18 deletions across 3 files; tests were not run locally.
+
 ## Open upstream
-- [microsoft/PyRIT #3885 — reject failed media attachment downloads](https://github.com/microsoft/PyRIT/pull/3885) — opened 2026-11-03; fixes #3852. CI was in progress at the snapshot. Copilot review identified two actionable issues: the 404 mock must implement `blob()` so the test proves the status guard, and error state must be scoped to stable conversation/attachment identity. Not yet locally tested or merged.
+
 
 - [manaflow-ai/cmux #21749 — OpenCode database snapshot sidecar tests](https://github.com/manaflow-ai/cmux/pull/21749) — open upstream PR; native macOS/Xcode tests and requested CLA signature remain pending.
 - [NousResearch/hermes-agent #134658 — use type-only imports for session source types](https://github.com/NousResearch/hermes-agent/pull/134658) — fixes #134632.
