@@ -29,11 +29,11 @@ It follows work beyond the commit: the original problem, implementation, regress
     </td>
     <td align="center" width="25%">
       <strong><sub>MERGED UPSTREAM</sub></strong><br>
-      <strong><samp>14</samp></strong>
+      <strong><samp>15</samp></strong>
     </td>
     <td align="center" width="25%">
       <strong><sub>OPEN UPSTREAM</sub></strong><br>
-      <strong><samp>28</samp></strong>
+      <strong><samp>27</samp></strong>
     </td>
     <td align="center" width="25%">
       <strong><sub>CLOSED</sub></strong><br>
@@ -60,9 +60,10 @@ It follows work beyond the commit: the original problem, implementation, regress
       <a href="https://github.com/microsoft/PyRIT/pull/2823">HarmBench context preservation</a><br>
       <a href="https://github.com/microsoft/PyRIT/pull/2882">ExactTextMatching empty-target fix</a><br>
       <a href="https://github.com/microsoft/PyRIT/pull/2976">StringJoinConverter identifier fix</a><br>
-      <a href="https://github.com/microsoft/PyRIT/pull/3429">XXE XInclude resource detection</a>
+      <a href="https://github.com/microsoft/PyRIT/pull/3429">XXE XInclude resource detection</a><br>
+      <a href="https://github.com/microsoft/PyRIT/pull/3885">Failed media download handling</a>
       <br><br>
-      <sub>5 FEATURED MERGED CONTRIBUTIONS</sub>
+      <sub>6 FEATURED MERGED CONTRIBUTIONS</sub>
     </td>
     <td width="50%" valign="top">
       <strong>OTHER PROJECTS</strong><br>
