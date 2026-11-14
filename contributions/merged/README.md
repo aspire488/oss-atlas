@@ -3,6 +3,7 @@
 Upstream contributions that GitHub reports as merged.
 
 ## Featured
+- [Microsoft PyRIT #3885](https://github.com/microsoft/PyRIT/pull/3885) — reject failed media downloads; merged 2026-11-14.
 - [aios #2457](https://github.com/eumemic/aios/pull/2457)
 - [aios #2460](https://github.com/eumemic/aios/pull/2460)
 - [github-profile-analyzer #30](https://github.com/0xarchit/github-profile-analyzer/pull/30)
