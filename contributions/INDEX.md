@@ -17,6 +17,8 @@
 
 ## Featured merged work
 
+- [Microsoft PyRIT #3885](https://github.com/microsoft/PyRIT/pull/3885) — **merged upstream · November 14, 2026** — rejects failed media attachment downloads; adds HTTP status handling and retryable inline errors, with regression coverage for 404 then successful retry.
+
 - [RajX-dev/N3MO #39](https://github.com/RajX-dev/N3MO/pull/39) — Ruby/Kotlin language routing regression coverage; **merged upstream · October 31, 2026**
 
 - [aios #2457](https://github.com/eumemic/aios/pull/2457) — preserve streaming `finish_reason="length"`
@@ -28,7 +30,7 @@
 
 ## Featured active work
 
-- [Microsoft PyRIT #3885](https://github.com/microsoft/PyRIT/pull/3885) — **open upstream · November 3, 2026** — rejects failed media downloads for #3852; CI was in progress and Copilot identified two review fixes still needed.
+
 
 
 - [Hermes Agent #134658](https://github.com/NousResearch/hermes-agent/pull/134658) — **open upstream** — fixes type-only imports for session source types under `verbatimModuleSyntax`.
