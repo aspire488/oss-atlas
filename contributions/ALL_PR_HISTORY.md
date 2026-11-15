@@ -1,6 +1,6 @@
 # Complete External OSS PR History
 
-> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state refreshed on November 14, 2026.
+> Historical index of authored pull requests against **external open-source repositories**, based on GitHub state refreshed on November 15, 2026.
 
 This archive intentionally excludes PRs in repositories owned by `aspire488`. Those belong to the engineering portfolio, not the external OSS contribution ledger.
 
@@ -9,9 +9,9 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 | Status | Count |
 |---|---:|
 | Merged upstream | 15 |
-| Open upstream | 27 |
+| Open upstream | 26 |
 | Open fork-side | 0 |
-| Closed without merge | 25 |
+| Closed without merge | 26 |
 | **External OSS PRs** | **67** |
 
 ## Merged upstream
@@ -61,7 +61,6 @@ This archive intentionally excludes PRs in repositories owned by `aspire488`. Th
 - [firecrawl/firecrawl #5603 — feat(python-sdk): optionally raise on failed crawl and batch jobs](https://github.com/firecrawl/firecrawl/pull/5603) — opened 2026-11-06.
 - [firecrawl/firecrawl #5631 — feat(map): make sitemap file limit configurable](https://github.com/firecrawl/firecrawl/pull/5631) — opened 2026-11-07; draft.
 - [firecrawl/firecrawl #5632 — fix(search): preserve news dates with excludeDomains](https://github.com/firecrawl/firecrawl/pull/5632) — opened 2026-11-07.
-- [Shizoqua/PyRIT #1 — Fix Hugging Face truncation metadata and EOS handling](https://github.com/Shizoqua/PyRIT/pull/1) — opened 2026-11-10.
 
 ## Open fork-side OSS work
 
@@ -94,6 +93,7 @@ No open fork-side PRs against external repositories are recorded in this snapsho
 - [cloudflare/quiche #2756 — unify PTO-based timer duration](https://github.com/cloudflare/quiche/pull/2756) — closed without merge on 2026-11-11.
 - [PyCalendar/icalendar #2099 — Fix/2076 tuple parameter serialization](https://github.com/PyCalendar/icalendar/pull/2099) — closed without merge on 2026-11-12.
 - [PyCalendar/icalendar #2100 — Fix/2087 reject zero length periods](https://github.com/PyCalendar/icalendar/pull/2100) — closed without merge on 2026-11-12.
+- [Shizoqua/PyRIT #1 — Fix Hugging Face truncation metadata and EOS handling](https://github.com/Shizoqua/PyRIT/pull/1) — closed without merge on 2026-11-15.
 
 ## Status rules
 
