@@ -2,6 +2,10 @@
 
 > Evidence-backed investigations, maintainer discussions, reviews, and technical contribution notes.
 
+## November 15, 2026
+
+- [PyRIT #4114 implementation review](2026-11-15-pyrit-pr-4114-review.md) — **REVIEWED · UPSTREAM MERGED**; records Joel's substantive issue-thread review, the maintainer's fixes in upstream commit `7dd5873`, and the November 15 merge. Not authored by Joel; excluded from authored-contribution totals and formal-review metadata.
+
 ## November 11, 2026
 
 - [VS Code Discussions #3109 — Electron main-process hang diagnostics](2026-11-11-vscode-discussion-3109-electron-hangs.md) — **TECHNICAL DISCUSSION**; records Joel's diagnostic workflow and follow-up on JS versus native hangs. Excluded from PR and formal-review totals.
