@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-11-14",
+  "observed_at": "2026-11-16",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
     "total": 67,
     "merged": 15,
-    "open_upstream": 27,
+    "open_upstream": 26,
     "open_fork": 0,
-    "closed": 25
+    "closed": 26
   },
   "contributions": [
     {
@@ -750,8 +750,8 @@
       "owner": "Shizoqua",
       "repository": "PyRIT",
       "pr": 1,
-      "status": "open_upstream",
-      "summary": "opened 2026-11-10",
+      "status": "closed",
+      "summary": "closed without merge; state verified 2026-11-16",
       "source": "github"
     }
   ]
