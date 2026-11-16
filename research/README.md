@@ -2,6 +2,10 @@
 
 > Evidence-backed investigations, maintainer discussions, reviews, and technical contribution notes.
 
+## November 16, 2026
+
+- [Pydantic AI #8643 — Gemini interim thought images](2026-11-16-pydantic-ai-issue-8643-gemini-thought-images.md) — **ISSUE RESOLVED · VOLUNTEERED, NOT AUTHORED**; records Joel's offer to implement the fix and the issue's closure via bot-authored PR #8644. Excluded from authored-PR and formal-review totals.
+
 ## November 15, 2026
 
 - [PyRIT #4114 implementation review](2026-11-15-pyrit-pr-4114-review.md) — **REVIEWED · UPSTREAM MERGED**; records Joel's substantive issue-thread review, the maintainer's fixes in upstream commit `7dd5873`, and the November 15 merge. Not authored by Joel; excluded from authored-contribution totals and formal-review metadata.
