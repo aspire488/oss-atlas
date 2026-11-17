@@ -33,16 +33,16 @@ It follows work beyond the commit: the original problem, implementation, regress
     </td>
     <td align="center" width="25%">
       <strong><sub>OPEN UPSTREAM</sub></strong><br>
-      <strong><samp>27</samp></strong>
+      <strong><samp>26</samp></strong>
     </td>
     <td align="center" width="25%">
       <strong><sub>CLOSED</sub></strong><br>
-      <strong><samp>25</samp></strong>
+      <strong><samp>26</samp></strong>
     </td>
   </tr>
 </table>
 
-<p align="center"><sub>LEDGER SNAPSHOT · 14 NOVEMBER 2026 · PERSONAL-FORK WORK IS EXCLUDED FROM THESE TOTALS</sub></p>
+<p align="center"><sub>LEDGER SNAPSHOT · 17 NOVEMBER 2026 · PERSONAL-FORK WORK IS EXCLUDED FROM THESE TOTALS</sub></p>
 
 ---
 
