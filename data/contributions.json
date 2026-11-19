@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "generated_from": "contributions/ALL_PR_HISTORY.md",
-  "observed_at": "2026-11-14",
+  "observed_at": "2026-11-19",
   "scope": "external OSS authored pull requests; aspire488-owned repositories excluded",
   "counts": {
-    "total": 67,
+    "total": 69,
     "merged": 15,
     "open_upstream": 27,
     "open_fork": 0,
-    "closed": 25
+    "closed": 27
   },
   "contributions": [
     {
@@ -750,8 +750,30 @@
       "owner": "Shizoqua",
       "repository": "PyRIT",
       "pr": 1,
+      "status": "closed",
+      "summary": "closed without merge; state verified 2026-11-19",
+      "source": "github"
+    },
+    {
+      "id": "firecrawl/firecrawl#5803",
+      "title": "firecrawl/firecrawl #5803 — fix(python-sdk): align async batch errors and cancellation",
+      "url": "https://github.com/firecrawl/firecrawl/pull/5803",
+      "owner": "firecrawl",
+      "repository": "firecrawl",
+      "pr": 5803,
       "status": "open_upstream",
-      "summary": "opened 2026-11-10",
+      "summary": "opened 2026-11-17",
+      "source": "github"
+    },
+    {
+      "id": "microsoft/PyRIT#4373",
+      "title": "microsoft/PyRIT #4373 — Fix/morse percent encoding 4336",
+      "url": "https://github.com/microsoft/PyRIT/pull/4373",
+      "owner": "microsoft",
+      "repository": "PyRIT",
+      "pr": 4373,
+      "status": "closed",
+      "summary": "closed without merge; state verified 2026-11-19",
       "source": "github"
     }
   ]
