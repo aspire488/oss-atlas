@@ -29,6 +29,10 @@ On November 9, the updated head and full two-file diff were reviewed. The reques
 
 The author closed the PR on November 20, then reopened it shortly afterward (as shown by the two GitHub notification emails). GitHub currently reports the PR as **open**, unmerged, and with `aspire488` listed as a requested reviewer. Treat it as active again; the earlier closure is historical, not the current outcome.
 
+After the reopen, the PR was rechecked against its current head and complete patch. The head remains `be7e84248aa2daafe6ae5c0ee3dbd7ffbeb7b422`; no commits or diff changes were added after the November 9 review. The prior technical assessment therefore still applies. A follow-up comment was posted on November 20 ([comment #7034043659](https://github.com/NousResearch/hermes-agent/pull/148989#issuecomment-7034043659)) confirming that assessment and identifying the remaining CI gate.
+
+The current-head Nix flake check, Docker Build/Test/Publish, and CI runs all report `action_required`; GitHub exposes no jobs for those runs. CI execution could not be independently confirmed. The author's reported 55 passing tests and clean targeted Ruff checks remain author-reported, not independently reproduced.
+
 ## Record boundaries
 
 - This is review work on another contributor's PR, not an authored contribution.
