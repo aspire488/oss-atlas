@@ -4,7 +4,7 @@
 
 ## November 20, 2026
 
-- [Hermes Agent #148989 implementation review](2026-11-20-hermes-agent-pr-148989-review.md) — **REVIEWED · REOPENED**; records the state-filter and obligation-scoping review, marker-aware corrections, final diff assessment, CI limitation, and November 20 close/reopen sequence. Currently open and unmerged. Excluded from authored-contribution totals.
+- [Hermes Agent #148989 implementation review](2026-11-20-hermes-agent-pr-148989-review.md) — **REVIEWED · REOPENED**; records the state-filter and obligation-scoping review, marker-aware corrections, final diff assessment, CI limitation, and November 20 close/reopen sequence. Currently open and unmerged. Rechecked after reopening: head unchanged; no new diff; prior review still applies. CI remains `action_required` with no inspectable jobs. Excluded from authored-contribution totals.
 
 ## November 16, 2026
 
