@@ -2,6 +2,10 @@
 
 > Evidence-backed investigations, maintainer discussions, reviews, and technical contribution notes.
 
+## November 20, 2026
+
+- [Hermes Agent #148989 implementation review](2026-11-20-hermes-agent-pr-148989-review.md) — **REVIEWED · CLOSED WITHOUT MERGE**; records the state-filter and obligation-scoping review, marker-aware corrections, final diff assessment, CI limitation, and November 20 closure. Excluded from authored-contribution totals.
+
 ## November 16, 2026
 
 - [Pydantic AI #8643 — Gemini interim thought images](2026-11-16-pydantic-ai-issue-8643-gemini-thought-images.md) — **ISSUE RESOLVED · VOLUNTEERED, NOT AUTHORED**; records Joel's offer to implement the fix and the issue's closure via bot-authored PR #8644. Excluded from authored-PR and formal-review totals.
