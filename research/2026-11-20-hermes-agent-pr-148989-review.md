@@ -2,7 +2,8 @@
 
 **PR:** [NousResearch/hermes-agent #148989](https://github.com/NousResearch/hermes-agent/pull/148989)  
 **Author:** [Wang-Zephyr](https://github.com/Wang-Zephyr)  
-**Outcome:** Closed without merge · November 20, 2026  
+**Current status:** Reopened · open as of November 20, 2026  
+**Status history:** Closed, then reopened on November 20, 2026; neither event was a merge.  
 **Review activity:** One formal GitHub review submission (COMMENTED), followed by an issue-thread review follow-up.
 
 ## What changed
@@ -26,7 +27,7 @@ The author addressed the feedback in additive commits, culminating in [be7e842](
 
 On November 9, the updated head and full two-file diff were reviewed. The requested state filtering, obligation scoping, marker-aware behavior, and regression coverage were present; no remaining blocking correctness issue was identified. The GitHub Actions runs associated with that head were action_required, with no jobs available to inspect, so CI execution was not independently confirmed.
 
-The author closed the PR on November 20 without merging it. A follow-up comment apologized for the delayed response and thanked the author for addressing the review feedback.
+The author closed the PR on November 20, then reopened it shortly afterward (as shown by the two GitHub notification emails). GitHub currently reports the PR as **open**, unmerged, and with `aspire488` listed as a requested reviewer. Treat it as active again; the earlier closure is historical, not the current outcome.
 
 ## Record boundaries
 
@@ -36,5 +37,5 @@ The author closed the PR on November 20 without merging it. A follow-up comment 
 
 ## Sources
 
-- [Pull request and final state](https://github.com/NousResearch/hermes-agent/pull/148989)
+- [Pull request and current state](https://github.com/NousResearch/hermes-agent/pull/148989)
 - [Review commit with final changes](https://github.com/NousResearch/hermes-agent/commit/be7e84248aa2daafe6ae5c0ee3dbd7ffbeb7b422)
