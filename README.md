@@ -103,6 +103,7 @@ It follows work beyond the commit: the original problem, implementation, regress
       Issue analysis, technical notes, reviewer feedback, and deep dives.
       <br><br>
       → <a href="research/README.md">Research library</a><br>
+      → <a href="research/2026-11-28-non-pr-external-work.md">Non-PR external work ledger</a><br>
       → <a href="case-studies/README.md">Case studies</a><br>
       → <a href="learnings/README.md">Engineering learnings</a>
     </td>
