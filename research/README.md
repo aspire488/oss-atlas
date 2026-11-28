@@ -4,6 +4,8 @@
 
 ## November 28, 2026
 
+- [Non-PR external work and project engagements](2026-11-28-non-pr-external-work.md) — **EMAIL-VERIFIED NON-PR LEDGER**; records the XERJ Reader-1 QA evaluation, OpenAI Agents SDK #4864 support-submitted patch, XERJ's adoption of Pipo's 3D-world implementation, Beihang survey participation, and separately labelled ongoing/proposed collaborations. Kept outside authored-PR totals; statuses and deduplication rules are explicit.
+
 - [Open-source onboarding and generative AI survey participation](2026-11-28-open-source-onboarding-ai-survey.md) — **ACADEMIC RESEARCH PARTICIPATION**; records completion of Kai Zheng's Beihang University survey about newcomer barriers and generative AI in OSS onboarding, grounded in the Firecrawl #5603 contribution experience. Not a code contribution, PR, review, publication, or research authorship; excluded from contribution and review totals.
 
 ## November 20, 2026
