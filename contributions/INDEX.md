@@ -12,15 +12,19 @@
 | **Closed / historical** | Closed without merge | `contributions/closed/` |
 | **Review / architecture** | Reviews, issue analysis, design feedback | `research/` |
 | **Discussions** | Technical community discussions | `research/` |
+| **Non-PR external work** | QA, technical evaluations, support-submitted patches, research participation, external adoption, and project engagements | [Non-PR work ledger](../research/2026-11-28-non-pr-external-work.md) |
 | **Case studies** | Deep evidence-backed narratives | `case-studies/` |
 | **Learnings** | Reusable engineering lessons | `learnings/` |
+
+## Non-PR external work
+
+The [email-verified non-PR ledger](../research/2026-11-28-non-pr-external-work.md) records work that does not belong in the authored-PR totals. It separates completed technical deliverables from submitted/pending work, external adoption, research participation, and proposals that never became deliverables.
 
 ## Featured merged work
 
 - [Microsoft PyRIT #3885](https://github.com/microsoft/PyRIT/pull/3885) — **merged upstream · November 14, 2026** — rejects failed media attachment downloads; adds HTTP status handling and retryable inline errors, with regression coverage for 404 then successful retry.
 
 - [RajX-dev/N3MO #39](https://github.com/RajX-dev/N3MO/pull/39) — Ruby/Kotlin language routing regression coverage; **merged upstream · October 31, 2026**
-
 - [aios #2457](https://github.com/eumemic/aios/pull/2457) — preserve streaming `finish_reason="length"`
 - [aios #2458](https://github.com/eumemic/aios/pull/2458) — record streaming length as truncated output
 - [Microsoft PyRIT #2762](https://github.com/microsoft/PyRIT/pull/2762) — Dataset Summary API
@@ -30,14 +34,9 @@
 
 ## Featured active work
 
-
-
-
 - [Hermes Agent #134658](https://github.com/NousResearch/hermes-agent/pull/134658) — **open upstream** — fixes type-only imports for session source types under `verbatimModuleSyntax`.
-
 - [Microsoft PyRIT #3429](https://github.com/microsoft/PyRIT/pull/3429) — **merged upstream · October 26, 2026** — adds XXE output-scorer detection for external XInclude resources. Merge commit [`0735f4c1`](https://github.com/microsoft/PyRIT/commit/0735f4c1077db4b3042495bb821fa33a625482a5); full suite was not run locally.
 - [cmux #21749](https://github.com/manaflow-ai/cmux/pull/21749) — **open upstream** — OpenCode database snapshot sidecar/missing-file tests; native macOS/Xcode validation pending.
-
 - [Inspect AI #5675](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5675) — **open upstream · draft** — preserve eval-level errors during streamed log conversion; maintainer requires local `make check`, `make test`, and independent agent-review disclosure
 - [Inspect AI #5670](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5670) — **merged upstream · October 4, 2026**
 - [Inspect AI #5671](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5671) — **open upstream · draft**; local checks and agent-review disclosure pending
@@ -80,7 +79,7 @@
 
 ## Full history
 
-[ALL_PR_HISTORY.md](ALL_PR_HISTORY.md) is the exhaustive authored-PR archive.
+[ALL_PR_HISTORY.md](ALL_PR_HISTORY.md) is the exhaustive authored-PR archive. Non-PR work is documented separately in the [email-verified non-PR ledger](../research/2026-11-28-non-pr-external-work.md).
 
 ## Rule
 
