@@ -21,28 +21,46 @@ OSS Atlas is a living, evidence-first record of engineering work across external
 
 It follows work beyond the commit: the original problem, implementation, regression coverage, maintainer feedback, upstream outcome, and what can be learned from it. It records unsuccessful attempts with the same factual discipline as merged work.
 
+### Contribution dashboard
+
 <table>
   <tr>
-    <td align="center" width="25%">
-      <strong><sub>EXTERNAL PRs</sub></strong><br>
-      <strong><samp>69</samp></strong>
-    </td>
-    <td align="center" width="25%">
-      <strong><sub>MERGED UPSTREAM</sub></strong><br>
-      <strong><samp>15</samp></strong>
-    </td>
-    <td align="center" width="25%">
-      <strong><sub>OPEN UPSTREAM</sub></strong><br>
-      <strong><samp>27</samp></strong>
-    </td>
-    <td align="center" width="25%">
-      <strong><sub>CLOSED</sub></strong><br>
-      <strong><samp>27</samp></strong>
-    </td>
+    <th colspan="4" align="left">AUTHORED UPSTREAM PULL REQUESTS</th>
+  </tr>
+  <tr>
+    <td align="center" width="25%"><sub>TOTAL</sub><br><strong><samp>69</samp></strong></td>
+    <td align="center" width="25%"><sub>MERGED</sub><br><strong><samp>15</samp></strong></td>
+    <td align="center" width="25%"><sub>OPEN</sub><br><strong><samp>27</samp></strong></td>
+    <td align="center" width="25%"><sub>CLOSED</sub><br><strong><samp>27</samp></strong></td>
+  </tr>
+  <tr>
+    <td colspan="4"><sub>Snapshot: 19 November 2026 · Personal-fork PRs excluded · Counts sourced from the canonical PR ledger</sub></td>
   </tr>
 </table>
 
-<p align="center"><sub>LEDGER SNAPSHOT · 19 NOVEMBER 2026 · PERSONAL-FORK WORK IS EXCLUDED FROM THESE TOTALS</sub></p>
+<table>
+  <tr>
+    <th colspan="2" align="left">OTHER EXTERNAL CONTRIBUTIONS · 28 NOVEMBER 2026</th>
+  </tr>
+  <tr>
+    <td width="38%"><strong>Technical evaluation</strong></td>
+    <td>Reader-1 API QA completed; structured findings delivered to XERJ</td>
+  </tr>
+  <tr>
+    <td><strong>Patch submitted for review</strong></td>
+    <td>OpenAI Agents Python SDK #4864 · support handoff; upstream acceptance not confirmed</td>
+  </tr>
+  <tr>
+    <td><strong>External adoption</strong></td>
+    <td>Pipo 3D-world selected and published by XERJ Corpus Hub with attribution</td>
+  </tr>
+  <tr>
+    <td><strong>Research participation</strong></td>
+    <td>Beihang University OSS and generative-AI survey submitted</td>
+  </tr>
+</table>
+
+<p align="center"><sub>Separate ledgers, separate definitions: non-PR engagements never inflate authored-PR totals. Active evaluations and proposals are documented separately and are not counted as completed work.</sub></p>
 
 ---
 
