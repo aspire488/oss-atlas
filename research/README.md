@@ -2,6 +2,10 @@
 
 > Evidence-backed investigations, maintainer discussions, reviews, and technical contribution notes.
 
+## November 28, 2026
+
+- [Open-source onboarding and generative AI survey participation](2026-11-28-open-source-onboarding-ai-survey.md) — **ACADEMIC RESEARCH PARTICIPATION**; records completion of Kai Zheng's Beihang University survey about newcomer barriers and generative AI in OSS onboarding, grounded in the Firecrawl #5603 contribution experience. Not a code contribution, PR, review, publication, or research authorship; excluded from contribution and review totals.
+
 ## November 20, 2026
 
 - [Hermes Agent #148989 implementation review](2026-11-20-hermes-agent-pr-148989-review.md) — **REVIEWED · REOPENED**; records the state-filter and obligation-scoping review, marker-aware corrections, final diff assessment, CI limitation, and November 20 close/reopen sequence. Currently open and unmerged. Rechecked after reopening: head unchanged; no new diff; prior review still applies. CI remains `action_required` with no inspectable jobs. Excluded from authored-contribution totals.
@@ -44,5 +48,6 @@ Research contains OSS-specific technical investigation broader than one code con
 - Issue investigations
 - Technical discussions
 - Cross-project patterns
+- Academic research participation and OSS community engagement
 
-Research must distinguish observed facts from interpretation and should link to primary GitHub sources.
+Research must distinguish observed facts from interpretation and should link to primary GitHub sources. Non-code participation must remain clearly separated from authored contributions, formal reviews, and publication authorship.
